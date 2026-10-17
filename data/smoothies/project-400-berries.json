@@ -1,0 +1,516 @@
+[
+  {
+    "name": "Gooseberry, Strawberry & Basil",
+    "cat": "Berries & Hedgerow",
+    "emoji": "🫐",
+    "desc": "Tart gooseberry and fragrant strawberry with a lifted basil finish.",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Drinks"
+    ],
+    "ing": [
+      "160 g unsweetened ready-cooked gooseberry compote",
+      "220 g strawberries, hulled",
+      "6 fresh basil leaves",
+      "160 g plain yoghurt",
+      "100 ml unsweetened oat drink",
+      "Cold water, as needed to reach 800–850 ml TOTAL in jug (not extra)"
+    ],
+    "method": [
+      "Wash and prepare fruits, removing stems, stones and pips. Use only cooked rhubarb stalks or cooked fruit purées where specified; no raw rhubarb leaves.",
+      "Add the fruit, other ingredients and liquids to the soup maker; top up with chilled water only until the TOTAL contents sit between 800 and 850 ml, within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Select the UNHEATED Drinks/Blend programme and blend for approximately 2 minutes. Never select a hot soup setting.",
+      "Taste for fruit intensity; blend a little longer if berry seeds remain noticeable. Refrigerate perishables promptly."
+    ],
+    "science": "Whole berries can supply dietary fibre and polyphenolic pigments; any nutritional claims are qualitative until calculated.",
+    "note": "Project 400 · Berries & hedgerow · ££ · Spring · Recipe concept not kitchen-tested; check ingredients for added sugar/artificial sweeteners. ID P400-020."
+  },
+  {
+    "name": "Raspberry, Elderflower & Kefir",
+    "cat": "Berries & Hedgerow",
+    "emoji": "🫐",
+    "desc": "Sharp raspberries take a gentle floral lift from elderflower and cultured kefir.",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Drinks"
+    ],
+    "ing": [
+      "260 g raspberries",
+      "210 ml plain kefir",
+      "80 ml cold unsweetened food-grade elderflower infusion",
+      "110 g plain skyr",
+      "1 tsp chia seeds",
+      "Cold water, as needed to reach 800–850 ml TOTAL in jug (not extra)"
+    ],
+    "method": [
+      "Wash and prepare fruits, removing stems, stones and pips. Use only cooked rhubarb stalks or cooked fruit purées where specified; no raw rhubarb leaves.",
+      "Add the fruit, other ingredients and liquids to the soup maker; top up with chilled water only until the TOTAL contents sit between 800 and 850 ml, within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Select the UNHEATED Drinks/Blend programme and blend for approximately 2 minutes. Never select a hot soup setting.",
+      "Taste for fruit intensity; blend a little longer if berry seeds remain noticeable. Refrigerate perishables promptly."
+    ],
+    "science": "Whole berries can supply dietary fibre and polyphenolic pigments; any nutritional claims are qualitative until calculated.",
+    "note": "Project 400 · Berries & hedgerow · ££ · Spring · Recipe concept not kitchen-tested; check ingredients for added sugar/artificial sweeteners. ID P400-021."
+  },
+  {
+    "name": "Redcurrant, Peach & Mint",
+    "cat": "Berries & Hedgerow",
+    "emoji": "🫐",
+    "desc": "Fine redcurrant acidity sharpened by mint against soft peach flesh.",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Drinks"
+    ],
+    "ing": [
+      "150 g redcurrants, washed and destalked",
+      "220 g ripe peach, stoned",
+      "7 fresh mint leaves",
+      "170 g plain yoghurt",
+      "140 ml cold water",
+      "Cold water, as needed to reach 800–850 ml TOTAL in jug (not extra)"
+    ],
+    "method": [
+      "Wash and prepare fruits, removing stems, stones and pips. Use only cooked rhubarb stalks or cooked fruit purées where specified; no raw rhubarb leaves.",
+      "Add the fruit, other ingredients and liquids to the soup maker; top up with chilled water only until the TOTAL contents sit between 800 and 850 ml, within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Select the UNHEATED Drinks/Blend programme and blend for approximately 2 minutes. Never select a hot soup setting.",
+      "Taste for fruit intensity; blend a little longer if berry seeds remain noticeable. Refrigerate perishables promptly."
+    ],
+    "science": "Whole berries can supply dietary fibre and polyphenolic pigments; any nutritional claims are qualitative until calculated.",
+    "note": "Project 400 · Berries & hedgerow · ££ · Spring · Recipe concept not kitchen-tested; check ingredients for added sugar/artificial sweeteners. ID P400-022."
+  },
+  {
+    "name": "Tayberry, Raspberry & Lime",
+    "cat": "Berries & Hedgerow",
+    "emoji": "🫐",
+    "desc": "Rare tayberries and raspberries produce an intense aromatic berry drink.",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Drinks"
+    ],
+    "ing": [
+      "210 g tayberries, washed",
+      "170 g raspberries",
+      "170 ml plain kefir",
+      "1 tsp lime zest",
+      "90 g skyr",
+      "Cold water, as needed to reach 800–850 ml TOTAL in jug (not extra)"
+    ],
+    "method": [
+      "Wash and prepare fruits, removing stems, stones and pips. Use only cooked rhubarb stalks or cooked fruit purées where specified; no raw rhubarb leaves.",
+      "Add the fruit, other ingredients and liquids to the soup maker; top up with chilled water only until the TOTAL contents sit between 800 and 850 ml, within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Select the UNHEATED Drinks/Blend programme and blend for approximately 2 minutes. Never select a hot soup setting.",
+      "Taste for fruit intensity; blend a little longer if berry seeds remain noticeable. Refrigerate perishables promptly."
+    ],
+    "science": "Whole berries can supply dietary fibre and polyphenolic pigments; any nutritional claims are qualitative until calculated.",
+    "note": "Project 400 · Berries & hedgerow · £££ · Spring · Recipe concept not kitchen-tested; check ingredients for added sugar/artificial sweeteners. ID P400-023."
+  },
+  {
+    "name": "Strawberry, Rhubarb & Skyr",
+    "cat": "Berries & Hedgerow",
+    "emoji": "🫐",
+    "desc": "A classically British fruit pairing with sharp ready-cooked rhubarb and thick skyr.",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Drinks"
+    ],
+    "ing": [
+      "220 g strawberries, hulled",
+      "160 g unsweetened ready-cooked rhubarb compote, stalks only",
+      "190 g plain skyr",
+      "120 ml semi-skimmed milk",
+      "¼ tsp vanilla extract",
+      "Cold water, as needed to reach 800–850 ml TOTAL in jug (not extra)"
+    ],
+    "method": [
+      "Wash and prepare fruits, removing stems, stones and pips. Use only cooked rhubarb stalks or cooked fruit purées where specified; no raw rhubarb leaves.",
+      "Add the fruit, other ingredients and liquids to the soup maker; top up with chilled water only until the TOTAL contents sit between 800 and 850 ml, within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Select the UNHEATED Drinks/Blend programme and blend for approximately 2 minutes. Never select a hot soup setting.",
+      "Taste for fruit intensity; blend a little longer if berry seeds remain noticeable. Refrigerate perishables promptly."
+    ],
+    "science": "Whole berries can supply dietary fibre and polyphenolic pigments; any nutritional claims are qualitative until calculated.",
+    "note": "Project 400 · Berries & hedgerow · ££ · Spring · Recipe concept not kitchen-tested; check ingredients for added sugar/artificial sweeteners. ID P400-024."
+  },
+  {
+    "name": "Blackcurrant, Cherry & Chia",
+    "cat": "Berries & Hedgerow",
+    "emoji": "🫐",
+    "desc": "Deep blackcurrant and juicy cherries, slightly thickened with chia.",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Drinks"
+    ],
+    "ing": [
+      "150 g blackcurrants",
+      "200 g pitted cherries",
+      "160 ml plain kefir",
+      "2 tsp chia seeds",
+      "110 ml cold water",
+      "Cold water, as needed to reach 800–850 ml TOTAL in jug (not extra)"
+    ],
+    "method": [
+      "Wash and prepare fruits, removing stems, stones and pips. Use only cooked rhubarb stalks or cooked fruit purées where specified; no raw rhubarb leaves.",
+      "Add the fruit, other ingredients and liquids to the soup maker; top up with chilled water only until the TOTAL contents sit between 800 and 850 ml, within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Select the UNHEATED Drinks/Blend programme and blend for approximately 2 minutes. Never select a hot soup setting.",
+      "Taste for fruit intensity; blend a little longer if berry seeds remain noticeable. Refrigerate perishables promptly."
+    ],
+    "science": "Whole berries can supply dietary fibre and polyphenolic pigments; any nutritional claims are qualitative until calculated.",
+    "note": "Project 400 · Berries & hedgerow · £ · Summer · Recipe concept not kitchen-tested; check ingredients for added sugar/artificial sweeteners. ID P400-025."
+  },
+  {
+    "name": "Raspberry, Passion Fruit & Thyme",
+    "cat": "Berries & Hedgerow",
+    "emoji": "🫐",
+    "desc": "A sharp aromatic trio of raspberry, passion fruit and discreet thyme.",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Drinks"
+    ],
+    "ing": [
+      "240 g raspberries",
+      "80 g unsweetened seedless passion fruit purée",
+      "160 g plain yoghurt",
+      "1 very small pinch dried thyme",
+      "130 ml unsweetened oat drink",
+      "Cold water, as needed to reach 800–850 ml TOTAL in jug (not extra)"
+    ],
+    "method": [
+      "Wash and prepare fruits, removing stems, stones and pips. Use only cooked rhubarb stalks or cooked fruit purées where specified; no raw rhubarb leaves.",
+      "Add the fruit, other ingredients and liquids to the soup maker; top up with chilled water only until the TOTAL contents sit between 800 and 850 ml, within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Select the UNHEATED Drinks/Blend programme and blend for approximately 2 minutes. Never select a hot soup setting.",
+      "Taste for fruit intensity; blend a little longer if berry seeds remain noticeable. Refrigerate perishables promptly."
+    ],
+    "science": "Whole berries can supply dietary fibre and polyphenolic pigments; any nutritional claims are qualitative until calculated.",
+    "note": "Project 400 · Berries & hedgerow · ££ · Summer · Recipe concept not kitchen-tested; check ingredients for added sugar/artificial sweeteners. ID P400-026."
+  },
+  {
+    "name": "Blackberry, Honeydew & Lemon",
+    "cat": "Berries & Hedgerow",
+    "emoji": "🫐",
+    "desc": "Cool honeydew softens bold blackberry with a little bright lemon.",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Drinks"
+    ],
+    "ing": [
+      "190 g blackberries",
+      "240 g ripe honeydew melon, peeled and deseeded",
+      "150 ml coconut water, no added sugar",
+      "100 g plain yoghurt",
+      "1 tsp lemon zest",
+      "Cold water, as needed to reach 800–850 ml TOTAL in jug (not extra)"
+    ],
+    "method": [
+      "Wash and prepare fruits, removing stems, stones and pips. Use only cooked rhubarb stalks or cooked fruit purées where specified; no raw rhubarb leaves.",
+      "Add the fruit, other ingredients and liquids to the soup maker; top up with chilled water only until the TOTAL contents sit between 800 and 850 ml, within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Select the UNHEATED Drinks/Blend programme and blend for approximately 2 minutes. Never select a hot soup setting.",
+      "Taste for fruit intensity; blend a little longer if berry seeds remain noticeable. Refrigerate perishables promptly."
+    ],
+    "science": "Whole berries can supply dietary fibre and polyphenolic pigments; any nutritional claims are qualitative until calculated.",
+    "note": "Project 400 · Berries & hedgerow · £ · Summer · Recipe concept not kitchen-tested; check ingredients for added sugar/artificial sweeteners. ID P400-027."
+  },
+  {
+    "name": "Strawberry, Whitecurrant & Kefir",
+    "cat": "Berries & Hedgerow",
+    "emoji": "🫐",
+    "desc": "Specialist whitecurrants lend a delicate tart snap to sweet-scented strawberries.",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Drinks"
+    ],
+    "ing": [
+      "220 g strawberries",
+      "150 g fresh whitecurrants, washed and destalked",
+      "220 ml plain kefir",
+      "10 g ground flaxseed",
+      "100 ml cold water",
+      "Cold water, as needed to reach 800–850 ml TOTAL in jug (not extra)"
+    ],
+    "method": [
+      "Wash and prepare fruits, removing stems, stones and pips. Use only cooked rhubarb stalks or cooked fruit purées where specified; no raw rhubarb leaves.",
+      "Add the fruit, other ingredients and liquids to the soup maker; top up with chilled water only until the TOTAL contents sit between 800 and 850 ml, within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Select the UNHEATED Drinks/Blend programme and blend for approximately 2 minutes. Never select a hot soup setting.",
+      "Taste for fruit intensity; blend a little longer if berry seeds remain noticeable. Refrigerate perishables promptly."
+    ],
+    "science": "Whole berries can supply dietary fibre and polyphenolic pigments; any nutritional claims are qualitative until calculated.",
+    "note": "Project 400 · Berries & hedgerow · £££ · Summer · Recipe concept not kitchen-tested; check ingredients for added sugar/artificial sweeteners. ID P400-028."
+  },
+  {
+    "name": "Bilberry, Lime & Oat",
+    "cat": "Berries & Hedgerow",
+    "emoji": "🫐",
+    "desc": "Dark bilberries sharpened by lime and given a gentle oat texture.",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Drinks"
+    ],
+    "ing": [
+      "180 g fresh bilberries or unsweetened bilberry purée",
+      "130 g plain skyr",
+      "20 g fine oats",
+      "140 ml unsweetened oat drink",
+      "1 tsp lime zest",
+      "100 g chilled tinned peaches in juice, drained",
+      "Cold water, as needed to reach 800–850 ml TOTAL in jug (not extra)"
+    ],
+    "method": [
+      "Wash and prepare fruits, removing stems, stones and pips. Use only cooked rhubarb stalks or cooked fruit purées where specified; no raw rhubarb leaves.",
+      "Add the fruit, other ingredients and liquids to the soup maker; top up with chilled water only until the TOTAL contents sit between 800 and 850 ml, within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Select the UNHEATED Drinks/Blend programme and blend for approximately 2 minutes. Never select a hot soup setting.",
+      "Taste for fruit intensity; blend a little longer if berry seeds remain noticeable. Refrigerate perishables promptly."
+    ],
+    "science": "Whole berries can supply dietary fibre and polyphenolic pigments; any nutritional claims are qualitative until calculated.",
+    "note": "Project 400 · Berries & hedgerow · ££ · Summer · Recipe concept not kitchen-tested; check ingredients for added sugar/artificial sweeteners. ID P400-029."
+  },
+  {
+    "name": "Raspberry, Blackberry & Hemp",
+    "cat": "Berries & Hedgerow",
+    "emoji": "🫐",
+    "desc": "Tangy summer berries enhanced by the mild nutty taste of hemp hearts.",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Drinks"
+    ],
+    "ing": [
+      "210 g raspberries",
+      "180 g blackberries",
+      "15 g hemp hearts",
+      "140 g plain yoghurt",
+      "170 ml chilled water",
+      "Cold water, as needed to reach 800–850 ml TOTAL in jug (not extra)"
+    ],
+    "method": [
+      "Wash and prepare fruits, removing stems, stones and pips. Use only cooked rhubarb stalks or cooked fruit purées where specified; no raw rhubarb leaves.",
+      "Add the fruit, other ingredients and liquids to the soup maker; top up with chilled water only until the TOTAL contents sit between 800 and 850 ml, within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Select the UNHEATED Drinks/Blend programme and blend for approximately 2 minutes. Never select a hot soup setting.",
+      "Taste for fruit intensity; blend a little longer if berry seeds remain noticeable. Refrigerate perishables promptly."
+    ],
+    "science": "Whole berries can supply dietary fibre and polyphenolic pigments; any nutritional claims are qualitative until calculated.",
+    "note": "Project 400 · Berries & hedgerow · £ · Summer · Recipe concept not kitchen-tested; check ingredients for added sugar/artificial sweeteners. ID P400-030."
+  },
+  {
+    "name": "Blackberry, Black Tea & Skyr",
+    "cat": "Berries & Hedgerow",
+    "emoji": "🫐",
+    "desc": "Dense autumn blackberries meet unsweetened black tea and a silky skyr finish.",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Drinks"
+    ],
+    "ing": [
+      "280 g blackberries",
+      "160 g plain skyr",
+      "170 ml chilled unsweetened black tea, cold-brewed in the fridge",
+      "10 g fine oats",
+      "½ tsp lemon zest",
+      "Cold water, as needed to reach 800–850 ml TOTAL in jug (not extra)"
+    ],
+    "method": [
+      "Wash and prepare fruits, removing stems, stones and pips. Use only cooked rhubarb stalks or cooked fruit purées where specified; no raw rhubarb leaves.",
+      "Add the fruit, other ingredients and liquids to the soup maker; top up with chilled water only until the TOTAL contents sit between 800 and 850 ml, within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Select the UNHEATED Drinks/Blend programme and blend for approximately 2 minutes. Never select a hot soup setting.",
+      "Taste for fruit intensity; blend a little longer if berry seeds remain noticeable. Refrigerate perishables promptly."
+    ],
+    "science": "Whole berries can supply dietary fibre and polyphenolic pigments; any nutritional claims are qualitative until calculated.",
+    "note": "Project 400 · Berries & hedgerow · £ · Autumn · Recipe concept not kitchen-tested; check ingredients for added sugar/artificial sweeteners. ID P400-031."
+  },
+  {
+    "name": "Blackcurrant, Red Grape & Rosemary",
+    "cat": "Berries & Hedgerow",
+    "emoji": "🫐",
+    "desc": "Tannic blackcurrant brightens mild red grapes with a faint rosemary perfume.",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Drinks"
+    ],
+    "ing": [
+      "180 g blackcurrants",
+      "170 g seedless red grapes",
+      "150 g plain yoghurt",
+      "1 tiny pinch dried rosemary",
+      "130 ml water",
+      "Cold water, as needed to reach 800–850 ml TOTAL in jug (not extra)"
+    ],
+    "method": [
+      "Wash and prepare fruits, removing stems, stones and pips. Use only cooked rhubarb stalks or cooked fruit purées where specified; no raw rhubarb leaves.",
+      "Add the fruit, other ingredients and liquids to the soup maker; top up with chilled water only until the TOTAL contents sit between 800 and 850 ml, within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Select the UNHEATED Drinks/Blend programme and blend for approximately 2 minutes. Never select a hot soup setting.",
+      "Taste for fruit intensity; blend a little longer if berry seeds remain noticeable. Refrigerate perishables promptly."
+    ],
+    "science": "Whole berries can supply dietary fibre and polyphenolic pigments; any nutritional claims are qualitative until calculated.",
+    "note": "Project 400 · Berries & hedgerow · £ · Autumn · Recipe concept not kitchen-tested; check ingredients for added sugar/artificial sweeteners. ID P400-032."
+  },
+  {
+    "name": "Blackberry, Pomegranate & Ground Flax",
+    "cat": "Berries & Hedgerow",
+    "emoji": "🫐",
+    "desc": "A deep ruby smoothie with pomegranate brightness and nutty flax.",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Drinks"
+    ],
+    "ing": [
+      "220 g blackberries",
+      "180 ml unsweetened pomegranate juice",
+      "160 g plain yoghurt",
+      "12 g ground flaxseed",
+      "100 g pitted red grapes",
+      "Cold water, as needed to reach 800–850 ml TOTAL in jug (not extra)"
+    ],
+    "method": [
+      "Wash and prepare fruits, removing stems, stones and pips. Use only cooked rhubarb stalks or cooked fruit purées where specified; no raw rhubarb leaves.",
+      "Add the fruit, other ingredients and liquids to the soup maker; top up with chilled water only until the TOTAL contents sit between 800 and 850 ml, within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Select the UNHEATED Drinks/Blend programme and blend for approximately 2 minutes. Never select a hot soup setting.",
+      "Taste for fruit intensity; blend a little longer if berry seeds remain noticeable. Refrigerate perishables promptly."
+    ],
+    "science": "Whole berries can supply dietary fibre and polyphenolic pigments; any nutritional claims are qualitative until calculated.",
+    "note": "Project 400 · Berries & hedgerow · ££ · Autumn · Recipe concept not kitchen-tested; check ingredients for added sugar/artificial sweeteners. ID P400-033."
+  },
+  {
+    "name": "Cranberry, Sour Cherry & Walnut",
+    "cat": "Berries & Hedgerow",
+    "emoji": "🫐",
+    "desc": "Sharp cranberry and sour cherry cushioned by walnuts and kefir.",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Drinks"
+    ],
+    "ing": [
+      "180 ml unsweetened cranberry juice",
+      "190 g pitted sour cherries or unsweetened purée",
+      "180 ml plain kefir",
+      "18 g smooth walnut butter",
+      "80 g plain skyr",
+      "Cold water, as needed to reach 800–850 ml TOTAL in jug (not extra)"
+    ],
+    "method": [
+      "Wash and prepare fruits, removing stems, stones and pips. Use only cooked rhubarb stalks or cooked fruit purées where specified; no raw rhubarb leaves.",
+      "Add the fruit, other ingredients and liquids to the soup maker; top up with chilled water only until the TOTAL contents sit between 800 and 850 ml, within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Select the UNHEATED Drinks/Blend programme and blend for approximately 2 minutes. Never select a hot soup setting.",
+      "Taste for fruit intensity; blend a little longer if berry seeds remain noticeable. Refrigerate perishables promptly."
+    ],
+    "science": "Whole berries can supply dietary fibre and polyphenolic pigments; any nutritional claims are qualitative until calculated.",
+    "note": "Project 400 · Berries & hedgerow · ££ · Autumn · Recipe concept not kitchen-tested; check ingredients for added sugar/artificial sweeteners. ID P400-034."
+  },
+  {
+    "name": "Blackberry, Fig & Rose",
+    "cat": "Berries & Hedgerow",
+    "emoji": "🫐",
+    "desc": "Autumn fig richness balanced by blackberry and restrained culinary rosewater.",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Drinks"
+    ],
+    "ing": [
+      "210 g blackberries",
+      "140 g fresh ripe fig flesh, stems removed",
+      "190 g plain skyr",
+      "¼ tsp food-grade rosewater",
+      "130 ml milk",
+      "Cold water, as needed to reach 800–850 ml TOTAL in jug (not extra)"
+    ],
+    "method": [
+      "Wash and prepare fruits, removing stems, stones and pips. Use only cooked rhubarb stalks or cooked fruit purées where specified; no raw rhubarb leaves.",
+      "Add the fruit, other ingredients and liquids to the soup maker; top up with chilled water only until the TOTAL contents sit between 800 and 850 ml, within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Select the UNHEATED Drinks/Blend programme and blend for approximately 2 minutes. Never select a hot soup setting.",
+      "Taste for fruit intensity; blend a little longer if berry seeds remain noticeable. Refrigerate perishables promptly."
+    ],
+    "science": "Whole berries can supply dietary fibre and polyphenolic pigments; any nutritional claims are qualitative until calculated.",
+    "note": "Project 400 · Berries & hedgerow · £££ · Autumn · Recipe concept not kitchen-tested; check ingredients for added sugar/artificial sweeteners. ID P400-035."
+  },
+  {
+    "name": "Blackcurrant, Blood Orange & Kefir",
+    "cat": "Berries & Hedgerow",
+    "emoji": "🫐",
+    "desc": "Cold-season blood orange cuts through dark blackcurrants and clean kefir.",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Drinks"
+    ],
+    "ing": [
+      "190 g blackcurrants or unsweetened purée",
+      "160 g blood orange flesh, de-pithed",
+      "190 ml plain kefir",
+      "10 g hemp hearts",
+      "100 ml chilled water",
+      "Cold water, as needed to reach 800–850 ml TOTAL in jug (not extra)"
+    ],
+    "method": [
+      "Wash and prepare fruits, removing stems, stones and pips. Use only cooked rhubarb stalks or cooked fruit purées where specified; no raw rhubarb leaves.",
+      "Add the fruit, other ingredients and liquids to the soup maker; top up with chilled water only until the TOTAL contents sit between 800 and 850 ml, within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Select the UNHEATED Drinks/Blend programme and blend for approximately 2 minutes. Never select a hot soup setting.",
+      "Taste for fruit intensity; blend a little longer if berry seeds remain noticeable. Refrigerate perishables promptly."
+    ],
+    "science": "Whole berries can supply dietary fibre and polyphenolic pigments; any nutritional claims are qualitative until calculated.",
+    "note": "Project 400 · Berries & hedgerow · ££ · Winter · Recipe concept not kitchen-tested; check ingredients for added sugar/artificial sweeteners. ID P400-036."
+  },
+  {
+    "name": "Cranberry, Clementine & Ginger",
+    "cat": "Berries & Hedgerow",
+    "emoji": "🫐",
+    "desc": "Sharp cranberries with juicy clementine and fresh ginger warmth.",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Drinks"
+    ],
+    "ing": [
+      "210 ml unsweetened cranberry juice",
+      "200 g clementine flesh, fully peeled and deseeded",
+      "8 g fresh ginger, peeled",
+      "160 g plain yoghurt",
+      "100 g strawberries, hulled",
+      "Cold water, as needed to reach 800–850 ml TOTAL in jug (not extra)"
+    ],
+    "method": [
+      "Wash and prepare fruits, removing stems, stones and pips. Use only cooked rhubarb stalks or cooked fruit purées where specified; no raw rhubarb leaves.",
+      "Add the fruit, other ingredients and liquids to the soup maker; top up with chilled water only until the TOTAL contents sit between 800 and 850 ml, within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Select the UNHEATED Drinks/Blend programme and blend for approximately 2 minutes. Never select a hot soup setting.",
+      "Taste for fruit intensity; blend a little longer if berry seeds remain noticeable. Refrigerate perishables promptly."
+    ],
+    "science": "Whole berries can supply dietary fibre and polyphenolic pigments; any nutritional claims are qualitative until calculated.",
+    "note": "Project 400 · Berries & hedgerow · £ · Winter · Recipe concept not kitchen-tested; check ingredients for added sugar/artificial sweeteners. ID P400-037."
+  },
+  {
+    "name": "Black Raspberry, Hibiscus & Pistachio",
+    "cat": "Berries & Hedgerow",
+    "emoji": "🫐",
+    "desc": "An unusual dark-berry smoothie with hibiscus tartness and pistachio depth.",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Drinks"
+    ],
+    "ing": [
+      "220 g unsweetened black raspberry purée",
+      "130 ml chilled unsweetened hibiscus infusion, cold-brewed in the fridge",
+      "170 g plain skyr",
+      "25 g smooth pistachio butter",
+      "100 ml milk",
+      "Cold water, as needed to reach 800–850 ml TOTAL in jug (not extra)"
+    ],
+    "method": [
+      "Wash and prepare fruits, removing stems, stones and pips. Use only cooked rhubarb stalks or cooked fruit purées where specified; no raw rhubarb leaves.",
+      "Add the fruit, other ingredients and liquids to the soup maker; top up with chilled water only until the TOTAL contents sit between 800 and 850 ml, within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Select the UNHEATED Drinks/Blend programme and blend for approximately 2 minutes. Never select a hot soup setting.",
+      "Taste for fruit intensity; blend a little longer if berry seeds remain noticeable. Refrigerate perishables promptly."
+    ],
+    "science": "Whole berries can supply dietary fibre and polyphenolic pigments; any nutritional claims are qualitative until calculated.",
+    "note": "Project 400 · Berries & hedgerow · £££ · Winter · Recipe concept not kitchen-tested; check ingredients for added sugar/artificial sweeteners. ID P400-038."
+  }
+]
