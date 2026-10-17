@@ -1,0 +1,19 @@
+{
+  "name": "Soup & Smoothie Lab",
+  "short_name": "Soup Lab",
+  "description": "100 soups and 100 smoothies with pantry, shopping list and smart recipe matching.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0b0c0f",
+  "theme_color": "#e4b347",
+  "icons": [
+    {
+      "src": "./icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
