@@ -30,6 +30,11 @@
       "category": "Science",
       "file": "./data/soups/science.json",
       "count": 8
+    },
+    {
+      "category": "Batch 01",
+      "file": "./data/soups/batch-01-2026-10.json",
+      "count": 11
     }
   ],
   "smoothies": [
