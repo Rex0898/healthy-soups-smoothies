@@ -1,19 +1,67 @@
 {
   "version": 1,
   "soups": [
-    {"category":"Meat","file":"./data/soups/meat.json","count":25},
-    {"category":"Vegetarian","file":"./data/soups/vegetarian.json","count":12},
-    {"category":"Seafood","file":"./data/soups/seafood.json","count":20},
-    {"category":"World","file":"./data/soups/world.json","count":15},
-    {"category":"Wildcard","file":"./data/soups/wildcard.json","count":20},
-    {"category":"Science","file":"./data/soups/science.json","count":8}
+    {
+      "category": "Meat",
+      "file": "./data/soups/meat.json",
+      "count": 25
+    },
+    {
+      "category": "Vegetarian",
+      "file": "./data/soups/vegetarian.json",
+      "count": 12
+    },
+    {
+      "category": "Seafood",
+      "file": "./data/soups/seafood.json",
+      "count": 20
+    },
+    {
+      "category": "World",
+      "file": "./data/soups/world.json",
+      "count": 15
+    },
+    {
+      "category": "Wildcard",
+      "file": "./data/soups/wildcard.json",
+      "count": 20
+    },
+    {
+      "category": "Science",
+      "file": "./data/soups/science.json",
+      "count": 8
+    }
   ],
   "smoothies": [
-    {"category":"Fruit-led","file":"./data/smoothies/fruit-led.json","count":25},
-    {"category":"Tropical","file":"./data/smoothies/tropical.json","count":20},
-    {"category":"Fresh","file":"./data/smoothies/fresh.json","count":15},
-    {"category":"Nutty","file":"./data/smoothies/nutty.json","count":15},
-    {"category":"Decadent","file":"./data/smoothies/decadent.json","count":15},
-    {"category":"Green","file":"./data/smoothies/green.json","count":10}
+    {
+      "category": "Fruit-led",
+      "file": "./data/smoothies/fruit-led.json",
+      "count": 25
+    },
+    {
+      "category": "Tropical",
+      "file": "./data/smoothies/tropical.json",
+      "count": 20
+    },
+    {
+      "category": "Fresh",
+      "file": "./data/smoothies/fresh.json",
+      "count": 15
+    },
+    {
+      "category": "Nutty",
+      "file": "./data/smoothies/nutty.json",
+      "count": 15
+    },
+    {
+      "category": "Decadent",
+      "file": "./data/smoothies/decadent.json",
+      "count": 15
+    },
+    {
+      "category": "Green",
+      "file": "./data/smoothies/green.json",
+      "count": 10
+    }
   ]
 }
