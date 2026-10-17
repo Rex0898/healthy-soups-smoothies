@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "soups": [
     {
       "category": "Meat",
@@ -103,5 +103,6 @@
       "file": "./data/smoothies/green.json",
       "count": 10
     }
-  ]
+  ],
+  "library_build": "project-200-20261017"
 }
