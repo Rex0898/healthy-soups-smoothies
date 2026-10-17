@@ -1,11 +1,15 @@
+const RECIPE_LIBRARY_BUILD="project-200-20261017";
+function libraryAssetUrl(path){
+  return path+(path.includes("?")?"&":"?")+"library="+encodeURIComponent(RECIPE_LIBRARY_BUILD);
+}
 async function loadRecipeDB(){
-  const indexRes=await fetch("./data/index.json",{cache:"no-store"});
+  const indexRes=await fetch(libraryAssetUrl("./data/index.json"),{cache:"reload"});
   if(!indexRes.ok) throw new Error(`Recipe index failed: ${indexRes.status}`);
   const manifest=await indexRes.json();
   const DB={soups:[],smoothies:[]};
   for(const type of ["soups","smoothies"]){
     const chunks=await Promise.all(manifest[type].map(async entry=>{
-      const res=await fetch(entry.file,{cache:"no-store"});
+      const res=await fetch(libraryAssetUrl(entry.file),{cache:"reload"});
       if(!res.ok) throw new Error(`${entry.file} failed: ${res.status}`);
       return res.json();
     }));
@@ -16,6 +20,29 @@ async function loadRecipeDB(){
 
 async function boot(){
 const DB=await loadRecipeDB();
+// Display ACTUALLY loaded records, not a hard-coded promise in the page heading.
+const loadedStatus=document.getElementById("liveRecipeStatus");
+if(loadedStatus) loadedStatus.textContent=`Loaded ${DB.soups.length} soups and ${DB.smoothies.length} smoothies`;
+const reloadButton=document.getElementById("checkRecipeUpdates");
+function forceLibraryRefresh(){
+  const url=new URL(window.location.href);
+  url.searchParams.set("refresh",String(Date.now()));
+  window.location.assign(url.href);
+}
+if(reloadButton) reloadButton.addEventListener("click",forceLibraryRefresh);
+async function checkForNewRecipes(){
+  try{
+    const res=await fetch(libraryAssetUrl("./data/index.json")+"&check="+Date.now(),{cache:"reload"});
+    if(!res.ok) return;
+    const manifest=await res.json();
+    const count=(manifest.soups||[]).reduce((n,x)=>n+Number(x.count||0),0);
+    if(count>DB.soups.length && reloadButton){
+      reloadButton.textContent=`Update to ${count} soups`;
+      reloadButton.classList.add("on");
+    }
+  }catch(e){console.warn("Recipe update check unavailable",e)}
+}
+document.addEventListener("visibilitychange",()=>{if(!document.hidden) checkForNewRecipes()});
 const STORAGE_KEY="healthySoupsSmoothies_v3";
 let STATE={schemaVersion:4,pantry:{},planned:[],made:{}};
 try{
@@ -595,7 +622,7 @@ document.onkeydown=e=>{if(e.key==="Escape")closeR();if(back.classList.contains("
 drawChips();renderAll();
 
 if("serviceWorker" in navigator){
-  navigator.serviceWorker.register("./sw.js").catch(err=>console.warn("Service worker registration failed",err));
+  navigator.serviceWorker.register("./sw.js?library="+RECIPE_LIBRARY_BUILD,{updateViaCache:"none"}).then(reg=>reg.update()).catch(err=>console.warn("Service worker registration failed",err));
 }
 }
 
