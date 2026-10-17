@@ -28,17 +28,17 @@
     "note": "Project 200 · Rich meat & game · £ · Winter · Idea to try, not kitchen-tested. Raw meat prohibited. Cooked specialist meat may require advance sourcing; check the pack states fully cooked and ready to eat. ID P200-055."
   },
   {
-    "name": "Ready-to-Eat Chorizo, Bitter Greens & Butter Bean",
+    "name": "Cooked Smoked Sausage, Bitter Greens & Butter Bean",
     "cat": "Meat",
     "emoji": "🥬",
-    "desc": "Ready-to-eat paprika chorizo with bitter greens and silky white beans",
+    "desc": "Fully cooked smoky sausage with slightly bitter greens and silky white beans.",
     "stats": [
       "Nutrition TBC",
       "Protein TBC",
       "Smooth"
     ],
     "ing": [
-      "90 g ready-to-eat cured chorizo, finely diced",
+      "90 g fully cooked ready-to-eat smoked sausage, finely diced",
       "150 g tender kale leaves, chopped",
       "160 g tinned butter beans, drained",
       "1 garlic clove, sliced",
@@ -50,7 +50,7 @@
       "Pour around 125 ml cold water into the 1-litre soup maker, then add all ingredients except those marked (finish).",
       "Top up with cold water to roughly 850–900 ml TOTAL, remaining strictly within the 800 ml MIN and 1,000 ml MAX fill marks.",
       "Run Smooth for approximately 19 minutes.",
-      "Use only chorizo labelled ready to eat, never raw cooking chorizo."
+      "Use fully cooked ready-to-eat smoked sausage, never raw sausage or uncooked cured meat."
     ],
     "science": "The fully cooked meat is a source of protein, iron and/or B vitamins; precise nutrients depend on the product and have not yet been calculated.",
     "note": "Project 200 · Rich meat & game · £ · Winter · Idea to try, not kitchen-tested. Raw meat prohibited. Cooked specialist meat may require advance sourcing; check the pack states fully cooked and ready to eat. ID P200-056."
@@ -230,17 +230,17 @@
     "note": "Project 200 · Rich meat & game · ££ · Autumn · Idea to try, not kitchen-tested. Raw meat prohibited. Cooked specialist meat may require advance sourcing; check the pack states fully cooked and ready to eat. ID P200-062."
   },
   {
-    "name": "Bresaola, Rocket & Pecorino Cream",
+    "name": "Roast Beef, Rocket & Pecorino Cream",
     "cat": "Meat",
     "emoji": "🥩",
-    "desc": "Peppery rocket and cured Italian beef, enriched with Pecorino",
+    "desc": "Peppery rocket and fully cooked roast beef enriched with Pecorino.",
     "stats": [
       "Nutrition TBC",
       "Protein TBC",
       "Smooth"
     ],
     "ing": [
-      "95 g ready-to-eat bresaola, torn small",
+      "95 g fully cooked ready-to-eat roast beef, chopped",
       "100 g rocket leaves",
       "140 g cooked cannellini beans",
       "30 g Pecorino Romano, finely grated (finish)",
@@ -253,7 +253,7 @@
       "Pour around 125 ml cold water into the 1-litre soup maker, then add all ingredients except those marked (finish).",
       "Top up with cold water to roughly 850–900 ml TOTAL, remaining strictly within the 800 ml MIN and 1,000 ml MAX fill marks.",
       "Run Smooth for approximately 19 minutes.",
-      "Stir in Pecorino after cooking; cured beef and cheese are salty."
+      "Stir in Pecorino after cooking and ensure the roast beef is piping hot."
     ],
     "science": "The fully cooked meat is a source of protein, iron and/or B vitamins; precise nutrients depend on the product and have not yet been calculated.",
     "note": "Project 200 · Rich meat & game · ££ · Spring · Idea to try, not kitchen-tested. Raw meat prohibited. Cooked specialist meat may require advance sourcing; check the pack states fully cooked and ready to eat. ID P200-063."
