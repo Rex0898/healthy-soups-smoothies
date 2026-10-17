@@ -1,0 +1,176 @@
+[
+  {
+    "name": "Turnip, Nori & Garlic",
+    "cat": "Wildcard",
+    "emoji": "🧄",
+    "desc": "Peppery turnip enriched with garlic and a measured marine nori accent",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "260 g small turnips, peeled and diced into 1 cm pieces",
+      "60 g leek, sliced",
+      "3 garlic cloves, sliced",
+      "1 g food-grade nori flakes",
+      "120 g tinned cannellini beans, drained",
+      "½ low-salt vegetable stock cube",
+      "1 tsp olive oil"
+    ],
+    "method": [
+      "Wash, peel, trim and finely chop fresh ingredients as specified; use food-grade seaweed, pastes and ready-cooked pulses only.",
+      "Pour around 125 ml cold water into the soup maker; add everything except ingredients labelled (finish).",
+      "Top up to approximately 850–900 ml TOTAL contents, within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Taste; nori should create umami rather than fishiness."
+    ],
+    "science": "An experimental flavour pairing using vegetables and rich additions; nutritional numbers require label-based calculations.",
+    "note": "Project 200 · Experimental vegetables & cheese · £ · Winter · Unverified personal recipe idea. ID P200-084."
+  },
+  {
+    "name": "Carrot, Espresso & Smoked Paprika",
+    "cat": "Wildcard",
+    "emoji": "🥕",
+    "desc": "Bright carrot with savoury smoked paprika and a barely perceptible roasted-coffee note",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "300 g carrots, peeled and diced into 1 cm pieces",
+      "70 g onion, diced",
+      "½ tsp instant espresso powder",
+      "½ tsp sweet smoked paprika",
+      "100 g tinned butter beans",
+      "½ low-salt vegetable stock cube",
+      "1 garlic clove, sliced"
+    ],
+    "method": [
+      "Wash, peel, trim and finely chop fresh ingredients as specified; use food-grade seaweed, pastes and ready-cooked pulses only.",
+      "Pour around 125 ml cold water into the soup maker; add everything except ingredients labelled (finish).",
+      "Top up to approximately 850–900 ml TOTAL contents, within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Taste before adding any more coffee: the aim is savoury depth, not coffee flavour."
+    ],
+    "science": "An experimental flavour pairing using vegetables and rich additions; nutritional numbers require label-based calculations.",
+    "note": "Project 200 · Experimental vegetables & cheese · £ · Winter · Unverified personal recipe idea. ID P200-085."
+  },
+  {
+    "name": "Radicchio, Blue Cheese & Hazelnut",
+    "cat": "Wildcard",
+    "emoji": "🧀",
+    "desc": "Pleasantly bitter radicchio, tangy blue cheese and toasted hazelnut richness",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "160 g radicchio, finely shredded",
+      "140 g tinned cannellini beans, drained",
+      "30 g smooth hazelnut butter",
+      "45 g mild blue cheese, crumbled (finish)",
+      "60 g leek, sliced",
+      "¼ low-salt vegetable stock cube",
+      "1 tsp olive oil"
+    ],
+    "method": [
+      "Wash, peel, trim and finely chop fresh ingredients as specified; use food-grade seaweed, pastes and ready-cooked pulses only.",
+      "Pour around 125 ml cold water into the soup maker; add everything except ingredients labelled (finish).",
+      "Top up to approximately 850–900 ml TOTAL contents, within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Stir in blue cheese; some bitterness is intentional."
+    ],
+    "science": "An experimental flavour pairing using vegetables and rich additions; nutritional numbers require label-based calculations.",
+    "note": "Project 200 · Experimental vegetables & cheese · ££ · Winter · Unverified personal recipe idea. ID P200-086."
+  },
+  {
+    "name": "Parsley Root, Black Garlic & Walnut",
+    "cat": "Wildcard",
+    "emoji": "🌰",
+    "desc": "A distinctive aromatic root given depth by mellow black garlic and walnuts",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "240 g parsley root, peeled and diced into 1 cm pieces",
+      "12 g black garlic cloves, sliced",
+      "25 g smooth walnut butter",
+      "60 g shallot, diced",
+      "½ low-salt vegetable stock cube",
+      "35 ml single cream (finish)",
+      "¼ tsp white pepper"
+    ],
+    "method": [
+      "Wash, peel, trim and finely chop fresh ingredients as specified; use food-grade seaweed, pastes and ready-cooked pulses only.",
+      "Pour around 125 ml cold water into the soup maker; add everything except ingredients labelled (finish).",
+      "Top up to approximately 850–900 ml TOTAL contents, within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Stir in cream and taste for the mellow black garlic."
+    ],
+    "science": "An experimental flavour pairing using vegetables and rich additions; nutritional numbers require label-based calculations.",
+    "note": "Project 200 · Experimental vegetables & cheese · ££ · Autumn · Unverified personal recipe idea. ID P200-087."
+  },
+  {
+    "name": "Brussels Sprout, Tahini & Black Lime",
+    "cat": "Wildcard",
+    "emoji": "🥬",
+    "desc": "Nutty sprouts, smooth tahini and an aromatic dried-lime edge",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "220 g Brussels sprouts, trimmed and quartered",
+      "30 g smooth tahini",
+      "65 g onion, diced",
+      "100 g tinned butter beans, drained",
+      "⅛ tsp ground black lime",
+      "½ low-salt vegetable stock cube",
+      "1 tsp olive oil"
+    ],
+    "method": [
+      "Wash, peel, trim and finely chop fresh ingredients as specified; use food-grade seaweed, pastes and ready-cooked pulses only.",
+      "Pour around 125 ml cold water into the soup maker; add everything except ingredients labelled (finish).",
+      "Top up to approximately 850–900 ml TOTAL contents, within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Use just a trace of black lime: brightness should sit behind the greens."
+    ],
+    "science": "An experimental flavour pairing using vegetables and rich additions; nutritional numbers require label-based calculations.",
+    "note": "Project 200 · Experimental vegetables & cheese · ££ · Winter · Unverified personal recipe idea. ID P200-088."
+  },
+  {
+    "name": "Black Truffle, Chicory & Goat's Cheese",
+    "cat": "Wildcard",
+    "emoji": "🍄",
+    "desc": "Earthy truffle, pleasantly bitter chicory and softly tangy goat's cheese",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "210 g chicory or endive, finely sliced",
+      "160 g tinned cannellini beans, drained",
+      "20 g ready-to-eat black truffle paste",
+      "65 g soft goat's cheese (finish)",
+      "50 g leek, finely sliced",
+      "¼ low-salt vegetable stock cube",
+      "¼ tsp black pepper"
+    ],
+    "method": [
+      "Wash, peel, trim and finely chop fresh ingredients as specified; use food-grade seaweed, pastes and ready-cooked pulses only.",
+      "Pour around 125 ml cold water into the soup maker; add everything except ingredients labelled (finish).",
+      "Top up to approximately 850–900 ml TOTAL contents, within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Stir in goat's cheese; taste before salting."
+    ],
+    "science": "An experimental flavour pairing using vegetables and rich additions; nutritional numbers require label-based calculations.",
+    "note": "Project 200 · Experimental vegetables & cheese · £££ · Winter · Unverified personal recipe idea. ID P200-089."
+  }
+]
