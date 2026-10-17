@@ -70,6 +70,9 @@ function canonicalName(raw){
   if(/vegetable stock/.test(s)) return "vegetable stock";
   if(/fish stock/.test(s)) return "fish stock";
 
+  if(/orange zest/.test(original)) return "orange zest";
+  if(/lemon zest/.test(original)) return "lemon zest";
+  if(/lime zest/.test(original)) return "lime zest";
   if(/dried basil/.test(original)) return "dried basil";
   if(/fresh basil|basil leaves?/.test(original)) return "fresh basil";
   if(/dried mint/.test(original)) return "dried mint";
@@ -115,6 +118,7 @@ function naturalCountUnit(name,body){
   if(name==="anchovy fillets"||/anchovy fillets?/.test(low)) return "fillet";
   if((name==="fresh basil"||name==="fresh mint")&&/leaves?/.test(low)) return "leaf";
   if(name==="lemongrass"&&/stalk/.test(low)) return "stalk";
+  if(/\b(?:tin|can)(?:ned)?\b/.test(low)) return "tin";
   return "each";
 }
 
@@ -129,7 +133,7 @@ function parseIngredient(raw){
     unit="pinch";
     body=pm[2];
   }else{
-    const mm=s.match(/^([0-9¼½¾⅓⅔⅛⅜⅝⅞]+(?:[–-][0-9¼½¾⅓⅔⅛⅜⅝⅞]+)?)\s*(kg|g|ml|l|tsp|tbsp)?\s+(.+)$/i);
+    const mm=s.match(/^([0-9¼½¾⅓⅔⅛⅜⅝⅞]+(?:[–-][0-9¼½¾⅓⅔⅛⅜⅝⅞]+)?)\s*(?:(?:heaped|level)\s+)?(kg|g|ml|l|tsp|tbsp)?\s+(.+)$/i);
     if(mm){amount=readNum(mm[1]);unit=(mm[2]||"each").toLowerCase();body=mm[3]}
   }
 
@@ -156,7 +160,8 @@ function unitLabel(unit,amount=null){
     cube:["cube","cubes"],
     fillet:["fillet","fillets"],
     leaf:["leaf","leaves"],
-    stalk:["stalk","stalks"]
+    stalk:["stalk","stalks"],
+    tin:["tin","tins"]
   };
   if(forms[unit]) return amount===1?forms[unit][0]:forms[unit][1];
   return unit;
@@ -234,12 +239,15 @@ function stockObj(name){
   if(!STATE.pantry[name].amounts) STATE.pantry[name].amounts={};
   return STATE.pantry[name];
 }
+function hasAnyStock(s){
+  return !!s&&(s.unlimited||Object.values(s.amounts||{}).some(v=>v>0));
+}
 function hasRequirement(req){
   if(req.optional) return true;
   const s=STATE.pantry[req.name];
   if(!s) return false;
   if(s.unlimited) return true;
-  if(req.amount==null) return !!s.unlimited;
+  if(req.amount==null) return hasAnyStock(s);
   return (s.amounts?.[req.unit]||0)+1e-9>=req.amount;
 }
 function recipeAvailability(r){
@@ -305,7 +313,7 @@ function missingShopping(){
   Object.values(needs).forEach(n=>{
     const s=STATE.pantry[n.name];
     if(s?.unlimited) return;
-    const item={name:n.name,amounts:{},unquantified:n.unquantified&&!s?.unlimited};
+    const item={name:n.name,amounts:{},unquantified:n.unquantified&&!hasAnyStock(s)};
     for(const [u,a] of Object.entries(n.amounts)){
       const have=s?.amounts?.[u]||0, miss=Math.max(0,a-have);
       if(miss>1e-9) item.amounts[u]=miss;
@@ -320,7 +328,7 @@ function qtyPart(amount,unit){
 }
 function qtyText(item){
   const parts=Object.entries(item.amounts||{}).map(([u,a])=>qtyPart(a,u));
-  if(item.unquantified) parts.push("some");
+  if(!parts.length&&item.unquantified) return "as needed";
   return parts.length?parts.join(" + "):"in stock";
 }
 
@@ -404,7 +412,7 @@ function missingMapForPlan(planIds){
   for(const n of Object.values(needs)){
     const s=STATE.pantry[n.name];
     if(s?.unlimited) continue;
-    if(n.unquantified && !s?.unlimited){
+    if(n.unquantified && !hasAnyStock(s)){
       out[n.name+"||unquantified"]={name:n.name,unit:null,amount:null};
     }
     for(const [u,a] of Object.entries(n.amounts)){
@@ -531,7 +539,7 @@ function renderShopping(){
     row.innerHTML=`<input type="checkbox"><div class="rowname"><b>${titleCase(item.name)}</b><span class="sub">${text}</span></div><span class="tag">${text}</span>`;
     row.querySelector("input").onchange=e=>{
       if(!e.target.checked)return;
-      if(item.unquantified) addRequirementToPantry({name:item.name,amount:null,unit:null});
+      if(item.unquantified&&!Object.keys(item.amounts||{}).length) addRequirementToPantry({name:item.name,amount:null,unit:null});
       Object.entries(item.amounts||{}).forEach(([unit,amount])=>addRequirementToPantry({name:item.name,amount,unit},amount));
       toast(`${titleCase(item.name)} added to pantry`);
       renderAll();
@@ -579,7 +587,7 @@ $("#canMakeToggle").onclick=()=>{canOnly=!canOnly;$("#canMakeToggle").classList.
 $("#plannedToggle").onclick=()=>{plannedOnly=!plannedOnly;$("#plannedToggle").classList.toggle("on",plannedOnly);drawRecipes()};
 $("#pantrySearch").oninput=renderPantry;
 $("#clearPlan").onclick=()=>{STATE.planned=[];save();toast("Shopping plan cleared");renderAll()};
-$("#buyAll").onclick=()=>{missingShopping().forEach(item=>{if(item.unquantified)addRequirementToPantry({name:item.name,amount:null,unit:null});Object.entries(item.amounts||{}).forEach(([unit,amount])=>addRequirementToPantry({name:item.name,amount,unit},amount))});toast("Shopping list moved to pantry");renderAll()};
+$("#buyAll").onclick=()=>{missingShopping().forEach(item=>{if(item.unquantified&&!Object.keys(item.amounts||{}).length)addRequirementToPantry({name:item.name,amount:null,unit:null});Object.entries(item.amounts||{}).forEach(([unit,amount])=>addRequirementToPantry({name:item.name,amount,unit},amount))});toast("Shopping list moved to pantry");renderAll()};
 $("#close").onclick=closeR;$("#prev").onclick=()=>openR(oi-1);$("#next").onclick=()=>openR(oi+1);
 back.onclick=e=>{if(e.target===back)closeR()};
 document.onkeydown=e=>{if(e.key==="Escape")closeR();if(back.classList.contains("open")&&e.key==="ArrowRight")openR(oi+1);if(back.classList.contains("open")&&e.key==="ArrowLeft")openR(oi-1)};
