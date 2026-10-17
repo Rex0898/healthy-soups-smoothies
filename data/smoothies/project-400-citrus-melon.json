@@ -1,0 +1,164 @@
+[
+  {
+    "name": "Blood Orange, Pink Grapefruit & Rooibos",
+    "cat": "Citrus & Melon",
+    "emoji": "🍊",
+    "desc": "Tart winter-to-spring citrus with rooibos's rounded tea character.",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Drinks"
+    ],
+    "ing": [
+      "200 g blood orange flesh, peeled and de-pithed",
+      "170 g pink grapefruit flesh, white pith and pips removed",
+      "200 ml chilled unsweetened rooibos tea, cold-brewed in the fridge",
+      "90 g plain yoghurt",
+      "1 tsp ground flaxseed",
+      "Cold water, as needed to reach 800–850 ml TOTAL volume in jug (not extra)"
+    ],
+    "method": [
+      "Wash and prepare all fresh fruit. Remove bitter citrus pith and pips, and peel and deseed melon as specified.",
+      "Add ingredients to the 1-litre soup maker and top up with chilled water only as necessary for 800–850 ml TOTAL contents; stay within 800 ml MIN and 1,000 ml MAX.",
+      "Blend on the UNHEATED Drinks/Blend programme for approximately 2 minutes.",
+      "Drink cool and fresh; add no sugar unless absolutely necessary to balance unusually sour fruit."
+    ],
+    "science": "Whole citrus and melon contribute water and various vitamins; no nutrition totals have yet been calculated.",
+    "note": "Project 400 · Citrus, melon & refreshment · ££ · Spring · Untested idea. ID P400-077."
+  },
+  {
+    "name": "Honeydew, Lime & Basil",
+    "cat": "Citrus & Melon",
+    "emoji": "🍊",
+    "desc": "Light honeydew brightened with lime and an elegant basil perfume.",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Drinks"
+    ],
+    "ing": [
+      "390 g ripe honeydew melon, peeled and deseeded",
+      "8 washed basil leaves",
+      "1 tsp lime zest",
+      "170 ml coconut water, no added sugar",
+      "80 g plain yoghurt",
+      "Cold water, as needed to reach 800–850 ml TOTAL volume in jug (not extra)"
+    ],
+    "method": [
+      "Wash and prepare all fresh fruit. Remove bitter citrus pith and pips, and peel and deseed melon as specified.",
+      "Add ingredients to the 1-litre soup maker and top up with chilled water only as necessary for 800–850 ml TOTAL contents; stay within 800 ml MIN and 1,000 ml MAX.",
+      "Blend on the UNHEATED Drinks/Blend programme for approximately 2 minutes.",
+      "Drink cool and fresh; add no sugar unless absolutely necessary to balance unusually sour fruit."
+    ],
+    "science": "Whole citrus and melon contribute water and various vitamins; no nutrition totals have yet been calculated.",
+    "note": "Project 400 · Citrus, melon & refreshment · £ · Spring · Untested idea. ID P400-078."
+  },
+  {
+    "name": "Watermelon, Pomegranate & Lemon Verbena",
+    "cat": "Citrus & Melon",
+    "emoji": "🍊",
+    "desc": "A ruby-red refresher, light yet tart, with lemon-verbena fragrance.",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Drinks"
+    ],
+    "ing": [
+      "350 g seedless watermelon flesh",
+      "170 ml unsweetened pomegranate juice",
+      "6 washed lemon verbena leaves",
+      "90 g plain yoghurt",
+      "1 tsp lime juice",
+      "Cold water, as needed to reach 800–850 ml TOTAL volume in jug (not extra)"
+    ],
+    "method": [
+      "Wash and prepare all fresh fruit. Remove bitter citrus pith and pips, and peel and deseed melon as specified.",
+      "Add ingredients to the 1-litre soup maker and top up with chilled water only as necessary for 800–850 ml TOTAL contents; stay within 800 ml MIN and 1,000 ml MAX.",
+      "Blend on the UNHEATED Drinks/Blend programme for approximately 2 minutes.",
+      "Drink cool and fresh; add no sugar unless absolutely necessary to balance unusually sour fruit."
+    ],
+    "science": "Whole citrus and melon contribute water and various vitamins; no nutrition totals have yet been calculated.",
+    "note": "Project 400 · Citrus, melon & refreshment · ££ · Summer · Untested idea. ID P400-079."
+  },
+  {
+    "name": "Cantaloupe, Kiwi & Mint",
+    "cat": "Citrus & Melon",
+    "emoji": "🍊",
+    "desc": "Fragrant melon sharpened by kiwi and lifted with fresh mint.",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Drinks"
+    ],
+    "ing": [
+      "300 g ripe cantaloupe, peeled and deseeded",
+      "170 g kiwi fruit, peeled",
+      "8 fresh mint leaves",
+      "150 ml chilled water",
+      "90 g plain yoghurt",
+      "Cold water, as needed to reach 800–850 ml TOTAL volume in jug (not extra)"
+    ],
+    "method": [
+      "Wash and prepare all fresh fruit. Remove bitter citrus pith and pips, and peel and deseed melon as specified.",
+      "Add ingredients to the 1-litre soup maker and top up with chilled water only as necessary for 800–850 ml TOTAL contents; stay within 800 ml MIN and 1,000 ml MAX.",
+      "Blend on the UNHEATED Drinks/Blend programme for approximately 2 minutes.",
+      "Drink cool and fresh; add no sugar unless absolutely necessary to balance unusually sour fruit."
+    ],
+    "science": "Whole citrus and melon contribute water and various vitamins; no nutrition totals have yet been calculated.",
+    "note": "Project 400 · Citrus, melon & refreshment · £ · Summer · Untested idea. ID P400-080."
+  },
+  {
+    "name": "Galia Melon, Grapefruit & Ginger",
+    "cat": "Citrus & Melon",
+    "emoji": "🍊",
+    "desc": "Floral Galia melon and tart grapefruit invigorated by a little fresh ginger.",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Drinks"
+    ],
+    "ing": [
+      "320 g ripe Galia melon, peeled and deseeded",
+      "160 g peeled pink grapefruit flesh, no pith or pips",
+      "8 g peeled ginger",
+      "150 ml coconut water, no added sugar",
+      "90 g plain yoghurt",
+      "Cold water, as needed to reach 800–850 ml TOTAL volume in jug (not extra)"
+    ],
+    "method": [
+      "Wash and prepare all fresh fruit. Remove bitter citrus pith and pips, and peel and deseed melon as specified.",
+      "Add ingredients to the 1-litre soup maker and top up with chilled water only as necessary for 800–850 ml TOTAL contents; stay within 800 ml MIN and 1,000 ml MAX.",
+      "Blend on the UNHEATED Drinks/Blend programme for approximately 2 minutes.",
+      "Drink cool and fresh; add no sugar unless absolutely necessary to balance unusually sour fruit."
+    ],
+    "science": "Whole citrus and melon contribute water and various vitamins; no nutrition totals have yet been calculated.",
+    "note": "Project 400 · Citrus, melon & refreshment · £ · Summer · Untested idea. ID P400-081."
+  },
+  {
+    "name": "Tangerine, Cranberry & Mint",
+    "cat": "Citrus & Melon",
+    "emoji": "🍊",
+    "desc": "Sharp cranberry and winter tangerine with cool mint freshness.",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Drinks"
+    ],
+    "ing": [
+      "260 g peeled and de-pithed tangerine flesh",
+      "180 ml unsweetened cranberry juice",
+      "8 fresh mint leaves",
+      "170 g plain yoghurt",
+      "100 ml cold water",
+      "Cold water, as needed to reach 800–850 ml TOTAL volume in jug (not extra)"
+    ],
+    "method": [
+      "Wash and prepare all fresh fruit. Remove bitter citrus pith and pips, and peel and deseed melon as specified.",
+      "Add ingredients to the 1-litre soup maker and top up with chilled water only as necessary for 800–850 ml TOTAL contents; stay within 800 ml MIN and 1,000 ml MAX.",
+      "Blend on the UNHEATED Drinks/Blend programme for approximately 2 minutes.",
+      "Drink cool and fresh; add no sugar unless absolutely necessary to balance unusually sour fruit."
+    ],
+    "science": "Whole citrus and melon contribute water and various vitamins; no nutrition totals have yet been calculated.",
+    "note": "Project 400 · Citrus, melon & refreshment · £ · Winter · Untested idea. ID P400-082."
+  }
+]
