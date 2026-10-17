@@ -1,0 +1,513 @@
+[
+  {
+    "name": "Sardine, Leek & Parsley Cream",
+    "cat": "Seafood",
+    "emoji": "🐟",
+    "desc": "Silky leek and parsley with the richness of tinned sardines, without tomato",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "110 g tinned sardines in spring water, drained",
+      "160 g leek, finely sliced",
+      "100 g tinned cannellini beans, drained",
+      "6 g flat-leaf parsley, chopped",
+      "¼ vegetable stock cube",
+      "1 garlic clove, sliced"
+    ],
+    "method": [
+      "Wash, peel and chop the fresh ingredients as instructed; all fish and seafood must already be cooked, ready-to-eat and free from bones or shells.",
+      "Add approximately 125 ml cold water to the soup-maker jug, then the ingredients except those marked (finish).",
+      "Add further cold water to around 850–900 ml TOTAL contents, strictly within the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Taste and serve; sardines should be softened completely by blending."
+    ],
+    "science": "Fish or seafood contributes protein and, where oily fish is included, marine omega-3 fats; exact quantities and nutrients have not been calculated.",
+    "note": "Project 200 · Coastal & maritime · £ · Winter · Recipe idea, not kitchen-tested. Check seafood allergens and packaged ingredient labels. ID P200-021."
+  },
+  {
+    "name": "Anchovy, Green Pea & Chive Velouté",
+    "cat": "Seafood",
+    "emoji": "🐟",
+    "desc": "Sweet green peas given a savoury counterpoint by anchovy and chive",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "230 g tinned garden peas, drained",
+      "2 anchovy fillets, chopped",
+      "70 g leek, finely sliced",
+      "½ low-salt vegetable stock cube",
+      "6 g fresh chives, chopped (finish)",
+      "1 tsp olive oil"
+    ],
+    "method": [
+      "Wash, peel and chop the fresh ingredients as instructed; all fish and seafood must already be cooked, ready-to-eat and free from bones or shells.",
+      "Add approximately 125 ml cold water to the soup-maker jug, then the ingredients except those marked (finish).",
+      "Add further cold water to around 850–900 ml TOTAL contents, strictly within the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Stir in chopped chives and taste before salting."
+    ],
+    "science": "Fish or seafood contributes protein and, where oily fish is included, marine omega-3 fats; exact quantities and nutrients have not been calculated.",
+    "note": "Project 200 · Coastal & maritime · £ · Spring · Recipe idea, not kitchen-tested. Check seafood allergens and packaged ingredient labels. ID P200-022."
+  },
+  {
+    "name": "Pilchard, Butter Bean & Lemon Thyme",
+    "cat": "Seafood",
+    "emoji": "🐟",
+    "desc": "A hearty marine and herbal soup with butter beans and delicate lemon thyme",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "115 g tinned pilchards in tomato sauce",
+      "190 g tinned butter beans, drained",
+      "50 g onion, diced",
+      "½ tsp dried lemon thyme",
+      "1 garlic clove, sliced",
+      "¼ vegetable stock cube",
+      "¼ tsp black pepper"
+    ],
+    "method": [
+      "Wash, peel and chop the fresh ingredients as instructed; all fish and seafood must already be cooked, ready-to-eat and free from bones or shells.",
+      "Add approximately 125 ml cold water to the soup-maker jug, then the ingredients except those marked (finish).",
+      "Add further cold water to around 850–900 ml TOTAL contents, strictly within the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Taste; the tin already contributes some tomato and seasoning."
+    ],
+    "science": "Fish or seafood contributes protein and, where oily fish is included, marine omega-3 fats; exact quantities and nutrients have not been calculated.",
+    "note": "Project 200 · Coastal & maritime · £ · Year-round · Recipe idea, not kitchen-tested. Check seafood allergens and packaged ingredient labels. ID P200-023."
+  },
+  {
+    "name": "Tinned Mussel, Fennel & White Pepper",
+    "cat": "Seafood",
+    "emoji": "🦪",
+    "desc": "A simple, savoury mussel soup with mild fennel and white pepper",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "90 g ready-to-eat tinned mussels in brine, drained",
+      "150 g fennel bulb, finely sliced",
+      "130 g tinned cannellini beans, drained",
+      "¼ vegetable stock cube",
+      "¼ tsp white pepper",
+      "1 tsp olive oil"
+    ],
+    "method": [
+      "Wash, peel and chop the fresh ingredients as instructed; all fish and seafood must already be cooked, ready-to-eat and free from bones or shells.",
+      "Add approximately 125 ml cold water to the soup-maker jug, then the ingredients except those marked (finish).",
+      "Add further cold water to around 850–900 ml TOTAL contents, strictly within the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Check mussels are ready-to-eat, not raw; avoid additional salt until tasted."
+    ],
+    "science": "Fish or seafood contributes protein and, where oily fish is included, marine omega-3 fats; exact quantities and nutrients have not been calculated.",
+    "note": "Project 200 · Coastal & maritime · £ · Year-round · Recipe idea, not kitchen-tested. Check seafood allergens and packaged ingredient labels. ID P200-024."
+  },
+  {
+    "name": "Smoked Oyster, Leek & White Pepper Cream",
+    "cat": "Seafood",
+    "emoji": "🦪",
+    "desc": "Smoked oysters lend deep coastal savouriness to a silky leek base",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "85 g ready-to-eat tinned smoked oysters, drained",
+      "170 g leek, finely sliced",
+      "110 g tinned butter beans, drained",
+      "¼ low-salt vegetable stock cube",
+      "¼ tsp white pepper",
+      "30 ml single cream (finish)"
+    ],
+    "method": [
+      "Wash, peel and chop the fresh ingredients as instructed; all fish and seafood must already be cooked, ready-to-eat and free from bones or shells.",
+      "Add approximately 125 ml cold water to the soup-maker jug, then the ingredients except those marked (finish).",
+      "Add further cold water to around 850–900 ml TOTAL contents, strictly within the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Stir in the cream and serve hot."
+    ],
+    "science": "Fish or seafood contributes protein and, where oily fish is included, marine omega-3 fats; exact quantities and nutrients have not been calculated.",
+    "note": "Project 200 · Coastal & maritime · ££ · Winter · Recipe idea, not kitchen-tested. Check seafood allergens and packaged ingredient labels. ID P200-025."
+  },
+  {
+    "name": "Smoked Mussel, Pea & Tarragon",
+    "cat": "Seafood",
+    "emoji": "🦪",
+    "desc": "Smoky shellfish with bright green peas and gently liquorice-free tarragon",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "100 g ready-to-eat smoked mussels, drained",
+      "200 g tinned garden peas, drained",
+      "50 g shallot, diced",
+      "¼ tsp dried tarragon",
+      "¼ low-salt vegetable stock cube",
+      "30 ml crème fraîche (finish)"
+    ],
+    "method": [
+      "Wash, peel and chop the fresh ingredients as instructed; all fish and seafood must already be cooked, ready-to-eat and free from bones or shells.",
+      "Add approximately 125 ml cold water to the soup-maker jug, then the ingredients except those marked (finish).",
+      "Add further cold water to around 850–900 ml TOTAL contents, strictly within the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Stir in crème fraîche; keep tarragon subtle."
+    ],
+    "science": "Fish or seafood contributes protein and, where oily fish is included, marine omega-3 fats; exact quantities and nutrients have not been calculated.",
+    "note": "Project 200 · Coastal & maritime · ££ · Spring · Recipe idea, not kitchen-tested. Check seafood allergens and packaged ingredient labels. ID P200-026."
+  },
+  {
+    "name": "Hot-Smoked Trout, Fennel & Dill",
+    "cat": "Seafood",
+    "emoji": "🐟",
+    "desc": "Hot-smoked trout paired with gentle fennel and grassy dill",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "110 g ready-to-eat hot-smoked trout, skin and bones removed",
+      "160 g fennel bulb, sliced",
+      "100 g tinned butter beans, drained",
+      "½ tsp dried dill",
+      "¼ low-salt vegetable stock cube",
+      "30 ml single cream (finish)"
+    ],
+    "method": [
+      "Wash, peel and chop the fresh ingredients as instructed; all fish and seafood must already be cooked, ready-to-eat and free from bones or shells.",
+      "Add approximately 125 ml cold water to the soup-maker jug, then the ingredients except those marked (finish).",
+      "Add further cold water to around 850–900 ml TOTAL contents, strictly within the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Stir in cream; check fish was fully cooked and ready to eat."
+    ],
+    "science": "Fish or seafood contributes protein and, where oily fish is included, marine omega-3 fats; exact quantities and nutrients have not been calculated.",
+    "note": "Project 200 · Coastal & maritime · ££ · Winter · Recipe idea, not kitchen-tested. Check seafood allergens and packaged ingredient labels. ID P200-027."
+  },
+  {
+    "name": "Tuna, Artichoke & Green Caper",
+    "cat": "Seafood",
+    "emoji": "🐟",
+    "desc": "Mediterranean tuna and artichoke with a tiny briny caper accent",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "120 g tinned tuna in spring water, drained",
+      "170 g jarred artichoke hearts, drained",
+      "20 g capers in brine, rinsed",
+      "70 g tinned cannellini beans",
+      "1 garlic clove, sliced",
+      "¼ low-salt vegetable stock cube",
+      "1 tsp olive oil"
+    ],
+    "method": [
+      "Wash, peel and chop the fresh ingredients as instructed; all fish and seafood must already be cooked, ready-to-eat and free from bones or shells.",
+      "Add approximately 125 ml cold water to the soup-maker jug, then the ingredients except those marked (finish).",
+      "Add further cold water to around 850–900 ml TOTAL contents, strictly within the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Taste; capers should not make the whole soup sharp."
+    ],
+    "science": "Fish or seafood contributes protein and, where oily fish is included, marine omega-3 fats; exact quantities and nutrients have not been calculated.",
+    "note": "Project 200 · Coastal & maritime · ££ · Year-round · Recipe idea, not kitchen-tested. Check seafood allergens and packaged ingredient labels. ID P200-028."
+  },
+  {
+    "name": "Sardine, Golden Pepper & Almond",
+    "cat": "Seafood",
+    "emoji": "🐟",
+    "desc": "A Mediterranean sardine soup with sweet jarred yellow peppers and almonds",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "110 g tinned sardines in oil, drained",
+      "180 g jarred roasted yellow pepper, drained",
+      "25 g smooth almond butter",
+      "65 g onion, diced",
+      "1 garlic clove, sliced",
+      "¼ vegetable stock cube",
+      "¼ tsp smoked paprika"
+    ],
+    "method": [
+      "Wash, peel and chop the fresh ingredients as instructed; all fish and seafood must already be cooked, ready-to-eat and free from bones or shells.",
+      "Add approximately 125 ml cold water to the soup-maker jug, then the ingredients except those marked (finish).",
+      "Add further cold water to around 850–900 ml TOTAL contents, strictly within the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Serve with black pepper; no additional frying required."
+    ],
+    "science": "Fish or seafood contributes protein and, where oily fish is included, marine omega-3 fats; exact quantities and nutrients have not been calculated.",
+    "note": "Project 200 · Coastal & maritime · ££ · Summer · Recipe idea, not kitchen-tested. Check seafood allergens and packaged ingredient labels. ID P200-029."
+  },
+  {
+    "name": "Smoked Salmon, Beetroot & Gentle Horseradish",
+    "cat": "Seafood",
+    "emoji": "🐟",
+    "desc": "A Nordic-leaning pink soup with smoky salmon, earthy beetroot and a restrained lift",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "95 g ready-to-eat hot-smoked salmon, skin and bones removed",
+      "230 g plain cooked beetroot, diced",
+      "80 g tinned cannellini beans, drained",
+      "¼ vegetable stock cube",
+      "¼ tsp creamed horseradish (finish)",
+      "30 ml crème fraîche (finish)"
+    ],
+    "method": [
+      "Wash, peel and chop the fresh ingredients as instructed; all fish and seafood must already be cooked, ready-to-eat and free from bones or shells.",
+      "Add approximately 125 ml cold water to the soup-maker jug, then the ingredients except those marked (finish).",
+      "Add further cold water to around 850–900 ml TOTAL contents, strictly within the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Stir in crème fraîche and a restrained amount of horseradish."
+    ],
+    "science": "Fish or seafood contributes protein and, where oily fish is included, marine omega-3 fats; exact quantities and nutrients have not been calculated.",
+    "note": "Project 200 · Coastal & maritime · ££ · Winter · Recipe idea, not kitchen-tested. Check seafood allergens and packaged ingredient labels. ID P200-030."
+  },
+  {
+    "name": "Prawn, Courgette & Basil Cream",
+    "cat": "Seafood",
+    "emoji": "🦐",
+    "desc": "Cooked prawns and soft courgette form a delicate green coastal soup",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "120 g ready-to-eat cooked peeled prawns",
+      "230 g courgette, diced into 1 cm pieces",
+      "7 g fresh basil, torn",
+      "50 g leek, sliced",
+      "¼ vegetable stock cube",
+      "30 ml single cream (finish)"
+    ],
+    "method": [
+      "Wash, peel and chop the fresh ingredients as instructed; all fish and seafood must already be cooked, ready-to-eat and free from bones or shells.",
+      "Add approximately 125 ml cold water to the soup-maker jug, then the ingredients except those marked (finish).",
+      "Add further cold water to around 850–900 ml TOTAL contents, strictly within the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Stir in cream, then serve piping hot."
+    ],
+    "science": "Fish or seafood contributes protein and, where oily fish is included, marine omega-3 fats; exact quantities and nutrients have not been calculated.",
+    "note": "Project 200 · Coastal & maritime · ££ · Summer · Recipe idea, not kitchen-tested. Check seafood allergens and packaged ingredient labels. ID P200-031."
+  },
+  {
+    "name": "Crab, Watercress & Chive Velouté",
+    "cat": "Seafood",
+    "emoji": "🦀",
+    "desc": "Rich white-and-brown crab with peppery watercress and delicate chives",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "140 g ready-to-eat dressed crab meat, all shell removed",
+      "110 g watercress, chopped",
+      "100 g tinned cannellini beans, drained",
+      "½ low-salt fish stock cube",
+      "5 g fresh chives, chopped (finish)",
+      "40 ml single cream (finish)"
+    ],
+    "method": [
+      "Wash, peel and chop the fresh ingredients as instructed; all fish and seafood must already be cooked, ready-to-eat and free from bones or shells.",
+      "Add approximately 125 ml cold water to the soup-maker jug, then the ingredients except those marked (finish).",
+      "Add further cold water to around 850–900 ml TOTAL contents, strictly within the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Stir in chives and cream; check crab carefully for shell."
+    ],
+    "science": "Fish or seafood contributes protein and, where oily fish is included, marine omega-3 fats; exact quantities and nutrients have not been calculated.",
+    "note": "Project 200 · Coastal & maritime · £££ · Spring · Recipe idea, not kitchen-tested. Check seafood allergens and packaged ingredient labels. ID P200-032."
+  },
+  {
+    "name": "Prawn, Fennel & Green Olive Bisque",
+    "cat": "Seafood",
+    "emoji": "🦐",
+    "desc": "Cooked prawns in a richly savoury Mediterranean fennel and olive velouté",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "170 g ready-to-eat cooked peeled prawns",
+      "200 g fennel bulb, finely sliced",
+      "25 g pitted green olives",
+      "70 g tinned cannellini beans, drained",
+      "½ low-salt fish stock cube",
+      "30 ml double cream (finish)"
+    ],
+    "method": [
+      "Wash, peel and chop the fresh ingredients as instructed; all fish and seafood must already be cooked, ready-to-eat and free from bones or shells.",
+      "Add approximately 125 ml cold water to the soup-maker jug, then the ingredients except those marked (finish).",
+      "Add further cold water to around 850–900 ml TOTAL contents, strictly within the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Stir in cream; taste before salting due to olives and stock."
+    ],
+    "science": "Fish or seafood contributes protein and, where oily fish is included, marine omega-3 fats; exact quantities and nutrients have not been calculated.",
+    "note": "Project 200 · Coastal & maritime · £££ · Summer · Recipe idea, not kitchen-tested. Check seafood allergens and packaged ingredient labels. ID P200-033."
+  },
+  {
+    "name": "Lobster, Saffron & Tarragon Cream",
+    "cat": "Seafood",
+    "emoji": "🦞",
+    "desc": "A delicate French-style luxury soup built around ready-cooked lobster and saffron",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "125 g ready-to-eat cooked lobster meat, all shell removed",
+      "100 g leek, finely sliced",
+      "110 g tinned butter beans, drained",
+      "1 small pinch saffron threads",
+      "¼ tsp dried tarragon",
+      "½ low-salt fish stock cube",
+      "35 ml double cream (finish)"
+    ],
+    "method": [
+      "Wash, peel and chop the fresh ingredients as instructed; all fish and seafood must already be cooked, ready-to-eat and free from bones or shells.",
+      "Add approximately 125 ml cold water to the soup-maker jug, then the ingredients except those marked (finish).",
+      "Add further cold water to around 850–900 ml TOTAL contents, strictly within the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Use fully cooked shelled lobster; stir cream in and serve hot."
+    ],
+    "science": "Fish or seafood contributes protein and, where oily fish is included, marine omega-3 fats; exact quantities and nutrients have not been calculated.",
+    "note": "Project 200 · Coastal & maritime · £££ · Winter · Recipe idea, not kitchen-tested. Check seafood allergens and packaged ingredient labels. ID P200-034."
+  },
+  {
+    "name": "Brown Shrimp, Sea Lettuce & Lemon Cream",
+    "cat": "Seafood",
+    "emoji": "🦐",
+    "desc": "Sweet cooked brown shrimp with marine sea lettuce and a faint lemon lift",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "130 g ready-to-eat cooked brown shrimp, peeled",
+      "140 g tinned cannellini beans, drained",
+      "70 g leek, sliced",
+      "1 g food-grade dried sea lettuce flakes",
+      "¼ fish stock cube",
+      "35 ml single cream (finish)",
+      "½ tsp lemon juice (finish)"
+    ],
+    "method": [
+      "Wash, peel and chop the fresh ingredients as instructed; all fish and seafood must already be cooked, ready-to-eat and free from bones or shells.",
+      "Add approximately 125 ml cold water to the soup-maker jug, then the ingredients except those marked (finish).",
+      "Add further cold water to around 850–900 ml TOTAL contents, strictly within the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Add cream and restrained lemon; only use food-grade seaweed."
+    ],
+    "science": "Fish or seafood contributes protein and, where oily fish is included, marine omega-3 fats; exact quantities and nutrients have not been calculated.",
+    "note": "Project 200 · Coastal & maritime · £££ · Spring · Recipe idea, not kitchen-tested. Check seafood allergens and packaged ingredient labels. ID P200-035."
+  },
+  {
+    "name": "Smoked Oyster, Porcini & Madeira",
+    "cat": "Seafood",
+    "emoji": "🦪",
+    "desc": "Smoky oysters and earthy porcini with a dark Madeira accent",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "90 g ready-to-eat smoked oysters, drained",
+      "130 g chestnut mushrooms, sliced",
+      "10 g dried porcini, crumbled",
+      "70 g tinned butter beans, drained",
+      "25 ml Madeira wine",
+      "¼ vegetable stock cube",
+      "30 ml double cream (finish)"
+    ],
+    "method": [
+      "Wash, peel and chop the fresh ingredients as instructed; all fish and seafood must already be cooked, ready-to-eat and free from bones or shells.",
+      "Add approximately 125 ml cold water to the soup-maker jug, then the ingredients except those marked (finish).",
+      "Add further cold water to around 850–900 ml TOTAL contents, strictly within the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Add cream after cooking; no separate mushroom frying is required."
+    ],
+    "science": "Fish or seafood contributes protein and, where oily fish is included, marine omega-3 fats; exact quantities and nutrients have not been calculated.",
+    "note": "Project 200 · Coastal & maritime · £££ · Winter · Recipe idea, not kitchen-tested. Check seafood allergens and packaged ingredient labels. ID P200-036."
+  },
+  {
+    "name": "Crab, Asparagus & Dry Vermouth Cream",
+    "cat": "Seafood",
+    "emoji": "🦀",
+    "desc": "A refined, light-green crab soup with asparagus and herbal dry vermouth",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "135 g ready-to-eat white crab meat, checked for shell",
+      "190 g asparagus, woody ends removed and stalks sliced small",
+      "50 g leek, sliced",
+      "25 ml dry white vermouth",
+      "¼ low-salt fish stock cube",
+      "35 ml single cream (finish)"
+    ],
+    "method": [
+      "Wash, peel and chop the fresh ingredients as instructed; all fish and seafood must already be cooked, ready-to-eat and free from bones or shells.",
+      "Add approximately 125 ml cold water to the soup-maker jug, then the ingredients except those marked (finish).",
+      "Add further cold water to around 850–900 ml TOTAL contents, strictly within the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Stir in cream and serve piping hot; remove all crab shell."
+    ],
+    "science": "Fish or seafood contributes protein and, where oily fish is included, marine omega-3 fats; exact quantities and nutrients have not been calculated.",
+    "note": "Project 200 · Coastal & maritime · £££ · Spring · Recipe idea, not kitchen-tested. Check seafood allergens and packaged ingredient labels. ID P200-037."
+  },
+  {
+    "name": "Mussel, Wakame & Saffron Cream",
+    "cat": "Seafood",
+    "emoji": "🦪",
+    "desc": "An aromatic maritime soup of cooked mussels, seaweed and saffron without tomato",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "160 g fully cooked ready-to-eat mussel meat, shells removed",
+      "90 g tinned cannellini beans, drained",
+      "100 g leek, sliced",
+      "2 g food-grade dried wakame, crumbled",
+      "1 pinch saffron",
+      "¼ low-salt fish stock cube",
+      "35 ml crème fraîche (finish)"
+    ],
+    "method": [
+      "Wash, peel and chop the fresh ingredients as instructed; all fish and seafood must already be cooked, ready-to-eat and free from bones or shells.",
+      "Add approximately 125 ml cold water to the soup-maker jug, then the ingredients except those marked (finish).",
+      "Add further cold water to around 850–900 ml TOTAL contents, strictly within the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Only use fully cooked shell-free mussel meat; stir in crème fraîche."
+    ],
+    "science": "Fish or seafood contributes protein and, where oily fish is included, marine omega-3 fats; exact quantities and nutrients have not been calculated.",
+    "note": "Project 200 · Coastal & maritime · £££ · Winter · Recipe idea, not kitchen-tested. Check seafood allergens and packaged ingredient labels. ID P200-038."
+  }
+]
