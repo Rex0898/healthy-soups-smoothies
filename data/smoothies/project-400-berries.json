@@ -406,10 +406,10 @@
     "note": "Project 400 · Berries & hedgerow · ££ · Autumn · Recipe concept not kitchen-tested; check ingredients for added sugar/artificial sweeteners. ID P400-034."
   },
   {
-    "name": "Blackberry, Fig & Rose",
+    "name": "Blackberry, Persimmon & Rose",
     "cat": "Berries & Hedgerow",
     "emoji": "🫐",
-    "desc": "Autumn fig richness balanced by blackberry and restrained culinary rosewater.",
+    "desc": "Dark blackberries, ripe persimmon and restrained culinary rosewater.",
     "stats": [
       "Nutrition TBC",
       "Protein TBC",
@@ -417,7 +417,7 @@
     ],
     "ing": [
       "210 g blackberries",
-      "140 g fresh ripe fig flesh, stems removed",
+      "140 g fully ripe persimmon flesh, peeled and seeds removed",
       "190 g plain skyr",
       "¼ tsp food-grade rosewater",
       "130 ml milk",
