@@ -1,0 +1,567 @@
+[
+  {
+    "name": "Swede, White Pepper & Mature Cheddar",
+    "cat": "Vegetarian",
+    "emoji": "🧀",
+    "desc": "Earthy swede softened by tangy Cheddar and mellow white pepper",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "280 g swede, peeled and diced into 1 cm pieces",
+      "70 g onion, diced",
+      "35 g mature Cheddar, finely chopped (finish)",
+      "½ low-salt vegetable stock cube",
+      "¼ tsp white pepper",
+      "1 tsp olive oil"
+    ],
+    "method": [
+      "Wash and finely chop the fresh ingredients as specified; use only fully cooked ready-to-eat meat or fish where listed.",
+      "Pour around 125 ml cold water into the 1-litre Morphy Richards 501021 jug. Add the ingredients except any marked (finish).",
+      "Top up with cold water to around 850–900 ml TOTAL contents, always respecting the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Stir in the finely chopped Cheddar while the soup is hot; season to taste."
+    ],
+    "science": "A proposed smooth-soup recipe for variety; exact nutritional values are not yet calculated. Check allergens on all packets and seasonings.",
+    "note": "Project 200 · British heritage · £ · Winter · Idea to try, not kitchen-tested. ID P200-001."
+  },
+  {
+    "name": "Watercress, Oat & Crème Fraîche",
+    "cat": "Vegetarian",
+    "emoji": "🌿",
+    "desc": "Peppery watercress in a smooth, creamy oat-thickened soup",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "100 g watercress, washed",
+      "100 g leek, finely sliced",
+      "30 g porridge oats",
+      "1 garlic clove, sliced",
+      "½ vegetable stock cube",
+      "1 tbsp crème fraîche (finish)"
+    ],
+    "method": [
+      "Wash and finely chop the fresh ingredients as specified; use only fully cooked ready-to-eat meat or fish where listed.",
+      "Pour around 125 ml cold water into the 1-litre Morphy Richards 501021 jug. Add the ingredients except any marked (finish).",
+      "Top up with cold water to around 850–900 ml TOTAL contents, always respecting the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Stir in crème fraîche; serve while vividly green."
+    ],
+    "science": "A proposed smooth-soup recipe for variety; exact nutritional values are not yet calculated. Check allergens on all packets and seasonings.",
+    "note": "Project 200 · British heritage · £ · Spring · Idea to try, not kitchen-tested. ID P200-002."
+  },
+  {
+    "name": "Turnip, Green Apple & Black Pepper",
+    "cat": "Vegetarian",
+    "emoji": "🍏",
+    "desc": "A sharply savoury root-vegetable velouté with peppery lift",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "270 g small turnips, peeled and diced into 1 cm pieces",
+      "60 g tart green apple, diced",
+      "60 g onion, finely diced",
+      "½ low-salt vegetable stock cube",
+      "½ tsp ground black pepper",
+      "1 tsp olive oil"
+    ],
+    "method": [
+      "Wash and finely chop the fresh ingredients as specified; use only fully cooked ready-to-eat meat or fish where listed.",
+      "Pour around 125 ml cold water into the 1-litre Morphy Richards 501021 jug. Add the ingredients except any marked (finish).",
+      "Top up with cold water to around 850–900 ml TOTAL contents, always respecting the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Taste for pepper; apple should be a background note."
+    ],
+    "science": "A proposed smooth-soup recipe for variety; exact nutritional values are not yet calculated. Check allergens on all packets and seasonings.",
+    "note": "Project 200 · British heritage · £ · Winter · Idea to try, not kitchen-tested. ID P200-003."
+  },
+  {
+    "name": "Leek, Butter Bean & Bay",
+    "cat": "Vegetarian",
+    "emoji": "🥬",
+    "desc": "Soft leek, silky beans and the gentle woody aroma of bay",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "190 g leek, finely sliced",
+      "240 g tinned butter beans, drained",
+      "1 garlic clove, sliced",
+      "½ low-salt vegetable stock cube",
+      "¼ tsp ground bay leaf",
+      "1 tsp olive oil"
+    ],
+    "method": [
+      "Wash and finely chop the fresh ingredients as specified; use only fully cooked ready-to-eat meat or fish where listed.",
+      "Pour around 125 ml cold water into the 1-litre Morphy Richards 501021 jug. Add the ingredients except any marked (finish).",
+      "Top up with cold water to around 850–900 ml TOTAL contents, always respecting the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Taste; add a little white pepper if desired."
+    ],
+    "science": "A proposed smooth-soup recipe for variety; exact nutritional values are not yet calculated. Check allergens on all packets and seasonings.",
+    "note": "Project 200 · British heritage · £ · Winter · Idea to try, not kitchen-tested. ID P200-004."
+  },
+  {
+    "name": "Curly Kale, Oat & Nutmeg",
+    "cat": "Vegetarian",
+    "emoji": "🥬",
+    "desc": "Dark leafy greens, mild oats and a restrained warming nutmeg note",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "130 g curly kale, tough stems removed and finely chopped",
+      "80 g onion, diced",
+      "35 g porridge oats",
+      "1 garlic clove, sliced",
+      "½ vegetable stock cube",
+      "1 pinch ground nutmeg",
+      "1 tsp olive oil"
+    ],
+    "method": [
+      "Wash and finely chop the fresh ingredients as specified; use only fully cooked ready-to-eat meat or fish where listed.",
+      "Pour around 125 ml cold water into the 1-litre Morphy Richards 501021 jug. Add the ingredients except any marked (finish).",
+      "Top up with cold water to around 850–900 ml TOTAL contents, always respecting the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Blend until evenly smooth; use very little nutmeg."
+    ],
+    "science": "A proposed smooth-soup recipe for variety; exact nutritional values are not yet calculated. Check allergens on all packets and seasonings.",
+    "note": "Project 200 · British heritage · £ · Winter · Idea to try, not kitchen-tested. ID P200-005."
+  },
+  {
+    "name": "Carrot, Marmite & Flat-Leaf Parsley",
+    "cat": "Vegetarian",
+    "emoji": "🥕",
+    "desc": "A bright carrot soup given British savoury depth by a little yeast extract",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "320 g carrots, diced into 1 cm pieces",
+      "50 g onion, diced",
+      "1 tsp Marmite",
+      "8 g fresh flat-leaf parsley, chopped",
+      "1 garlic clove, sliced",
+      "¼ low-salt vegetable stock cube",
+      "1 tsp olive oil"
+    ],
+    "method": [
+      "Wash and finely chop the fresh ingredients as specified; use only fully cooked ready-to-eat meat or fish where listed.",
+      "Pour around 125 ml cold water into the 1-litre Morphy Richards 501021 jug. Add the ingredients except any marked (finish).",
+      "Top up with cold water to around 850–900 ml TOTAL contents, always respecting the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Check salt before adding any; Marmite is already salty."
+    ],
+    "science": "A proposed smooth-soup recipe for variety; exact nutritional values are not yet calculated. Check allergens on all packets and seasonings.",
+    "note": "Project 200 · British heritage · £ · Year-round · Idea to try, not kitchen-tested. ID P200-006."
+  },
+  {
+    "name": "Beetroot, Gentle Horseradish & Oat",
+    "cat": "Vegetarian",
+    "emoji": "🟣",
+    "desc": "Deep beetroot sweetness balanced by oats and an almost imperceptible horseradish prickle",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "260 g plain ready-cooked beetroot, diced",
+      "35 g porridge oats",
+      "60 g red onion, diced",
+      "½ low-salt vegetable stock cube",
+      "¼ tsp creamed horseradish (finish)",
+      "1 tsp olive oil"
+    ],
+    "method": [
+      "Wash and finely chop the fresh ingredients as specified; use only fully cooked ready-to-eat meat or fish where listed.",
+      "Pour around 125 ml cold water into the 1-litre Morphy Richards 501021 jug. Add the ingredients except any marked (finish).",
+      "Top up with cold water to around 850–900 ml TOTAL contents, always respecting the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Stir in just a little horseradish after cooking so it does not dominate."
+    ],
+    "science": "A proposed smooth-soup recipe for variety; exact nutritional values are not yet calculated. Check allergens on all packets and seasonings.",
+    "note": "Project 200 · British heritage · £ · Winter · Idea to try, not kitchen-tested. ID P200-007."
+  },
+  {
+    "name": "Cabbage, Paprika & Butter Bean",
+    "cat": "Vegetarian",
+    "emoji": "🥬",
+    "desc": "A smoky, Hungarian-leaning cabbage soup with butter-bean creaminess",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "150 g white cabbage, very finely shredded",
+      "180 g tinned butter beans, drained",
+      "70 g onion, diced",
+      "½ tsp sweet smoked paprika",
+      "½ low-salt vegetable stock cube",
+      "1 garlic clove, sliced"
+    ],
+    "method": [
+      "Wash and finely chop the fresh ingredients as specified; use only fully cooked ready-to-eat meat or fish where listed.",
+      "Pour around 125 ml cold water into the 1-litre Morphy Richards 501021 jug. Add the ingredients except any marked (finish).",
+      "Top up with cold water to around 850–900 ml TOTAL contents, always respecting the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Taste and keep paprika smoky rather than chilli-hot."
+    ],
+    "science": "A proposed smooth-soup recipe for variety; exact nutritional values are not yet calculated. Check allergens on all packets and seasonings.",
+    "note": "Project 200 · British heritage · £ · Winter · Idea to try, not kitchen-tested. ID P200-008."
+  },
+  {
+    "name": "Broccoli, English Mustard & Cheddar",
+    "cat": "Vegetarian",
+    "emoji": "🥦",
+    "desc": "Punchy broccoli and mature Cheddar with mustard used as a quiet seasoning",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "240 g broccoli florets, finely chopped",
+      "50 g onion, diced",
+      "40 g mature Cheddar, finely chopped (finish)",
+      "¼ tsp English mustard powder",
+      "½ vegetable stock cube",
+      "1 tsp olive oil"
+    ],
+    "method": [
+      "Wash and finely chop the fresh ingredients as specified; use only fully cooked ready-to-eat meat or fish where listed.",
+      "Pour around 125 ml cold water into the 1-litre Morphy Richards 501021 jug. Add the ingredients except any marked (finish).",
+      "Top up with cold water to around 850–900 ml TOTAL contents, always respecting the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Stir Cheddar into the finished hot soup until melted."
+    ],
+    "science": "A proposed smooth-soup recipe for variety; exact nutritional values are not yet calculated. Check allergens on all packets and seasonings.",
+    "note": "Project 200 · British heritage · £ · Winter · Idea to try, not kitchen-tested. ID P200-009."
+  },
+  {
+    "name": "Jerusalem Artichoke, Hazelnut & Sage",
+    "cat": "Vegetarian",
+    "emoji": "🌰",
+    "desc": "A silken nutty root velouté with hazelnut richness and fragrant sage",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "260 g Jerusalem artichokes, scrubbed and diced small",
+      "35 g smooth hazelnut butter",
+      "60 g onion, diced",
+      "¼ tsp dried sage",
+      "½ low-salt vegetable stock cube",
+      "1 tbsp single cream (finish)"
+    ],
+    "method": [
+      "Wash and finely chop the fresh ingredients as specified; use only fully cooked ready-to-eat meat or fish where listed.",
+      "Pour around 125 ml cold water into the 1-litre Morphy Richards 501021 jug. Add the ingredients except any marked (finish).",
+      "Top up with cold water to around 850–900 ml TOTAL contents, always respecting the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Stir in cream; first-time Jerusalem artichoke eaters may prefer a smaller serving."
+    ],
+    "science": "A proposed smooth-soup recipe for variety; exact nutritional values are not yet calculated. Check allergens on all packets and seasonings.",
+    "note": "Project 200 · British heritage · ££ · Autumn · Idea to try, not kitchen-tested. ID P200-010."
+  },
+  {
+    "name": "Parsley Root, Chestnut Mushroom & Chive",
+    "cat": "Vegetarian",
+    "emoji": "🌱",
+    "desc": "An unusual aromatic root paired with chestnut mushrooms and delicate chive",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "200 g parsley root, peeled and diced into 1 cm pieces",
+      "150 g chestnut mushrooms, sliced",
+      "50 g leek, finely sliced",
+      "½ vegetable stock cube",
+      "1 tsp olive oil",
+      "5 g fresh chives, chopped (finish)"
+    ],
+    "method": [
+      "Wash and finely chop the fresh ingredients as specified; use only fully cooked ready-to-eat meat or fish where listed.",
+      "Pour around 125 ml cold water into the 1-litre Morphy Richards 501021 jug. Add the ingredients except any marked (finish).",
+      "Top up with cold water to around 850–900 ml TOTAL contents, always respecting the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Stir in chopped chives after cooking."
+    ],
+    "science": "A proposed smooth-soup recipe for variety; exact nutritional values are not yet calculated. Check allergens on all packets and seasonings.",
+    "note": "Project 200 · British heritage · ££ · Winter · Idea to try, not kitchen-tested. ID P200-011."
+  },
+  {
+    "name": "Celeriac, Stilton & Worcestershire",
+    "cat": "Wildcard",
+    "emoji": "🧀",
+    "desc": "Earthy celeriac with blue-cheese tang and a whisper of Worcestershire umami",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "230 g celeriac, diced into 1 cm pieces",
+      "50 g onion, diced",
+      "45 g Stilton, crumbled (finish)",
+      "½ tsp Worcestershire sauce",
+      "¼ low-salt vegetable stock cube",
+      "¼ tsp black pepper"
+    ],
+    "method": [
+      "Wash and finely chop the fresh ingredients as specified; use only fully cooked ready-to-eat meat or fish where listed.",
+      "Pour around 125 ml cold water into the 1-litre Morphy Richards 501021 jug. Add the ingredients except any marked (finish).",
+      "Top up with cold water to around 850–900 ml TOTAL contents, always respecting the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Stir Stilton into the hot soup; standard Worcestershire sauce contains anchovy."
+    ],
+    "science": "A proposed smooth-soup recipe for variety; exact nutritional values are not yet calculated. Check allergens on all packets and seasonings.",
+    "note": "Project 200 · British heritage · ££ · Winter · Idea to try, not kitchen-tested. ID P200-012."
+  },
+  {
+    "name": "Sprout Tops, Walnut & White Pepper",
+    "cat": "Vegetarian",
+    "emoji": "🌿",
+    "desc": "Dark brassica greens rounded with walnuts and gently warming white pepper",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "160 g sprout tops or tender kale leaves, very finely chopped",
+      "80 g leek, sliced",
+      "30 g smooth walnut butter",
+      "½ low-salt vegetable stock cube",
+      "¼ tsp white pepper",
+      "1 tsp olive oil"
+    ],
+    "method": [
+      "Wash and finely chop the fresh ingredients as specified; use only fully cooked ready-to-eat meat or fish where listed.",
+      "Pour around 125 ml cold water into the 1-litre Morphy Richards 501021 jug. Add the ingredients except any marked (finish).",
+      "Top up with cold water to around 850–900 ml TOTAL contents, always respecting the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Taste and adjust white pepper."
+    ],
+    "science": "A proposed smooth-soup recipe for variety; exact nutritional values are not yet calculated. Check allergens on all packets and seasonings.",
+    "note": "Project 200 · British heritage · ££ · Winter · Idea to try, not kitchen-tested. ID P200-013."
+  },
+  {
+    "name": "Smoked Ham, Parsnip & Orchard Apple",
+    "cat": "Meat",
+    "emoji": "🍖",
+    "desc": "An orchard-fragrant soup with savoury smoked ham rather than roast-pork flavours",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "120 g ready-to-eat cooked smoked ham, chopped",
+      "210 g parsnips, diced into 1 cm pieces",
+      "55 g tart apple, diced",
+      "50 g onion, diced",
+      "¼ chicken stock cube",
+      "¼ tsp ground mace"
+    ],
+    "method": [
+      "Wash and finely chop the fresh ingredients as specified; use only fully cooked ready-to-eat meat or fish where listed.",
+      "Pour around 125 ml cold water into the 1-litre Morphy Richards 501021 jug. Add the ingredients except any marked (finish).",
+      "Top up with cold water to around 850–900 ml TOTAL contents, always respecting the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Ensure the ham is steaming hot throughout; apple should not make it sweet."
+    ],
+    "science": "A proposed smooth-soup recipe for variety; exact nutritional values are not yet calculated. Check allergens on all packets and seasonings.",
+    "note": "Project 200 · British heritage · ££ · Winter · Idea to try, not kitchen-tested. ID P200-014."
+  },
+  {
+    "name": "Swede, Pear & Smoked Cheese",
+    "cat": "Vegetarian",
+    "emoji": "🧀",
+    "desc": "An earthy-smoky soup with a little pear lending fragrance rather than sweetness",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "240 g swede, diced into 1 cm pieces",
+      "60 g firm ripe pear, diced",
+      "50 g leek, finely sliced",
+      "35 g smoked Cheddar, finely chopped (finish)",
+      "½ vegetable stock cube",
+      "¼ tsp white pepper"
+    ],
+    "method": [
+      "Wash and finely chop the fresh ingredients as specified; use only fully cooked ready-to-eat meat or fish where listed.",
+      "Pour around 125 ml cold water into the 1-litre Morphy Richards 501021 jug. Add the ingredients except any marked (finish).",
+      "Top up with cold water to around 850–900 ml TOTAL contents, always respecting the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Stir in cheese; keep pear subordinate to the swede."
+    ],
+    "science": "A proposed smooth-soup recipe for variety; exact nutritional values are not yet calculated. Check allergens on all packets and seasonings.",
+    "note": "Project 200 · British heritage · ££ · Winter · Idea to try, not kitchen-tested. ID P200-015."
+  },
+  {
+    "name": "Cauliflower, Watercress & Blue Cheese",
+    "cat": "Vegetarian",
+    "emoji": "🥦",
+    "desc": "Peppery watercress cuts through a lightly blue-cheesed cauliflower base",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "170 g cauliflower florets, chopped",
+      "90 g watercress, washed",
+      "60 g onion, diced",
+      "35 g mild blue cheese, crumbled (finish)",
+      "½ low-salt vegetable stock cube",
+      "1 garlic clove, sliced"
+    ],
+    "method": [
+      "Wash and finely chop the fresh ingredients as specified; use only fully cooked ready-to-eat meat or fish where listed.",
+      "Pour around 125 ml cold water into the 1-litre Morphy Richards 501021 jug. Add the ingredients except any marked (finish).",
+      "Top up with cold water to around 850–900 ml TOTAL contents, always respecting the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Stir in the blue cheese once cooked; watercress should remain recognisable."
+    ],
+    "science": "A proposed smooth-soup recipe for variety; exact nutritional values are not yet calculated. Check allergens on all packets and seasonings.",
+    "note": "Project 200 · British heritage · ££ · Spring · Idea to try, not kitchen-tested. ID P200-016."
+  },
+  {
+    "name": "Kale, Chestnut & Sage Cream",
+    "cat": "Vegetarian",
+    "emoji": "🌰",
+    "desc": "Earthy greens and ready-cooked chestnuts give an autumnal, gently nutty velouté",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "120 g tender kale, chopped",
+      "120 g ready-cooked peeled chestnuts",
+      "60 g leek, finely sliced",
+      "¼ tsp dried sage",
+      "½ vegetable stock cube",
+      "30 ml single cream (finish)"
+    ],
+    "method": [
+      "Wash and finely chop the fresh ingredients as specified; use only fully cooked ready-to-eat meat or fish where listed.",
+      "Pour around 125 ml cold water into the 1-litre Morphy Richards 501021 jug. Add the ingredients except any marked (finish).",
+      "Top up with cold water to around 850–900 ml TOTAL contents, always respecting the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Stir in single cream and serve hot."
+    ],
+    "science": "A proposed smooth-soup recipe for variety; exact nutritional values are not yet calculated. Check allergens on all packets and seasonings.",
+    "note": "Project 200 · British heritage · ££ · Autumn · Idea to try, not kitchen-tested. ID P200-017."
+  },
+  {
+    "name": "Venison, Celeriac & Redcurrant",
+    "cat": "Meat",
+    "emoji": "🦌",
+    "desc": "A game-rich countryside velouté with subtle redcurrant brightness",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "130 g fully cooked ready-to-eat venison, chopped",
+      "180 g celeriac, diced into 1 cm pieces",
+      "50 g shallot, diced",
+      "1 tsp redcurrant jelly",
+      "½ beef stock cube",
+      "¼ tsp dried thyme",
+      "30 ml double cream (finish)"
+    ],
+    "method": [
+      "Wash and finely chop the fresh ingredients as specified; use only fully cooked ready-to-eat meat or fish where listed.",
+      "Pour around 125 ml cold water into the 1-litre Morphy Richards 501021 jug. Add the ingredients except any marked (finish).",
+      "Top up with cold water to around 850–900 ml TOTAL contents, always respecting the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Use only venison sold fully cooked and ready to eat; stir in cream and serve piping hot."
+    ],
+    "science": "A proposed smooth-soup recipe for variety; exact nutritional values are not yet calculated. Check allergens on all packets and seasonings.",
+    "note": "Project 200 · British heritage · £££ · Winter · Idea to try, not kitchen-tested. ID P200-018."
+  },
+  {
+    "name": "Pheasant, Leek & Madeira Cream",
+    "cat": "Meat",
+    "emoji": "🪶",
+    "desc": "An elegant game-bird soup with leek, herbaceous thyme and Madeira",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "130 g fully cooked ready-to-eat pheasant, boneless and chopped",
+      "150 g leek, finely sliced",
+      "60 g tinned cannellini beans, drained",
+      "30 ml Madeira wine",
+      "¼ chicken stock cube",
+      "¼ tsp dried thyme",
+      "30 ml single cream (finish)"
+    ],
+    "method": [
+      "Wash and finely chop the fresh ingredients as specified; use only fully cooked ready-to-eat meat or fish where listed.",
+      "Pour around 125 ml cold water into the 1-litre Morphy Richards 501021 jug. Add the ingredients except any marked (finish).",
+      "Top up with cold water to around 850–900 ml TOTAL contents, always respecting the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Use only fully cooked ready-to-eat boneless pheasant; stir in cream, serve piping hot."
+    ],
+    "science": "A proposed smooth-soup recipe for variety; exact nutritional values are not yet calculated. Check allergens on all packets and seasonings.",
+    "note": "Project 200 · British heritage · £££ · Winter · Idea to try, not kitchen-tested. ID P200-019."
+  },
+  {
+    "name": "Hot-Smoked Eel, Watercress & Cider Cream",
+    "cat": "Seafood",
+    "emoji": "🐟",
+    "desc": "An intensely savoury rare treat with watercress pepperiness and orchard-cider aroma",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "90 g ready-to-eat hot-smoked eel, skinned and checked for bones",
+      "100 g watercress, washed",
+      "70 g leek, finely sliced",
+      "70 g cooked cannellini beans",
+      "35 ml dry cider",
+      "¼ vegetable stock cube",
+      "30 ml single cream (finish)"
+    ],
+    "method": [
+      "Wash and finely chop the fresh ingredients as specified; use only fully cooked ready-to-eat meat or fish where listed.",
+      "Pour around 125 ml cold water into the 1-litre Morphy Richards 501021 jug. Add the ingredients except any marked (finish).",
+      "Top up with cold water to around 850–900 ml TOTAL contents, always respecting the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Use ready-to-eat eel only; ensure fish is steaming hot and stir in cream."
+    ],
+    "science": "A proposed smooth-soup recipe for variety; exact nutritional values are not yet calculated. Check allergens on all packets and seasonings.",
+    "note": "Project 200 · British heritage · £££ · Winter · Idea to try, not kitchen-tested. ID P200-020."
+  }
+]
