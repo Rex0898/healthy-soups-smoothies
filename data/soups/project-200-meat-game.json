@@ -1,0 +1,433 @@
+[
+  {
+    "name": "Smoked Ham, Cabbage & Mustard Seed",
+    "cat": "Meat",
+    "emoji": "🍖",
+    "desc": "Soft winter cabbage with savoury smoked ham and a quiet mustard-seed warmth",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "110 g ready-to-eat cooked smoked ham, chopped",
+      "170 g Savoy cabbage, very finely shredded",
+      "110 g tinned cannellini beans, drained",
+      "½ tsp yellow mustard seeds, crushed",
+      "¼ low-salt chicken stock cube",
+      "60 g onion, diced"
+    ],
+    "method": [
+      "Chop fresh vegetables into small pieces and use ONLY fully cooked ready-to-eat meat, removing bones, skin and inedible pieces.",
+      "Pour around 125 ml cold water into the 1-litre soup maker, then add all ingredients except those marked (finish).",
+      "Top up with cold water to roughly 850–900 ml TOTAL, remaining strictly within the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run Smooth for approximately 19 minutes.",
+      "Ensure the ham is steaming hot; mustard should remain understated."
+    ],
+    "science": "The fully cooked meat is a source of protein, iron and/or B vitamins; precise nutrients depend on the product and have not yet been calculated.",
+    "note": "Project 200 · Rich meat & game · £ · Winter · Idea to try, not kitchen-tested. Raw meat prohibited. Cooked specialist meat may require advance sourcing; check the pack states fully cooked and ready to eat. ID P200-055."
+  },
+  {
+    "name": "Ready-to-Eat Chorizo, Bitter Greens & Butter Bean",
+    "cat": "Meat",
+    "emoji": "🥬",
+    "desc": "Ready-to-eat paprika chorizo with bitter greens and silky white beans",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "90 g ready-to-eat cured chorizo, finely diced",
+      "150 g tender kale leaves, chopped",
+      "160 g tinned butter beans, drained",
+      "1 garlic clove, sliced",
+      "¼ vegetable stock cube",
+      "¼ tsp black pepper"
+    ],
+    "method": [
+      "Chop fresh vegetables into small pieces and use ONLY fully cooked ready-to-eat meat, removing bones, skin and inedible pieces.",
+      "Pour around 125 ml cold water into the 1-litre soup maker, then add all ingredients except those marked (finish).",
+      "Top up with cold water to roughly 850–900 ml TOTAL, remaining strictly within the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run Smooth for approximately 19 minutes.",
+      "Use only chorizo labelled ready to eat, never raw cooking chorizo."
+    ],
+    "science": "The fully cooked meat is a source of protein, iron and/or B vitamins; precise nutrients depend on the product and have not yet been calculated.",
+    "note": "Project 200 · Rich meat & game · £ · Winter · Idea to try, not kitchen-tested. Raw meat prohibited. Cooked specialist meat may require advance sourcing; check the pack states fully cooked and ready to eat. ID P200-056."
+  },
+  {
+    "name": "Cooked Beef, Parsnip & Juniper",
+    "cat": "Meat",
+    "emoji": "🥩",
+    "desc": "Earthy cooked beef with parsnip and a hint of piney juniper",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "125 g ready-to-eat cooked roast beef, chopped",
+      "210 g parsnips, diced into 1 cm pieces",
+      "50 g shallot, diced",
+      "1 juniper berry, finely crushed",
+      "½ low-salt beef stock cube",
+      "¼ tsp white pepper",
+      "30 ml crème fraîche (finish)"
+    ],
+    "method": [
+      "Chop fresh vegetables into small pieces and use ONLY fully cooked ready-to-eat meat, removing bones, skin and inedible pieces.",
+      "Pour around 125 ml cold water into the 1-litre soup maker, then add all ingredients except those marked (finish).",
+      "Top up with cold water to roughly 850–900 ml TOTAL, remaining strictly within the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run Smooth for approximately 19 minutes.",
+      "Stir in crème fraîche and serve piping hot."
+    ],
+    "science": "The fully cooked meat is a source of protein, iron and/or B vitamins; precise nutrients depend on the product and have not yet been calculated.",
+    "note": "Project 200 · Rich meat & game · ££ · Winter · Idea to try, not kitchen-tested. Raw meat prohibited. Cooked specialist meat may require advance sourcing; check the pack states fully cooked and ready to eat. ID P200-057."
+  },
+  {
+    "name": "Roast Chicken, Watercress & Gentle Dijon",
+    "cat": "Meat",
+    "emoji": "🍗",
+    "desc": "Chicken soup lifted by peppery watercress and a subtle mustard background",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "125 g ready-to-eat cooked roast chicken, skin and bones removed",
+      "110 g watercress",
+      "110 g tinned cannellini beans, drained",
+      "60 g leek, sliced",
+      "¼ tsp Dijon mustard",
+      "¼ chicken stock cube",
+      "25 ml single cream (finish)"
+    ],
+    "method": [
+      "Chop fresh vegetables into small pieces and use ONLY fully cooked ready-to-eat meat, removing bones, skin and inedible pieces.",
+      "Pour around 125 ml cold water into the 1-litre soup maker, then add all ingredients except those marked (finish).",
+      "Top up with cold water to roughly 850–900 ml TOTAL, remaining strictly within the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run Smooth for approximately 19 minutes.",
+      "Stir in cream and serve piping hot; mustard should not dominate."
+    ],
+    "science": "The fully cooked meat is a source of protein, iron and/or B vitamins; precise nutrients depend on the product and have not yet been calculated.",
+    "note": "Project 200 · Rich meat & game · ££ · Spring · Idea to try, not kitchen-tested. Raw meat prohibited. Cooked specialist meat may require advance sourcing; check the pack states fully cooked and ready to eat. ID P200-058."
+  },
+  {
+    "name": "Turkey, Savoy Cabbage & White Wine Cream",
+    "cat": "Meat",
+    "emoji": "🦃",
+    "desc": "Mellow cooked turkey and winter cabbage enriched with a splash of white wine",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "130 g ready-to-eat cooked turkey breast, diced",
+      "140 g Savoy cabbage, very finely shredded",
+      "90 g tinned butter beans, drained",
+      "40 ml dry white wine",
+      "¼ chicken stock cube",
+      "¼ tsp dried thyme",
+      "25 ml single cream (finish)"
+    ],
+    "method": [
+      "Chop fresh vegetables into small pieces and use ONLY fully cooked ready-to-eat meat, removing bones, skin and inedible pieces.",
+      "Pour around 125 ml cold water into the 1-litre soup maker, then add all ingredients except those marked (finish).",
+      "Top up with cold water to roughly 850–900 ml TOTAL, remaining strictly within the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run Smooth for approximately 19 minutes.",
+      "Stir in cream; ensure turkey is steaming hot."
+    ],
+    "science": "The fully cooked meat is a source of protein, iron and/or B vitamins; precise nutrients depend on the product and have not yet been calculated.",
+    "note": "Project 200 · Rich meat & game · ££ · Winter · Idea to try, not kitchen-tested. Raw meat prohibited. Cooked specialist meat may require advance sourcing; check the pack states fully cooked and ready to eat. ID P200-059."
+  },
+  {
+    "name": "Roast Pork, Chestnut & Dry Cider",
+    "cat": "Meat",
+    "emoji": "🍖",
+    "desc": "Ready-cooked pork with nutty chestnut body and restrained dry cider",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "125 g ready-to-eat cooked roast pork, chopped",
+      "120 g vacuum-packed ready-cooked peeled chestnuts",
+      "55 g leek, sliced",
+      "40 ml dry cider",
+      "¼ chicken stock cube",
+      "¼ tsp dried sage",
+      "¼ tsp white pepper"
+    ],
+    "method": [
+      "Chop fresh vegetables into small pieces and use ONLY fully cooked ready-to-eat meat, removing bones, skin and inedible pieces.",
+      "Pour around 125 ml cold water into the 1-litre soup maker, then add all ingredients except those marked (finish).",
+      "Top up with cold water to roughly 850–900 ml TOTAL, remaining strictly within the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run Smooth for approximately 19 minutes.",
+      "Blend smooth and check the pork is heated throughout."
+    ],
+    "science": "The fully cooked meat is a source of protein, iron and/or B vitamins; precise nutrients depend on the product and have not yet been calculated.",
+    "note": "Project 200 · Rich meat & game · ££ · Autumn · Idea to try, not kitchen-tested. Raw meat prohibited. Cooked specialist meat may require advance sourcing; check the pack states fully cooked and ready to eat. ID P200-060."
+  },
+  {
+    "name": "Duck, Green Olive & Juniper",
+    "cat": "Meat",
+    "emoji": "🦆",
+    "desc": "Cooked duck with briny green olives, a little juniper and rich beans",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "120 g fully cooked ready-to-eat duck meat, skin and bones removed",
+      "35 g pitted green olives",
+      "140 g tinned cannellini beans, drained",
+      "50 g shallot, diced",
+      "1 juniper berry, crushed",
+      "¼ chicken stock cube",
+      "25 ml single cream (finish)"
+    ],
+    "method": [
+      "Chop fresh vegetables into small pieces and use ONLY fully cooked ready-to-eat meat, removing bones, skin and inedible pieces.",
+      "Pour around 125 ml cold water into the 1-litre soup maker, then add all ingredients except those marked (finish).",
+      "Top up with cold water to roughly 850–900 ml TOTAL, remaining strictly within the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run Smooth for approximately 19 minutes.",
+      "Stir in cream and taste for salt; use fully cooked duck only."
+    ],
+    "science": "The fully cooked meat is a source of protein, iron and/or B vitamins; precise nutrients depend on the product and have not yet been calculated.",
+    "note": "Project 200 · Rich meat & game · ££ · Winter · Idea to try, not kitchen-tested. Raw meat prohibited. Cooked specialist meat may require advance sourcing; check the pack states fully cooked and ready to eat. ID P200-061."
+  },
+  {
+    "name": "Lamb, Aubergine & Sumac Cream",
+    "cat": "Meat",
+    "emoji": "🐑",
+    "desc": "Cooked lamb and prepared grilled aubergine with a dry, lemony sumac accent",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "125 g fully cooked ready-to-eat lamb, diced",
+      "190 g jarred grilled aubergine, drained",
+      "90 g tinned butter beans, drained",
+      "¼ tsp ground sumac",
+      "¼ beef stock cube",
+      "1 garlic clove, sliced",
+      "25 ml single cream (finish)"
+    ],
+    "method": [
+      "Chop fresh vegetables into small pieces and use ONLY fully cooked ready-to-eat meat, removing bones, skin and inedible pieces.",
+      "Pour around 125 ml cold water into the 1-litre soup maker, then add all ingredients except those marked (finish).",
+      "Top up with cold water to roughly 850–900 ml TOTAL, remaining strictly within the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run Smooth for approximately 19 minutes.",
+      "Stir in cream and serve piping hot; use cooked lamb only."
+    ],
+    "science": "The fully cooked meat is a source of protein, iron and/or B vitamins; precise nutrients depend on the product and have not yet been calculated.",
+    "note": "Project 200 · Rich meat & game · ££ · Autumn · Idea to try, not kitchen-tested. Raw meat prohibited. Cooked specialist meat may require advance sourcing; check the pack states fully cooked and ready to eat. ID P200-062."
+  },
+  {
+    "name": "Bresaola, Rocket & Pecorino Cream",
+    "cat": "Meat",
+    "emoji": "🥩",
+    "desc": "Peppery rocket and cured Italian beef, enriched with Pecorino",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "95 g ready-to-eat bresaola, torn small",
+      "100 g rocket leaves",
+      "140 g cooked cannellini beans",
+      "30 g Pecorino Romano, finely grated (finish)",
+      "60 g leek, sliced",
+      "¼ vegetable stock cube",
+      "1 tsp olive oil"
+    ],
+    "method": [
+      "Chop fresh vegetables into small pieces and use ONLY fully cooked ready-to-eat meat, removing bones, skin and inedible pieces.",
+      "Pour around 125 ml cold water into the 1-litre soup maker, then add all ingredients except those marked (finish).",
+      "Top up with cold water to roughly 850–900 ml TOTAL, remaining strictly within the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run Smooth for approximately 19 minutes.",
+      "Stir in Pecorino after cooking; cured beef and cheese are salty."
+    ],
+    "science": "The fully cooked meat is a source of protein, iron and/or B vitamins; precise nutrients depend on the product and have not yet been calculated.",
+    "note": "Project 200 · Rich meat & game · ££ · Spring · Idea to try, not kitchen-tested. Raw meat prohibited. Cooked specialist meat may require advance sourcing; check the pack states fully cooked and ready to eat. ID P200-063."
+  },
+  {
+    "name": "Venison, Porcini & Dry Sherry",
+    "cat": "Meat",
+    "emoji": "🦌",
+    "desc": "A dark game velouté with porcini and restrained sherry depth",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "145 g fully cooked ready-to-eat venison, chopped",
+      "160 g chestnut mushrooms, sliced",
+      "12 g dried porcini, finely crumbled",
+      "40 ml dry sherry",
+      "65 g tinned cannellini beans",
+      "½ beef stock cube",
+      "30 ml double cream (finish)"
+    ],
+    "method": [
+      "Chop fresh vegetables into small pieces and use ONLY fully cooked ready-to-eat meat, removing bones, skin and inedible pieces.",
+      "Pour around 125 ml cold water into the 1-litre soup maker, then add all ingredients except those marked (finish).",
+      "Top up with cold water to roughly 850–900 ml TOTAL, remaining strictly within the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run Smooth for approximately 19 minutes.",
+      "Stir in cream; use fully cooked venison and ensure steaming hot throughout."
+    ],
+    "science": "The fully cooked meat is a source of protein, iron and/or B vitamins; precise nutrients depend on the product and have not yet been calculated.",
+    "note": "Project 200 · Rich meat & game · £££ · Winter · Idea to try, not kitchen-tested. Raw meat prohibited. Cooked specialist meat may require advance sourcing; check the pack states fully cooked and ready to eat. ID P200-064."
+  },
+  {
+    "name": "Duck Confit, Sour Cherry & Thyme",
+    "cat": "Meat",
+    "emoji": "🦆",
+    "desc": "A luxurious duck soup with tart cherry depth and herbal thyme",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "140 g fully cooked ready-to-eat duck confit meat, bones and skin removed",
+      "90 g tinned butter beans, drained",
+      "65 g onion, diced",
+      "15 g sour cherry preserve",
+      "½ tsp dried thyme",
+      "¼ chicken stock cube",
+      "25 ml single cream (finish)"
+    ],
+    "method": [
+      "Chop fresh vegetables into small pieces and use ONLY fully cooked ready-to-eat meat, removing bones, skin and inedible pieces.",
+      "Pour around 125 ml cold water into the 1-litre soup maker, then add all ingredients except those marked (finish).",
+      "Top up with cold water to roughly 850–900 ml TOTAL, remaining strictly within the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run Smooth for approximately 19 minutes.",
+      "Ensure confit is fully cooked and ready to eat; stir in cream."
+    ],
+    "science": "The fully cooked meat is a source of protein, iron and/or B vitamins; precise nutrients depend on the product and have not yet been calculated.",
+    "note": "Project 200 · Rich meat & game · £££ · Winter · Idea to try, not kitchen-tested. Raw meat prohibited. Cooked specialist meat may require advance sourcing; check the pack states fully cooked and ready to eat. ID P200-065."
+  },
+  {
+    "name": "Lamb, Artichoke & Saffron",
+    "cat": "Meat",
+    "emoji": "🐑",
+    "desc": "Silky cooked lamb with artichokes and saffron's golden aroma",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "150 g fully cooked ready-to-eat lamb, diced",
+      "190 g jarred artichoke hearts, drained",
+      "65 g cooked cannellini beans",
+      "1 small pinch saffron",
+      "½ low-salt lamb or beef stock cube",
+      "25 ml single cream (finish)"
+    ],
+    "method": [
+      "Chop fresh vegetables into small pieces and use ONLY fully cooked ready-to-eat meat, removing bones, skin and inedible pieces.",
+      "Pour around 125 ml cold water into the 1-litre soup maker, then add all ingredients except those marked (finish).",
+      "Top up with cold water to roughly 850–900 ml TOTAL, remaining strictly within the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run Smooth for approximately 19 minutes.",
+      "Stir in cream and serve hot; use cooked lamb only."
+    ],
+    "science": "The fully cooked meat is a source of protein, iron and/or B vitamins; precise nutrients depend on the product and have not yet been calculated.",
+    "note": "Project 200 · Rich meat & game · £££ · Winter sunshine · Idea to try, not kitchen-tested. Raw meat prohibited. Cooked specialist meat may require advance sourcing; check the pack states fully cooked and ready to eat. ID P200-066."
+  },
+  {
+    "name": "Smoked Goose, Beetroot & Walnut",
+    "cat": "Meat",
+    "emoji": "🪿",
+    "desc": "Rare smoked goose paired with beetroot earthiness and walnut",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "120 g fully cooked ready-to-eat smoked goose breast, chopped",
+      "190 g plain ready-cooked beetroot, diced",
+      "25 g smooth walnut butter",
+      "50 g red onion, diced",
+      "¼ chicken stock cube",
+      "¼ tsp white pepper",
+      "25 ml crème fraîche (finish)"
+    ],
+    "method": [
+      "Chop fresh vegetables into small pieces and use ONLY fully cooked ready-to-eat meat, removing bones, skin and inedible pieces.",
+      "Pour around 125 ml cold water into the 1-litre soup maker, then add all ingredients except those marked (finish).",
+      "Top up with cold water to roughly 850–900 ml TOTAL, remaining strictly within the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run Smooth for approximately 19 minutes.",
+      "Use sliced goose sold ready to eat; stir in crème fraîche and avoid added salt."
+    ],
+    "science": "The fully cooked meat is a source of protein, iron and/or B vitamins; precise nutrients depend on the product and have not yet been calculated.",
+    "note": "Project 200 · Rich meat & game · £££ · Winter · Idea to try, not kitchen-tested. Raw meat prohibited. Cooked specialist meat may require advance sourcing; check the pack states fully cooked and ready to eat. ID P200-067."
+  },
+  {
+    "name": "Slow-Cooked Ox Cheek, Walnut & Madeira",
+    "cat": "Meat",
+    "emoji": "🥩",
+    "desc": "Beef cheek richness with walnut and a restrained Madeira finish",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "155 g fully cooked ready-to-eat slow-cooked beef cheek, chopped",
+      "130 g celeriac, diced into 1 cm pieces",
+      "25 g smooth walnut butter",
+      "35 ml Madeira wine",
+      "½ low-salt beef stock cube",
+      "30 ml double cream (finish)"
+    ],
+    "method": [
+      "Chop fresh vegetables into small pieces and use ONLY fully cooked ready-to-eat meat, removing bones, skin and inedible pieces.",
+      "Pour around 125 ml cold water into the 1-litre soup maker, then add all ingredients except those marked (finish).",
+      "Top up with cold water to roughly 850–900 ml TOTAL, remaining strictly within the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run Smooth for approximately 19 minutes.",
+      "Never use raw ox cheek. Use a fully cooked prepared product and stir cream in after cooking."
+    ],
+    "science": "The fully cooked meat is a source of protein, iron and/or B vitamins; precise nutrients depend on the product and have not yet been calculated.",
+    "note": "Project 200 · Rich meat & game · £££ · Winter · Idea to try, not kitchen-tested. Raw meat prohibited. Cooked specialist meat may require advance sourcing; check the pack states fully cooked and ready to eat. ID P200-068."
+  },
+  {
+    "name": "Roast Beef, Roquefort & Chicory",
+    "cat": "Meat",
+    "emoji": "🧀",
+    "desc": "Rich roast beef meets pleasantly bitter chicory and tangy Roquefort",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "120 g ready-to-eat cooked roast beef, chopped",
+      "160 g chicory, finely sliced",
+      "100 g tinned butter beans",
+      "45 g Roquefort, crumbled (finish)",
+      "¼ low-salt beef stock cube",
+      "30 g shallot, diced",
+      "¼ tsp black pepper"
+    ],
+    "method": [
+      "Chop fresh vegetables into small pieces and use ONLY fully cooked ready-to-eat meat, removing bones, skin and inedible pieces.",
+      "Pour around 125 ml cold water into the 1-litre soup maker, then add all ingredients except those marked (finish).",
+      "Top up with cold water to roughly 850–900 ml TOTAL, remaining strictly within the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run Smooth for approximately 19 minutes.",
+      "Stir Roquefort in after cooking; serve beef steaming hot."
+    ],
+    "science": "The fully cooked meat is a source of protein, iron and/or B vitamins; precise nutrients depend on the product and have not yet been calculated.",
+    "note": "Project 200 · Rich meat & game · £££ · Winter · Idea to try, not kitchen-tested. Raw meat prohibited. Cooked specialist meat may require advance sourcing; check the pack states fully cooked and ready to eat. ID P200-069."
+  }
+]
