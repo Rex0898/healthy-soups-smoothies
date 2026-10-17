@@ -35,6 +35,41 @@
       "category": "Batch 01",
       "file": "./data/soups/batch-01-2026-10.json",
       "count": 11
+    },
+    {
+      "category": "British Heritage",
+      "file": "./data/soups/project-200-british.json",
+      "count": 20
+    },
+    {
+      "category": "Coastal & Maritime",
+      "file": "./data/soups/project-200-coastal.json",
+      "count": 18
+    },
+    {
+      "category": "Mediterranean Sunshine",
+      "file": "./data/soups/project-200-mediterranean.json",
+      "count": 16
+    },
+    {
+      "category": "Rich Meat & Game",
+      "file": "./data/soups/project-200-meat-game.json",
+      "count": 15
+    },
+    {
+      "category": "East Asian Fusion",
+      "file": "./data/soups/project-200-asian-fusion.json",
+      "count": 8
+    },
+    {
+      "category": "Global & Historical",
+      "file": "./data/soups/project-200-global-historical.json",
+      "count": 6
+    },
+    {
+      "category": "Experimental Vegetables",
+      "file": "./data/soups/project-200-experimental-veg.json",
+      "count": 6
     }
   ],
   "smoothies": [
