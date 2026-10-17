@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "soups": [
     {
       "category": "Meat",
@@ -102,7 +102,47 @@
       "category": "Green",
       "file": "./data/smoothies/green.json",
       "count": 10
+    },
+    {
+      "category": "Stone Fruits",
+      "file": "./data/smoothies/project-400-stone-fruit.json",
+      "count": 19
+    },
+    {
+      "category": "Berries & Hedgerow",
+      "file": "./data/smoothies/project-400-berries.json",
+      "count": 19
+    },
+    {
+      "category": "Tropical & Exotic",
+      "file": "./data/smoothies/project-400-tropical.json",
+      "count": 19
+    },
+    {
+      "category": "Creamy & Nutty",
+      "file": "./data/smoothies/project-400-creamy-nutty.json",
+      "count": 19
+    },
+    {
+      "category": "Citrus & Melon",
+      "file": "./data/smoothies/project-400-citrus-melon.json",
+      "count": 6
+    },
+    {
+      "category": "Botanical & Floral",
+      "file": "./data/smoothies/project-400-botanical.json",
+      "count": 6
+    },
+    {
+      "category": "Bittersweet",
+      "file": "./data/smoothies/project-400-bittersweet.json",
+      "count": 6
+    },
+    {
+      "category": "Global Drinks",
+      "file": "./data/smoothies/project-400-global.json",
+      "count": 6
     }
   ],
-  "library_build": "project-200-20261017"
+  "library_build": "project-400-20261017"
 }
