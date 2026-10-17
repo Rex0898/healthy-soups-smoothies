@@ -44,10 +44,10 @@ async function checkForNewRecipes(){
 }
 document.addEventListener("visibilitychange",()=>{if(!document.hidden) checkForNewRecipes()});
 const STORAGE_KEY="healthySoupsSmoothies_v3";
-let STATE={schemaVersion:4,pantry:{},planned:[],made:{}};
+let STATE={schemaVersion:4,pantry:{},planned:[],made:{},favourites:[]};
 try{
   const saved=JSON.parse(localStorage.getItem(STORAGE_KEY)||"null");
-  if(saved&&typeof saved==="object") STATE={schemaVersion:saved.schemaVersion||3,pantry:saved.pantry||{},planned:saved.planned||[],made:saved.made||{}};
+  if(saved&&typeof saved==="object") STATE={schemaVersion:saved.schemaVersion||3,pantry:saved.pantry||{},planned:saved.planned||[],made:saved.made||{},favourites:saved.favourites||[]};
 }catch(e){}
 
 function save(){localStorage.setItem(STORAGE_KEY,JSON.stringify(STATE))}
@@ -198,6 +198,7 @@ const recipeIndex={};
 ["soups","smoothies"].forEach(type=>DB[type].forEach((r,i)=>{
   r._id=type+":"+i;
   r._type=type;
+  r._favKey=type+"::"+r.name;
   r._req=r.ing.map(parseIngredient).filter(x=>!x.skip);
   recipeIndex[r._id]=r;
 }));
@@ -322,6 +323,13 @@ function togglePlan(r){
   else{STATE.planned.push(r._id);toast("Added to shopping plan")}
   save();renderAll();
 }
+function isFavourite(r){return STATE.favourites.includes(r._favKey)}
+function toggleFavourite(r){
+  const i=STATE.favourites.indexOf(r._favKey);
+  if(i>=0){STATE.favourites.splice(i,1);toast("Removed from favourites")}
+  else{STATE.favourites.push(r._favKey);toast("Added to favourites ⭐")}
+  save();renderAll();
+}
 function aggregatePlanned(){
   const needs={};
   for(const id of STATE.planned){
@@ -359,7 +367,7 @@ function qtyText(item){
   return parts.length?parts.join(" + "):"in stock";
 }
 
-let tab="soups",cat="All",vis=[],oi=0,canOnly=false,plannedOnly=false;
+let tab="soups",cat="All",vis=[],oi=0,canOnly=false,plannedOnly=false,favouritesOnly=false;
 const grid=$("#grid"),chips=$("#chips"),q=$("#q"),back=$("#back"),detail=$("#detail");
 
 function cats(){return ["All",...new Set(DB[tab].map(r=>r.cat))]}
@@ -381,14 +389,24 @@ function drawRecipes(){
     return (cat==="All"||r.cat===cat) &&
       (!s||JSON.stringify(r).toLowerCase().includes(s)) &&
       (!canOnly||av.ok) &&
-      (!plannedOnly||STATE.planned.includes(r._id));
+      (!plannedOnly||STATE.planned.includes(r._id)) &&
+      (!favouritesOnly||isFavourite(r));
+  }).sort((a,b)=>{
+    const aa=recipeAvailability(a),bb=recipeAvailability(b);
+    if(aa.ok!==bb.ok) return aa.ok?-1:1;
+    const aMissing=aa.total-aa.have,bMissing=bb.total-bb.have;
+    if(aMissing!==bMissing) return aMissing-bMissing;
+    const aRatio=aa.total?aa.have/aa.total:0,bRatio=bb.total?bb.have/bb.total:0;
+    if(Math.abs(aRatio-bRatio)>1e-9) return bRatio-aRatio;
+    return a.name.localeCompare(b.name);
   });
   grid.innerHTML="";
   vis.forEach((r,i)=>{
-    const av=recipeAvailability(r),planned=STATE.planned.includes(r._id),made=STATE.made[r._id]||0;
+    const av=recipeAvailability(r),planned=STATE.planned.includes(r._id),made=STATE.made[r._id]||0,favourite=isFavourite(r);
     const b=document.createElement("button");b.className="card";
     const extra=[
       av.ok?`<span class="tag ok">✓ Can make</span>`:`<span class="tag">${av.have}/${av.total} in</span>`,
+      favourite?`<span class="tag">⭐ Favourite</span>`:"",
       planned?`<span class="tag plan">🛒 Planned</span>`:"",
       made?`<span class="tag made">Made ${made}×</span>`:""
     ].join("");
@@ -399,13 +417,14 @@ function drawRecipes(){
   $("#emptyRecipes").style.display=vis.length?"none":"block";
 }
 function openR(i){
-  if(!vis.length)return;oi=(i+vis.length)%vis.length;const r=vis[oi],av=recipeAvailability(r),planned=STATE.planned.includes(r._id),made=STATE.made[r._id]||0;
+  if(!vis.length)return;oi=(i+vis.length)%vis.length;const r=vis[oi],av=recipeAvailability(r),planned=STATE.planned.includes(r._id),made=STATE.made[r._id]||0,favourite=isFavourite(r);
   $("#idx").textContent=`${tab==="soups"?"Soup":"Smoothie"} ${oi+1} of ${vis.length} · ${r.cat}`;
   detail.innerHTML=`
     <div class="k">${r.emoji} ${r.cat}</div>
     <h2>${r.name}</h2><p class="lead">${r.desc}</p>
     <div class="tags"><span class="tag ${av.ok?"ok":""}">${av.ok?"✓ Can make now":`${av.have}/${av.total} ingredients in`}</span>${made?`<span class="tag made">Made ${made}×</span>`:""}</div>
     <div class="actionbar">
+      <button id="favRecipe" class="action ${favourite?"primary":""}">${favourite?"★ Favourited":"☆ Add favourite"}</button>
       <button id="planRecipe" class="action ${planned?"danger":"primary"}">${planned?"Remove from shopping plan":"🛒 Add to shopping plan"}</button>
       <button id="madeRecipe" class="action good">✓ I made this</button>
     </div>
@@ -415,6 +434,12 @@ function openR(i){
     <section class="block"><h3>Nutritional strengths</h3><p>${r.science}</p></section>
     <section class="block"><div class="note"><strong>Machine note:</strong> ${r.note}</div></section>
     <p class="small">When you tap “I made this”, quantified pantry ingredients are reduced automatically. Unquantified seasonings remain marked as in stock because the recipe does not state how much was consumed.</p>`;
+  $("#favRecipe").onclick=()=>{
+    toggleFavourite(r);
+    if(favouritesOnly&&!isFavourite(r)){closeR();return}
+    const nextIndex=vis.findIndex(x=>x._favKey===r._favKey);
+    if(nextIndex>=0) openR(nextIndex);
+  };
   $("#planRecipe").onclick=()=>{togglePlan(r);openR(oi)};
   $("#madeRecipe").onclick=()=>{consumeRecipe(r);openR(Math.min(oi,vis.length-1))};
   back.classList.add("open");document.body.style.overflow="hidden";
@@ -577,7 +602,13 @@ function renderShopping(){
 }
 function renderPantry(){
   const s=$("#pantrySearch").value.trim().toLowerCase();
-  const names=catalogNames.filter(n=>n.toLowerCase().includes(s));
+  const names=catalogNames.filter(n=>n.toLowerCase().includes(s)).sort((a,b)=>{
+    const sa=STATE.pantry[a],sb=STATE.pantry[b];
+    const aIn=!!sa&&(sa.unlimited||Object.values(sa.amounts||{}).some(v=>v>0));
+    const bIn=!!sb&&(sb.unlimited||Object.values(sb.amounts||{}).some(v=>v>0));
+    if(aIn!==bIn) return aIn?-1:1;
+    return a.localeCompare(b);
+  });
   $("#ingredientCount").textContent=`${names.length} ingredient${names.length===1?"":"s"}`;
   const list=$("#pantryList");list.innerHTML="";
   names.forEach(name=>{
@@ -612,6 +643,7 @@ document.querySelectorAll(".tab").forEach(b=>b.onclick=()=>{
 q.oninput=drawRecipes;
 $("#canMakeToggle").onclick=()=>{canOnly=!canOnly;$("#canMakeToggle").classList.toggle("on",canOnly);drawRecipes()};
 $("#plannedToggle").onclick=()=>{plannedOnly=!plannedOnly;$("#plannedToggle").classList.toggle("on",plannedOnly);drawRecipes()};
+$("#favouritesToggle").onclick=()=>{favouritesOnly=!favouritesOnly;$("#favouritesToggle").classList.toggle("on",favouritesOnly);drawRecipes()};
 $("#pantrySearch").oninput=renderPantry;
 $("#clearPlan").onclick=()=>{STATE.planned=[];save();toast("Shopping plan cleared");renderAll()};
 $("#buyAll").onclick=()=>{missingShopping().forEach(item=>{if(item.unquantified&&!Object.keys(item.amounts||{}).length)addRequirementToPantry({name:item.name,amount:null,unit:null});Object.entries(item.amounts||{}).forEach(([unit,amount])=>addRequirementToPantry({name:item.name,amount,unit},amount))});toast("Shopping list moved to pantry");renderAll()};
