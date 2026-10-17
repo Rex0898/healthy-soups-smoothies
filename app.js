@@ -1,4 +1,4 @@
-const RECIPE_LIBRARY_BUILD="project-200-20261017";
+const RECIPE_LIBRARY_BUILD="project-400-20261017";
 function libraryAssetUrl(path){
   return path+(path.includes("?")?"&":"?")+"library="+encodeURIComponent(RECIPE_LIBRARY_BUILD);
 }
@@ -35,9 +35,10 @@ async function checkForNewRecipes(){
     const res=await fetch(libraryAssetUrl("./data/index.json")+"&check="+Date.now(),{cache:"reload"});
     if(!res.ok) return;
     const manifest=await res.json();
-    const count=(manifest.soups||[]).reduce((n,x)=>n+Number(x.count||0),0);
-    if(count>DB.soups.length && reloadButton){
-      reloadButton.textContent=`Update to ${count} soups`;
+    const soupCount=(manifest.soups||[]).reduce((n,x)=>n+Number(x.count||0),0);
+    const smoothieCount=(manifest.smoothies||[]).reduce((n,x)=>n+Number(x.count||0),0);
+    if((soupCount>DB.soups.length || smoothieCount>DB.smoothies.length) && reloadButton){
+      reloadButton.textContent=`Update recipes (${soupCount} soups, ${smoothieCount} smoothies)`;
       reloadButton.classList.add("on");
     }
   }catch(e){console.warn("Recipe update check unavailable",e)}
