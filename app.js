@@ -434,7 +434,12 @@ function openR(i){
     <section class="block"><h3>Nutritional strengths</h3><p>${r.science}</p></section>
     <section class="block"><div class="note"><strong>Machine note:</strong> ${r.note}</div></section>
     <p class="small">When you tap “I made this”, quantified pantry ingredients are reduced automatically. Unquantified seasonings remain marked as in stock because the recipe does not state how much was consumed.</p>`;
-  $("#favRecipe").onclick=()=>{toggleFavourite(r);openR(oi)};
+  $("#favRecipe").onclick=()=>{
+    toggleFavourite(r);
+    if(favouritesOnly&&!isFavourite(r)){closeR();return}
+    const nextIndex=vis.findIndex(x=>x._favKey===r._favKey);
+    if(nextIndex>=0) openR(nextIndex);
+  };
   $("#planRecipe").onclick=()=>{togglePlan(r);openR(oi)};
   $("#madeRecipe").onclick=()=>{consumeRecipe(r);openR(Math.min(oi,vis.length-1))};
   back.classList.add("open");document.body.style.overflow="hidden";
