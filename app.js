@@ -17,10 +17,10 @@ async function loadRecipeDB(){
 async function boot(){
 const DB=await loadRecipeDB();
 const STORAGE_KEY="healthySoupsSmoothies_v3";
-let STATE={pantry:{},planned:[],made:{}};
+let STATE={schemaVersion:4,pantry:{},planned:[],made:{}};
 try{
   const saved=JSON.parse(localStorage.getItem(STORAGE_KEY)||"null");
-  if(saved&&typeof saved==="object") STATE={pantry:saved.pantry||{},planned:saved.planned||[],made:saved.made||{}};
+  if(saved&&typeof saved==="object") STATE={schemaVersion:saved.schemaVersion||3,pantry:saved.pantry||{},planned:saved.planned||[],made:saved.made||{}};
 }catch(e){}
 
 function save(){localStorage.setItem(STORAGE_KEY,JSON.stringify(STATE))}
@@ -50,7 +50,8 @@ function prettyNum(n){
 function titleCase(s){return s.replace(/\b\w/g,c=>c.toUpperCase()).replace(/\bAnd\b/g,"and").replace(/\bOr\b/g,"or")}
 
 function canonicalName(raw){
-  let s=raw.toLowerCase()
+  const original=raw.toLowerCase();
+  let s=original
     .replace(/\([^)]*\)/g," ")
     .replace(/,.*$/," ")
     .replace(/\b(roughly|finely|coarsely|thinly)\b/g," ")
@@ -58,20 +59,47 @@ function canonicalName(raw){
     .replace(/\b(adjusted to max|or enough to remain below max|as needed|if needed|to taste)\b/g," ")
     .replace(/\s+/g," ").trim();
 
+  // Keep pantry identities distinct when the physical thing you buy is different.
+  if(/chicken stock cube/.test(s)) return "chicken stock cube";
+  if(/beef stock cube/.test(s)) return "beef stock cube";
+  if(/vegetable stock cube/.test(s)) return "vegetable stock cube";
+  if(/fish stock cube/.test(s)) return "fish stock cube";
+  if(/stock cube/.test(s)) return "stock cube";
+  if(/chicken stock/.test(s)) return "chicken stock";
+  if(/beef stock/.test(s)) return "beef stock";
+  if(/vegetable stock/.test(s)) return "vegetable stock";
+  if(/fish stock/.test(s)) return "fish stock";
+
+  if(/dried basil/.test(original)) return "dried basil";
+  if(/fresh basil|basil leaves?/.test(original)) return "fresh basil";
+  if(/dried mint/.test(original)) return "dried mint";
+  if(/fresh mint|mint leaves?/.test(original)) return "fresh mint";
+  if(/dried thyme/.test(original)) return "dried thyme";
+  if(/fresh thyme/.test(original)) return "fresh thyme";
+  if(/dried rosemary/.test(original)) return "dried rosemary";
+  if(/fresh rosemary/.test(original)) return "fresh rosemary";
+  if(/dried dill/.test(original)) return "dried dill";
+  if(/fresh dill/.test(original)) return "fresh dill";
+  if(/dried oregano/.test(original)) return "dried oregano";
+  if(/fresh oregano/.test(original)) return "fresh oregano";
+  if(/dried tarragon/.test(original)) return "dried tarragon";
+  if(/fresh tarragon/.test(original)) return "fresh tarragon";
+  if(/ground ginger/.test(original)) return "ground ginger";
+  if(/ginger/.test(original)) return "fresh ginger";
+
   const rules=[
     [/spring onion/,"spring onion"],[/garlic/,"garlic"],[/onion/,"onion"],
-    [/beef stock/,"beef stock cube"],[/chicken stock/,"chicken stock cube"],[/vegetable stock/,"vegetable stock cube"],[/fish stock/,"fish stock cube"],[/stock cube/,"stock cube"],
     [/cooked chicken|chicken breast/,"cooked chicken"],[/cooked lean beef|cooked beef/,"cooked beef"],[/cooked lamb/,"cooked lamb"],[/cooked pork|roast pork/,"cooked pork"],[/cooked turkey/,"cooked turkey"],
     [/smoked bacon|bacon pieces/,"smoked bacon"],[/smoked ham|cooked ham/,"smoked ham"],[/ready-to-eat cured chorizo|cured chorizo|chorizo/,"chorizo"],
-    [/smoked haddock/,"smoked haddock"],[/smoked trout/,"smoked trout"],[/sardine/,"tinned sardines"],[/prawn/,"cooked prawns"],[/crab meat|crab/,"crab meat"],[/salmon/,"cooked salmon"],[/tuna/,"tinned tuna"],[/mackerel/,"tinned mackerel"],[/mussel/,"cooked mussels"],[/cod/,"cooked cod"],[/white fish/,"cooked white fish"],[/mixed seafood/,"mixed seafood"],
+    [/smoked haddock/,"smoked haddock"],[/smoked trout/,"smoked trout"],[/sardine/,"tinned sardines"],[/prawn/,"cooked prawns"],[/crab meat|crab/,"crab meat"],[/salmon/,"cooked salmon"],[/tuna/,"tinned tuna"],[/mackerel/,"tinned mackerel"],[/mussel/,"cooked mussels"],[/cod/,"cooked cod"],[/white fish/,"cooked white fish"],[/mixed seafood/,"mixed seafood"],[/anchovy/,"anchovy fillets"],
     [/chestnut mushroom/,"chestnut mushrooms"],[/shiitake/,"shiitake mushrooms"],[/porcini/,"dried porcini"],[/mushroom/,"mushrooms"],
     [/roasted red pepper/,"roasted red peppers"],[/chopped tomato/,"chopped tomatoes"],[/tomato purée/,"tomato purée"],[/sweetcorn/,"sweetcorn"],[/baby spinach|spinach/,"spinach"],[/cauliflower/,"cauliflower"],[/frozen peas|peas/,"frozen peas"],[/leek/,"leek"],[/carrot/,"carrots"],[/kale/,"kale"],[/cucumber/,"cucumber"],[/fennel/,"fennel"],[/savoy cabbage|cabbage/,"cabbage"],[/beetroot/,"cooked beetroot"],
     [/greek yoghurt/,"Greek yoghurt"],[/plain yoghurt/,"plain yoghurt"],[/kefir/,"plain kefir"],[/double cream/,"double cream"],[/crème fraîche|creme fraiche/,"crème fraîche"],[/mascarpone/,"mascarpone"],[/whole milk/,"whole milk"],[/semi-skimmed milk/,"semi-skimmed milk"],[/coconut milk/,"coconut milk"],[/coconut water/,"coconut water"],[/almond drink/,"almond drink"],
     [/parmesan/,"Parmesan"],[/mature cheddar/,"mature Cheddar"],[/smoked cheddar/,"smoked Cheddar"],[/gruyère|gruyere/,"Gruyère"],[/feta/,"feta"],[/stilton/,"Stilton"],[/goat's cheese|goats cheese/,"goat's cheese"],[/manchego/,"Manchego"],[/cream cheese/,"cream cheese"],
     [/white miso|awase miso|miso/,"miso"],[/light soy sauce|soy sauce/,"soy sauce"],[/worcestershire/,"Worcestershire sauce"],[/marmite/,"Marmite"],[/tahini/,"tahini"],[/peanut butter/,"peanut butter"],[/almond butter/,"almond butter"],[/cashew butter/,"cashew butter"],[/hazelnut butter/,"hazelnut butter"],
-    [/black pepper/,"black pepper"],[/white pepper/,"white pepper"],[/smoked paprika/,"smoked paprika"],[/paprika/,"paprika"],[/ground cumin|cumin/,"ground cumin"],[/curry powder/,"curry powder"],[/turmeric/,"turmeric"],[/dried thyme|thyme/,"dried thyme"],[/dried tarragon|tarragon/,"dried tarragon"],[/dried rosemary|rosemary/,"dried rosemary"],[/dried dill|dill/,"dried dill"],[/dried basil|basil/,"basil"],[/dried oregano|oregano/,"oregano"],[/ginger/,"ginger"],[/saffron/,"saffron"],[/cayenne/,"cayenne"],[/chilli/,"chilli"],[/mace/,"mace"],[/nutmeg/,"nutmeg"],[/cinnamon/,"cinnamon"],[/cardamom/,"cardamom"],[/caraway/,"caraway"],[/sesame oil/,"sesame oil"],[/lime juice/,"lime juice"],[/lemon juice/,"lemon juice"],[/balsamic/,"balsamic vinegar"],[/fish sauce/,"fish sauce"],[/sherry/,"sherry"],[/port/,"port"],
-    [/mango/,"mango"],[/pineapple/,"pineapple"],[/passion fruit/,"passion fruit"],[/cherries|cherry/,"cherries"],[/raspberries|raspberry/,"raspberries"],[/blueberries|blueberry/,"blueberries"],[/blackberries|blackberry/,"blackberries"],[/blackcurrants|blackcurrant/,"blackcurrants"],[/strawberries|strawberry/,"strawberries"],[/peach/,"peaches"],[/plums|plum/,"plums"],[/pear/,"pears"],[/apple/,"apples"],[/kiwi/,"kiwi"],[/papaya/,"papaya"],[/orange/,"oranges"],[/grapefruit/,"grapefruit"],[/guava/,"guava"],[/lychee/,"lychees"],[/dragon fruit/,"dragon fruit"],[/melon/,"melon"],[/watermelon/,"watermelon"],[/pomegranate juice/,"pomegranate juice"],[/cranberry juice/,"cranberry juice"],[/grapes|grape/,"grapes"],[/figs|fig/,"figs"],[/avocado/,"avocado"],
-    [/oats|oat/,"oats"],[/ground almonds|almonds/,"almonds"],[/walnuts|walnut/,"walnuts"],[/hazelnuts|hazelnut/,"hazelnuts"],[/pistachios|pistachio/,"pistachios"],[/dark chocolate/,"dark chocolate"],[/white chocolate/,"white chocolate"],[/cocoa powder|cocoa/,"cocoa powder"],[/vanilla extract|vanilla/,"vanilla"],[/instant espresso powder|espresso powder/,"espresso powder"],[/mint leaves|mint/,"mint"],[/lemongrass/,"lemongrass"],
+    [/black pepper/,"black pepper"],[/white pepper/,"white pepper"],[/smoked paprika/,"smoked paprika"],[/paprika/,"paprika"],[/ground cumin|cumin/,"ground cumin"],[/curry powder/,"curry powder"],[/turmeric/,"turmeric"],[/thyme/,"dried thyme"],[/tarragon/,"dried tarragon"],[/rosemary/,"dried rosemary"],[/dill/,"dried dill"],[/basil/,"dried basil"],[/oregano/,"dried oregano"],[/saffron/,"saffron"],[/cayenne/,"cayenne"],[/chilli/,"chilli"],[/mace/,"mace"],[/nutmeg/,"nutmeg"],[/cinnamon/,"cinnamon"],[/cardamom/,"cardamom"],[/caraway/,"caraway"],[/sesame oil/,"sesame oil"],[/lime juice/,"lime juice"],[/lemon juice/,"lemon juice"],[/balsamic/,"balsamic vinegar"],[/fish sauce/,"fish sauce"],[/sherry/,"sherry"],[/port/,"port"],
+    [/mango/,"mango"],[/pineapple/,"pineapple"],[/passion fruit/,"passion fruit"],[/cherries|cherry/,"cherries"],[/raspberries|raspberry/,"raspberries"],[/blueberries|blueberry/,"blueberries"],[/blackberries|blackberry/,"blackberries"],[/blackcurrants|blackcurrant/,"blackcurrants"],[/strawberries|strawberry/,"strawberries"],[/peach/,"peaches"],[/plums|plum/,"plums"],[/pear/,"pears"],[/apple/,"apples"],[/kiwi/,"kiwi"],[/papaya/,"papaya"],[/orange/,"oranges"],[/grapefruit/,"grapefruit"],[/guava/,"guava"],[/lychee/,"lychees"],[/dragon fruit/,"dragon fruit"],[/melon/,"melon"],[/watermelon/,"watermelon"],[/pomegranate juice/,"pomegranate juice"],[/cranberry juice/,"cranberry juice"],[/grapes|grape/,"grapes"],[/figs|fig/,"figs"],[/avocado/,"avocado"],[/banana/,"banana"],
+    [/oats|oat/,"oats"],[/ground almonds|almonds/,"almonds"],[/walnuts|walnut/,"walnuts"],[/hazelnuts|hazelnut/,"hazelnuts"],[/pistachios|pistachio/,"pistachios"],[/dark chocolate/,"dark chocolate"],[/white chocolate/,"white chocolate"],[/cocoa powder|cocoa/,"cocoa powder"],[/vanilla extract|vanilla/,"vanilla"],[/instant espresso powder|espresso powder/,"espresso powder"],[/lemongrass/,"lemongrass"],
     [/rice/,"rice"],[/bulgur|freekeh/,"freekeh or bulgur"],[/tortilla chips/,"tortilla chips"],[/chestnuts|chestnut/,"cooked chestnuts"],
     [/water/,"water"]
   ];
@@ -80,23 +108,58 @@ function canonicalName(raw){
   return s || raw;
 }
 
+function naturalCountUnit(name,body){
+  const low=body.toLowerCase();
+  if(name==="garlic"||/garlic cloves?/.test(low)) return "clove";
+  if(/stock cube/.test(name)||/stock cubes?/.test(low)) return "cube";
+  if(name==="anchovy fillets"||/anchovy fillets?/.test(low)) return "fillet";
+  if((name==="fresh basil"||name==="fresh mint")&&/leaves?/.test(low)) return "leaf";
+  if(name==="lemongrass"&&/stalk/.test(low)) return "stalk";
+  return "each";
+}
+
 function parseIngredient(raw){
   const low=raw.toLowerCase();
   const optional=/optional|if needed|as needed/.test(low);
   let s=raw.trim(), amount=null, unit=null, body=s;
-  let pm=s.match(/^(?:tiny|small)?\s*pinch(?:\s+of)?\s+(.+)$/i);
-  if(pm){amount=1;unit="pinch";body=pm[1]}
-  else{
+
+  const pm=s.match(/^(?:([0-9¼½¾⅓⅔⅛⅜⅝⅞]+)\s+)?(?:tiny|small)?\s*pinch(?:\s+of)?\s+(.+)$/i);
+  if(pm){
+    amount=readNum(pm[1])||1;
+    unit="pinch";
+    body=pm[2];
+  }else{
     const mm=s.match(/^([0-9¼½¾⅓⅔⅛⅜⅝⅞]+(?:[–-][0-9¼½¾⅓⅔⅛⅜⅝⅞]+)?)\s*(kg|g|ml|l|tsp|tbsp)?\s+(.+)$/i);
     if(mm){amount=readNum(mm[1]);unit=(mm[2]||"each").toLowerCase();body=mm[3]}
   }
+
   let name=canonicalName(body);
   if(name==="water") return {raw,name,skip:true,optional:true,amount:null,unit:null};
+
   if(unit==="kg"){amount*=1000;unit="g"}
   if(unit==="l"){amount*=1000;unit="ml"}
-  if(unit==="tsp"){amount*=5;unit="ml"}
-  if(unit==="tbsp"){amount*=15;unit="ml"}
+  // Keep culinary spoon measures human-readable. tbsp is normalised to tsp so
+  // planned recipes aggregate rather than creating separate tsp/tbsp lines.
+  if(unit==="tbsp"){amount*=3;unit="tsp"}
+  if(unit==="each") unit=naturalCountUnit(name,body);
+
   return {raw,name,skip:false,optional,amount,unit};
+}
+
+function unitLabel(unit,amount=null){
+  if(unit==="each") return "×";
+  if(unit==="tsp") return "tsp";
+  if(unit==="ml"||unit==="g") return unit;
+  const forms={
+    pinch:["pinch","pinches"],
+    clove:["clove","cloves"],
+    cube:["cube","cubes"],
+    fillet:["fillet","fillets"],
+    leaf:["leaf","leaves"],
+    stalk:["stalk","stalks"]
+  };
+  if(forms[unit]) return amount===1?forms[unit][0]:forms[unit][1];
+  return unit;
 }
 
 const recipeIndex={};
@@ -114,6 +177,57 @@ Object.values(recipeIndex).forEach(r=>r._req.forEach(x=>{
   else catalog[x.name].hasUnquantified=true;
 }));
 const catalogNames=Object.keys(catalog).sort((a,b)=>a.localeCompare(b));
+const legacySpoonNames=new Set([
+  "allspice","black pepper","white pepper","smoked paprika","paprika","ground cumin","curry powder","turmeric",
+  "dried thyme","dried tarragon","dried rosemary","dried dill","dried basil","dried oregano","saffron","cayenne","chilli",
+  "mace","nutmeg","cinnamon","cardamom","caraway","cocoa powder","espresso powder","english mustard","dijon mustard",
+  "crushed curry leaves","vanilla"
+]);
+function migratePantryToV4(){
+  if((STATE.schemaVersion||3)>=4) return;
+  const old=STATE.pantry||{}, next={};
+  function put(name,unit,amount,unlimited=false){
+    if(!next[name]) next[name]={amounts:{},unlimited:false};
+    if(unlimited) next[name].unlimited=true;
+    if(unit&&amount>0) next[name].amounts[unit]=(next[name].amounts[unit]||0)+amount;
+  }
+  for(const [name,stock] of Object.entries(old)){
+    if(stock?.unlimited){ put(name,null,0,true); continue; }
+    const amounts=stock?.amounts||{};
+    if(name==="garlic"){
+      put("garlic","clove",amounts.each||0); continue;
+    }
+    if(/stock cube$/.test(name)){
+      put(name,"cube",amounts.each||0); continue;
+    }
+    if(name==="basil"){
+      if(amounts.ml) put("dried basil","tsp",amounts.ml/5);
+      if(amounts.g) put("fresh basil","g",amounts.g);
+      if(amounts.each) put("fresh basil","leaf",amounts.each);
+      continue;
+    }
+    if(name==="mint"){
+      if(amounts.ml) put("dried mint","tsp",amounts.ml/5);
+      if(amounts.each) put("fresh mint","leaf",amounts.each);
+      continue;
+    }
+    if(name==="ginger"){
+      if(amounts.g) put("fresh ginger","g",amounts.g);
+      if(amounts.ml) put("ground ginger","tsp",amounts.ml/5);
+      if(amounts.pinch) put("ground ginger","pinch",amounts.pinch);
+      continue;
+    }
+    for(const [u,a] of Object.entries(amounts)){
+      if(u==="ml"&&legacySpoonNames.has(name)) put(name,"tsp",a/5);
+      else if(u==="each"&&name==="anchovy fillets") put(name,"fillet",a);
+      else put(name,u,a);
+    }
+  }
+  STATE.pantry=next;
+  STATE.schemaVersion=4;
+  save();
+}
+migratePantryToV4();
 
 function stockObj(name){
   if(!STATE.pantry[name]) STATE.pantry[name]={amounts:{},unlimited:false};
@@ -191,20 +305,23 @@ function missingShopping(){
   Object.values(needs).forEach(n=>{
     const s=STATE.pantry[n.name];
     if(s?.unlimited) return;
-    let hasMissingUnquant=n.unquantified&&!s?.unlimited;
-    if(hasMissingUnquant) out.push({name:n.name,unit:null,amount:null});
+    const item={name:n.name,amounts:{},unquantified:n.unquantified&&!s?.unlimited};
     for(const [u,a] of Object.entries(n.amounts)){
       const have=s?.amounts?.[u]||0, miss=Math.max(0,a-have);
-      if(miss>1e-9) out.push({name:n.name,unit:u,amount:miss});
+      if(miss>1e-9) item.amounts[u]=miss;
     }
+    if(item.unquantified||Object.keys(item.amounts).length) out.push(item);
   });
   return out.sort((a,b)=>a.name.localeCompare(b.name));
 }
-function qtyText(x){
-  if(x.amount==null) return "in stock";
-  if(x.unit==="each") return `${prettyNum(x.amount)} ×`;
-  if(x.unit==="pinch") return `${prettyNum(x.amount)} pinch${x.amount===1?"":"es"}`;
-  return `${prettyNum(x.amount)} ${x.unit}`;
+function qtyPart(amount,unit){
+  if(unit==="each") return `${prettyNum(amount)} ×`;
+  return `${prettyNum(amount)} ${unitLabel(unit,amount)}`;
+}
+function qtyText(item){
+  const parts=Object.entries(item.amounts||{}).map(([u,a])=>qtyPart(a,u));
+  if(item.unquantified) parts.push("some");
+  return parts.length?parts.join(" + "):"in stock";
 }
 
 let tab="soups",cat="All",vis=[],oi=0,canOnly=false,plannedOnly=false;
@@ -410,10 +527,12 @@ function renderShopping(){
   if(!missing.length) sl.innerHTML=`<div class="empty">${plan.length?"Everything for your planned recipes is already marked as in the pantry.":"Plan a recipe and its missing ingredients will appear here."}</div>`;
   else missing.forEach(item=>{
     const row=document.createElement("label");row.className="row";
-    row.innerHTML=`<input type="checkbox"><div class="rowname"><b>${titleCase(item.name)}</b><span class="sub">${item.amount==null?"Needed for planned recipe":qtyText(item)}</span></div><span class="tag">${item.amount==null?"buy":qtyText(item)}</span>`;
+    const text=qtyText(item);
+    row.innerHTML=`<input type="checkbox"><div class="rowname"><b>${titleCase(item.name)}</b><span class="sub">${text}</span></div><span class="tag">${text}</span>`;
     row.querySelector("input").onchange=e=>{
       if(!e.target.checked)return;
-      addRequirementToPantry({name:item.name,amount:item.amount,unit:item.unit},item.amount);
+      if(item.unquantified) addRequirementToPantry({name:item.name,amount:null,unit:null});
+      Object.entries(item.amounts||{}).forEach(([unit,amount])=>addRequirementToPantry({name:item.name,amount,unit},amount));
       toast(`${titleCase(item.name)} added to pantry`);
       renderAll();
     };
@@ -432,7 +551,7 @@ function renderPantry(){
     const row=document.createElement("div");row.className="row";
     const controls=units.length ? units.map(u=>{
       const val=stock?.amounts?.[u]||0;
-      return `<div class="qty"><input data-u="${u}" type="number" step="0.01" min="0" value="${val?Number(val.toFixed(2)):""}" placeholder="${Number(c.units[u].toFixed(2))}"><span class="unit">${u==="each"?"×":u}</span></div>`
+      return `<div class="qty"><input data-u="${u}" type="number" step="0.01" min="0" value="${val?Number(val.toFixed(2)):""}" placeholder="${Number(c.units[u].toFixed(2))}"><span class="unit">${unitLabel(u,val||null)}</span></div>`
     }).join("") : `<span class="tag">${stock?.unlimited?"in stock":"staple"}</span>`;
     row.innerHTML=`<input class="have" type="checkbox" ${checked?"checked":""}><div class="rowname"><b>${titleCase(name)}</b><span class="sub">${units.length?"Tracked quantity":"Unquantified in recipes"}</span></div><div>${controls}</div>`;
     row.querySelector(".have").onchange=e=>{setManualHave(name,e.target.checked);renderAll()};
@@ -460,7 +579,7 @@ $("#canMakeToggle").onclick=()=>{canOnly=!canOnly;$("#canMakeToggle").classList.
 $("#plannedToggle").onclick=()=>{plannedOnly=!plannedOnly;$("#plannedToggle").classList.toggle("on",plannedOnly);drawRecipes()};
 $("#pantrySearch").oninput=renderPantry;
 $("#clearPlan").onclick=()=>{STATE.planned=[];save();toast("Shopping plan cleared");renderAll()};
-$("#buyAll").onclick=()=>{missingShopping().forEach(item=>addRequirementToPantry({name:item.name,amount:item.amount,unit:item.unit},item.amount));toast("Shopping list moved to pantry");renderAll()};
+$("#buyAll").onclick=()=>{missingShopping().forEach(item=>{if(item.unquantified)addRequirementToPantry({name:item.name,amount:null,unit:null});Object.entries(item.amounts||{}).forEach(([unit,amount])=>addRequirementToPantry({name:item.name,amount,unit},amount))});toast("Shopping list moved to pantry");renderAll()};
 $("#close").onclick=closeR;$("#prev").onclick=()=>openR(oi-1);$("#next").onclick=()=>openR(oi+1);
 back.onclick=e=>{if(e.target===back)closeR()};
 document.onkeydown=e=>{if(e.key==="Escape")closeR();if(back.classList.contains("open")&&e.key==="ArrowRight")openR(oi+1);if(back.classList.contains("open")&&e.key==="ArrowLeft")openR(oi-1)};
