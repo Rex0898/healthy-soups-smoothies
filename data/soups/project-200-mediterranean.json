@@ -1,0 +1,462 @@
+[
+  {
+    "name": "Tuscan Chickpea, Garlic & Oregano",
+    "cat": "Vegetarian",
+    "emoji": "🧄",
+    "desc": "A garlicky Italian-style chickpea soup with oregano and olive oil",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "240 g tinned chickpeas, drained",
+      "80 g chopped tinned tomatoes",
+      "60 g onion, diced",
+      "4 garlic cloves, sliced",
+      "½ tsp dried oregano",
+      "½ vegetable stock cube",
+      "1 tsp olive oil"
+    ],
+    "method": [
+      "Wash, peel and cut fresh produce into small pieces as specified; use jarred grilled ingredients already cooked.",
+      "Pour about 125 ml cold water into the jug and add ingredients except those marked (finish).",
+      "Top up to 850–900 ml TOTAL contents within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Run Smooth for approximately 19 minutes.",
+      "Taste and season with black pepper."
+    ],
+    "science": "Vegetables, pulses and nuts contribute varying fibre and fat; numerical nutrition has not yet been calculated.",
+    "note": "Project 200 · Mediterranean sunshine · £ · Year-round · Idea to try; no separate roasting or frying. ID P200-039."
+  },
+  {
+    "name": "Golden Pepper, Cannellini & Marjoram",
+    "cat": "Vegetarian",
+    "emoji": "🫑",
+    "desc": "Sunshine-yellow roasted pepper with creamy white beans and marjoram",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "210 g jarred roasted yellow peppers, drained",
+      "200 g tinned cannellini beans, drained",
+      "60 g onion, diced",
+      "½ tsp dried marjoram",
+      "1 garlic clove, sliced",
+      "¼ vegetable stock cube"
+    ],
+    "method": [
+      "Wash, peel and cut fresh produce into small pieces as specified; use jarred grilled ingredients already cooked.",
+      "Pour about 125 ml cold water into the jug and add ingredients except those marked (finish).",
+      "Top up to 850–900 ml TOTAL contents within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Run Smooth for approximately 19 minutes.",
+      "Taste; use ready-roasted yellow peppers, never roast them separately."
+    ],
+    "science": "Vegetables, pulses and nuts contribute varying fibre and fat; numerical nutrition has not yet been calculated.",
+    "note": "Project 200 · Mediterranean sunshine · £ · Winter sunshine · Idea to try; no separate roasting or frying. ID P200-040."
+  },
+  {
+    "name": "Sicilian Aubergine, Tomato & Garlic",
+    "cat": "Vegetarian",
+    "emoji": "🍆",
+    "desc": "Garlicky aubergine-and-tomato soup with oregano and olive oil",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "180 g ready-to-eat jarred grilled aubergines, drained",
+      "230 g chopped tinned tomatoes",
+      "60 g onion, diced",
+      "3 garlic cloves, sliced",
+      "½ tsp dried oregano",
+      "¼ vegetable stock cube",
+      "1 tsp olive oil"
+    ],
+    "method": [
+      "Wash, peel and cut fresh produce into small pieces as specified; use jarred grilled ingredients already cooked.",
+      "Pour about 125 ml cold water into the jug and add ingredients except those marked (finish).",
+      "Top up to 850–900 ml TOTAL contents within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Run Smooth for approximately 19 minutes.",
+      "Use already cooked jarred aubergine to avoid needing a grill."
+    ],
+    "science": "Vegetables, pulses and nuts contribute varying fibre and fat; numerical nutrition has not yet been calculated.",
+    "note": "Project 200 · Mediterranean sunshine · £ · Summer · Idea to try; no separate roasting or frying. ID P200-041."
+  },
+  {
+    "name": "Courgette, Parsley & Green Caper",
+    "cat": "Vegetarian",
+    "emoji": "🥒",
+    "desc": "A light verdant soup with courgette, parsley and a restrained salty caper accent",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "300 g courgette, diced small",
+      "70 g leek, sliced",
+      "8 g fresh flat-leaf parsley",
+      "8 g capers in brine, rinsed",
+      "1 garlic clove, sliced",
+      "½ vegetable stock cube",
+      "1 tsp olive oil"
+    ],
+    "method": [
+      "Wash, peel and cut fresh produce into small pieces as specified; use jarred grilled ingredients already cooked.",
+      "Pour about 125 ml cold water into the jug and add ingredients except those marked (finish).",
+      "Top up to 850–900 ml TOTAL contents within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Run Smooth for approximately 19 minutes.",
+      "Taste; the caper accent should remain subtle."
+    ],
+    "science": "Vegetables, pulses and nuts contribute varying fibre and fat; numerical nutrition has not yet been calculated.",
+    "note": "Project 200 · Mediterranean sunshine · £ · Summer · Idea to try; no separate roasting or frying. ID P200-042."
+  },
+  {
+    "name": "Andalusian Almond & Garlic Ajo Blanco",
+    "cat": "World",
+    "emoji": "🌰",
+    "desc": "A classic-inspired smooth chilled Spanish almond-and-garlic soup; savoury rather than sweet",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Drinks/Blend"
+    ],
+    "ing": [
+      "70 g ground almonds",
+      "55 g soft white bread, torn",
+      "1 garlic clove, peeled",
+      "1 tbsp olive oil",
+      "1 tsp sherry vinegar",
+      "½ tsp salt",
+      "650 ml cold water"
+    ],
+    "method": [
+      "Tear bread into small pieces, peel garlic and add the ground almonds, bread, garlic, olive oil, vinegar and cold water.",
+      "Check the combined contents are within the appliance fill marks and do not exceed 1 litre.",
+      "Use an UNHEATED blending setting (Drinks/Blend); never run the heated soup programme for this chilled soup.",
+      "Refrigerate until cold before serving."
+    ],
+    "science": "Vegetables, pulses and nuts contribute varying fibre and fat; numerical nutrition has not yet been calculated.",
+    "note": "Project 200 · Mediterranean sunshine · £ · Summer · Idea to try; no separate roasting or frying. ID P200-043."
+  },
+  {
+    "name": "Greek Courgette, Feta & Dill",
+    "cat": "Vegetarian",
+    "emoji": "🧀",
+    "desc": "Fresh courgette, salty feta and light dill in a silky Greek-inspired soup",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "260 g courgette, diced small",
+      "70 g leek, finely sliced",
+      "45 g feta, crumbled (finish)",
+      "½ tsp dried dill",
+      "1 garlic clove, sliced",
+      "¼ low-salt vegetable stock cube",
+      "1 tsp olive oil"
+    ],
+    "method": [
+      "Wash, peel and cut fresh produce into small pieces as specified; use jarred grilled ingredients already cooked.",
+      "Pour about 125 ml cold water into the jug and add ingredients except those marked (finish).",
+      "Top up to 850–900 ml TOTAL contents within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Run Smooth for approximately 19 minutes.",
+      "Stir in feta while hot, and taste before salting."
+    ],
+    "science": "Vegetables, pulses and nuts contribute varying fibre and fat; numerical nutrition has not yet been calculated.",
+    "note": "Project 200 · Mediterranean sunshine · ££ · Summer · Idea to try; no separate roasting or frying. ID P200-044."
+  },
+  {
+    "name": "Aubergine, Green Olive & Thyme Cream",
+    "cat": "Vegetarian",
+    "emoji": "🍆",
+    "desc": "Slow-cooked-style aubergine flavour from a jar, briny green olive and thyme",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "200 g ready-to-eat jarred grilled aubergine, drained",
+      "30 g pitted green olives",
+      "120 g tinned butter beans, drained",
+      "½ tsp dried thyme",
+      "1 garlic clove, sliced",
+      "¼ low-salt vegetable stock cube",
+      "30 ml single cream (finish)"
+    ],
+    "method": [
+      "Wash, peel and cut fresh produce into small pieces as specified; use jarred grilled ingredients already cooked.",
+      "Pour about 125 ml cold water into the jug and add ingredients except those marked (finish).",
+      "Top up to 850–900 ml TOTAL contents within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Run Smooth for approximately 19 minutes.",
+      "Stir in cream; olives are already salty."
+    ],
+    "science": "Vegetables, pulses and nuts contribute varying fibre and fat; numerical nutrition has not yet been calculated.",
+    "note": "Project 200 · Mediterranean sunshine · ££ · Year-round · Idea to try; no separate roasting or frying. ID P200-045."
+  },
+  {
+    "name": "Artichoke, Saffron & White Pepper",
+    "cat": "Vegetarian",
+    "emoji": "🌼",
+    "desc": "Creamy artichoke hearts with delicate saffron and white pepper",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "210 g jarred artichoke hearts in brine, drained",
+      "150 g tinned cannellini beans, drained",
+      "1 small pinch saffron threads",
+      "¼ tsp white pepper",
+      "50 g shallot, diced",
+      "¼ vegetable stock cube",
+      "30 ml single cream (finish)"
+    ],
+    "method": [
+      "Wash, peel and cut fresh produce into small pieces as specified; use jarred grilled ingredients already cooked.",
+      "Pour about 125 ml cold water into the jug and add ingredients except those marked (finish).",
+      "Top up to 850–900 ml TOTAL contents within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Run Smooth for approximately 19 minutes.",
+      "Stir in cream and taste for saffron aroma."
+    ],
+    "science": "Vegetables, pulses and nuts contribute varying fibre and fat; numerical nutrition has not yet been calculated.",
+    "note": "Project 200 · Mediterranean sunshine · ££ · Winter sunshine · Idea to try; no separate roasting or frying. ID P200-046."
+  },
+  {
+    "name": "Cauliflower, Preserved Lemon & Tahini",
+    "cat": "Vegetarian",
+    "emoji": "🍋",
+    "desc": "A Levantine-inspired cauliflower velouté, sesame-rich with restrained preserved lemon",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "240 g cauliflower florets, chopped small",
+      "25 g smooth tahini",
+      "60 g onion, diced",
+      "½ tsp finely chopped preserved lemon rind",
+      "1 garlic clove, sliced",
+      "½ low-salt vegetable stock cube",
+      "1 tsp olive oil"
+    ],
+    "method": [
+      "Wash, peel and cut fresh produce into small pieces as specified; use jarred grilled ingredients already cooked.",
+      "Pour about 125 ml cold water into the jug and add ingredients except those marked (finish).",
+      "Top up to 850–900 ml TOTAL contents within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Run Smooth for approximately 19 minutes.",
+      "Taste; preserved lemon should lift rather than sour the soup."
+    ],
+    "science": "Vegetables, pulses and nuts contribute varying fibre and fat; numerical nutrition has not yet been calculated.",
+    "note": "Project 200 · Mediterranean sunshine · ££ · Winter sunshine · Idea to try; no separate roasting or frying. ID P200-047."
+  },
+  {
+    "name": "Sweet Pepper, Sherry & Smoked Almond",
+    "cat": "Vegetarian",
+    "emoji": "🫑",
+    "desc": "Silky Spanish-inspired peppers with nutty almonds and a little dry sherry",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "250 g jarred roasted red and yellow peppers, drained",
+      "30 g smooth almond butter",
+      "50 g onion, diced",
+      "35 ml dry sherry",
+      "½ tsp smoked paprika",
+      "¼ vegetable stock cube",
+      "1 garlic clove, sliced"
+    ],
+    "method": [
+      "Wash, peel and cut fresh produce into small pieces as specified; use jarred grilled ingredients already cooked.",
+      "Pour about 125 ml cold water into the jug and add ingredients except those marked (finish).",
+      "Top up to 850–900 ml TOTAL contents within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Run Smooth for approximately 19 minutes.",
+      "Taste for balance; no charring or frying is required."
+    ],
+    "science": "Vegetables, pulses and nuts contribute varying fibre and fat; numerical nutrition has not yet been calculated.",
+    "note": "Project 200 · Mediterranean sunshine · ££ · Winter sunshine · Idea to try; no separate roasting or frying. ID P200-048."
+  },
+  {
+    "name": "Chicory, Mascarpone & Sage",
+    "cat": "Vegetarian",
+    "emoji": "🌿",
+    "desc": "Pleasantly bitter chicory balanced by rich mascarpone and sage",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "220 g chicory or endive, finely sliced",
+      "85 g tinned butter beans, drained",
+      "60 g leek, finely sliced",
+      "50 g mascarpone (finish)",
+      "¼ tsp dried sage",
+      "¼ low-salt vegetable stock cube",
+      "1 tsp olive oil"
+    ],
+    "method": [
+      "Wash, peel and cut fresh produce into small pieces as specified; use jarred grilled ingredients already cooked.",
+      "Pour about 125 ml cold water into the jug and add ingredients except those marked (finish).",
+      "Top up to 850–900 ml TOTAL contents within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Run Smooth for approximately 19 minutes.",
+      "Stir in mascarpone; a little chicory bitterness is intentional."
+    ],
+    "science": "Vegetables, pulses and nuts contribute varying fibre and fat; numerical nutrition has not yet been calculated.",
+    "note": "Project 200 · Mediterranean sunshine · ££ · Winter · Idea to try; no separate roasting or frying. ID P200-049."
+  },
+  {
+    "name": "Chard, Sun-Dried Tomato & Chickpea",
+    "cat": "Vegetarian",
+    "emoji": "🥬",
+    "desc": "Leafy Mediterranean chard, tomato umami and soft chickpea body",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "160 g Swiss chard leaves, chopped, stems very finely diced",
+      "160 g tinned chickpeas, drained",
+      "35 g sun-dried tomatoes in oil, drained and chopped",
+      "1 garlic clove, sliced",
+      "60 g onion, diced",
+      "¼ vegetable stock cube",
+      "1 tsp olive oil"
+    ],
+    "method": [
+      "Wash, peel and cut fresh produce into small pieces as specified; use jarred grilled ingredients already cooked.",
+      "Pour about 125 ml cold water into the jug and add ingredients except those marked (finish).",
+      "Top up to 850–900 ml TOTAL contents within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Run Smooth for approximately 19 minutes.",
+      "Taste and blend completely smooth."
+    ],
+    "science": "Vegetables, pulses and nuts contribute varying fibre and fat; numerical nutrition has not yet been calculated.",
+    "note": "Project 200 · Mediterranean sunshine · ££ · Autumn · Idea to try; no separate roasting or frying. ID P200-050."
+  },
+  {
+    "name": "White Bean, Saffron & Green Olive",
+    "cat": "Vegetarian",
+    "emoji": "🫒",
+    "desc": "A pantry-friendly golden white-bean soup with saffron and briny olives",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "240 g tinned butter beans, drained",
+      "40 g pitted green olives",
+      "65 g onion, diced",
+      "1 small pinch saffron threads",
+      "1 garlic clove, sliced",
+      "¼ low-salt vegetable stock cube",
+      "1 tsp olive oil"
+    ],
+    "method": [
+      "Wash, peel and cut fresh produce into small pieces as specified; use jarred grilled ingredients already cooked.",
+      "Pour about 125 ml cold water into the jug and add ingredients except those marked (finish).",
+      "Top up to 850–900 ml TOTAL contents within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Run Smooth for approximately 19 minutes.",
+      "Avoid additional salt until tasted."
+    ],
+    "science": "Vegetables, pulses and nuts contribute varying fibre and fat; numerical nutrition has not yet been calculated.",
+    "note": "Project 200 · Mediterranean sunshine · ££ · Year-round · Idea to try; no separate roasting or frying. ID P200-051."
+  },
+  {
+    "name": "Jamón, Artichoke & Smoked Almond",
+    "cat": "Meat",
+    "emoji": "🥓",
+    "desc": "Fine Spanish cured ham adds savoury depth to artichokes and smoked almonds",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "100 g ready-to-eat Spanish jamón, finely chopped",
+      "210 g jarred artichoke hearts in brine, drained",
+      "25 g smooth smoked-almond butter",
+      "50 g shallot, diced",
+      "¼ low-salt vegetable stock cube",
+      "30 ml single cream (finish)"
+    ],
+    "method": [
+      "Wash, peel and cut fresh produce into small pieces as specified; use jarred grilled ingredients already cooked.",
+      "Pour about 125 ml cold water into the jug and add ingredients except those marked (finish).",
+      "Top up to 850–900 ml TOTAL contents within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Run Smooth for approximately 19 minutes.",
+      "Use ready-to-eat cured ham; stir in cream, then taste for salt."
+    ],
+    "science": "Vegetables, pulses and nuts contribute varying fibre and fat; numerical nutrition has not yet been calculated.",
+    "note": "Project 200 · Mediterranean sunshine · £££ · Autumn · Idea to try; no separate roasting or frying. ID P200-052."
+  },
+  {
+    "name": "Truffle, Golden Pepper & Mascarpone",
+    "cat": "Vegetarian",
+    "emoji": "🍄",
+    "desc": "Sweet golden peppers balanced by umami truffle paste and luxurious mascarpone",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "230 g jarred roasted yellow peppers, drained",
+      "150 g tinned cannellini beans, drained",
+      "15 g ready-to-eat black truffle paste",
+      "55 g mascarpone (finish)",
+      "55 g onion, diced",
+      "¼ vegetable stock cube"
+    ],
+    "method": [
+      "Wash, peel and cut fresh produce into small pieces as specified; use jarred grilled ingredients already cooked.",
+      "Pour about 125 ml cold water into the jug and add ingredients except those marked (finish).",
+      "Top up to 850–900 ml TOTAL contents within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Run Smooth for approximately 19 minutes.",
+      "Stir in mascarpone; truffle should be aromatic, not overwhelming."
+    ],
+    "science": "Vegetables, pulses and nuts contribute varying fibre and fat; numerical nutrition has not yet been calculated.",
+    "note": "Project 200 · Mediterranean sunshine · £££ · Winter sunshine · Idea to try; no separate roasting or frying. ID P200-053."
+  },
+  {
+    "name": "Burrata, Grilled Aubergine & Marjoram",
+    "cat": "Vegetarian",
+    "emoji": "🧀",
+    "desc": "Silky grilled aubergine and soft burrata with fragrant marjoram",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "240 g ready-to-eat jarred grilled aubergine, drained",
+      "110 g burrata, drained and torn (finish)",
+      "70 g cooked cannellini beans",
+      "½ tsp dried marjoram",
+      "55 g onion, diced",
+      "¼ vegetable stock cube",
+      "1 tsp olive oil"
+    ],
+    "method": [
+      "Wash, peel and cut fresh produce into small pieces as specified; use jarred grilled ingredients already cooked.",
+      "Pour about 125 ml cold water into the jug and add ingredients except those marked (finish).",
+      "Top up to 850–900 ml TOTAL contents within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Run Smooth for approximately 19 minutes.",
+      "After Smooth finishes, blend or stir in burrata until evenly creamy."
+    ],
+    "science": "Vegetables, pulses and nuts contribute varying fibre and fat; numerical nutrition has not yet been calculated.",
+    "note": "Project 200 · Mediterranean sunshine · £££ · Summer · Idea to try; no separate roasting or frying. ID P200-054."
+  }
+]
