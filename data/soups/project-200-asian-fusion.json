@@ -1,0 +1,235 @@
+[
+  {
+    "name": "Ginger, Wakame & White Bean",
+    "cat": "World",
+    "emoji": "🌊",
+    "desc": "A light umami soup of ginger, edible seaweed and silky white beans",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "240 g tinned cannellini beans, drained",
+      "8 g fresh ginger, peeled and sliced",
+      "2 g food-grade dried wakame",
+      "60 g spring onions, chopped",
+      "1 tsp light soy sauce",
+      "¼ vegetable stock cube",
+      "½ tsp toasted sesame oil"
+    ],
+    "method": [
+      "Wash and finely chop the vegetables; use only ready-to-eat cooked fish or meat with skin, shells and bones removed.",
+      "Pour approximately 125 ml cold water into the soup maker; add all ingredients except those marked (finish).",
+      "Top up to roughly 850–900 ml TOTAL contents, within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Taste and add no extra salt until after the soy sauce."
+    ],
+    "science": "A proposed recipe with vegetables, herbs and savoury flavourings; nutritional numbers await ingredient-specific calculation.",
+    "note": "Project 200 · East Asian fusion · £ · Year-round · Idea to try. Check soy, sesame, fish, shellfish, peanut and gluten labels where applicable. ID P200-070."
+  },
+  {
+    "name": "Miso, Savoy Cabbage & Toasted Sesame",
+    "cat": "World",
+    "emoji": "🥬",
+    "desc": "Winter cabbage softened by miso and a measured sesame finish",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "230 g Savoy cabbage, finely shredded",
+      "110 g tinned butter beans, drained",
+      "65 g onion, diced",
+      "2 tsp white miso",
+      "½ tsp toasted sesame oil",
+      "1 garlic clove, sliced",
+      "¼ low-salt vegetable stock cube"
+    ],
+    "method": [
+      "Wash and finely chop the vegetables; use only ready-to-eat cooked fish or meat with skin, shells and bones removed.",
+      "Pour approximately 125 ml cold water into the soup maker; add all ingredients except those marked (finish).",
+      "Top up to roughly 850–900 ml TOTAL contents, within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Taste for salt; use sesame as a supporting note."
+    ],
+    "science": "A proposed recipe with vegetables, herbs and savoury flavourings; nutritional numbers await ingredient-specific calculation.",
+    "note": "Project 200 · East Asian fusion · £ · Winter · Idea to try. Check soy, sesame, fish, shellfish, peanut and gluten labels where applicable. ID P200-071."
+  },
+  {
+    "name": "Smoked Trout, Wakame & White Pepper",
+    "cat": "World",
+    "emoji": "🐟",
+    "desc": "Nordic hot-smoked trout crossed with marine wakame and Japanese-style savouriness",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "115 g ready-to-eat hot-smoked trout, skin and bones removed",
+      "140 g cooked cannellini beans",
+      "80 g leek, sliced",
+      "2 g food-grade dried wakame",
+      "¼ tsp white pepper",
+      "½ vegetable stock cube",
+      "1 tsp light soy sauce"
+    ],
+    "method": [
+      "Wash and finely chop the vegetables; use only ready-to-eat cooked fish or meat with skin, shells and bones removed.",
+      "Pour approximately 125 ml cold water into the soup maker; add all ingredients except those marked (finish).",
+      "Top up to roughly 850–900 ml TOTAL contents, within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Ensure ready-cooked trout is heated through, and check for bones."
+    ],
+    "science": "A proposed recipe with vegetables, herbs and savoury flavourings; nutritional numbers await ingredient-specific calculation.",
+    "note": "Project 200 · East Asian fusion · ££ · Winter · Idea to try. Check soy, sesame, fish, shellfish, peanut and gluten labels where applicable. ID P200-072."
+  },
+  {
+    "name": "Shiitake, Walnut & Light Soy Velouté",
+    "cat": "World",
+    "emoji": "🍄",
+    "desc": "An earthy aromatic mushroom soup with walnut butter and gentle soy umami",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "190 g fresh shiitake mushrooms, stems removed and caps sliced",
+      "100 g chestnut mushrooms, sliced",
+      "30 g smooth walnut butter",
+      "70 g leek, sliced",
+      "2 tsp light soy sauce",
+      "¼ vegetable stock cube",
+      "1 tsp sesame oil"
+    ],
+    "method": [
+      "Wash and finely chop the vegetables; use only ready-to-eat cooked fish or meat with skin, shells and bones removed.",
+      "Pour approximately 125 ml cold water into the soup maker; add all ingredients except those marked (finish).",
+      "Top up to roughly 850–900 ml TOTAL contents, within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Taste before adding salt; avoid tough shiitake stems."
+    ],
+    "science": "A proposed recipe with vegetables, herbs and savoury flavourings; nutritional numbers await ingredient-specific calculation.",
+    "note": "Project 200 · East Asian fusion · ££ · Autumn · Idea to try. Check soy, sesame, fish, shellfish, peanut and gluten labels where applicable. ID P200-073."
+  },
+  {
+    "name": "Sichuan Pepper, Celeriac & Black Sesame",
+    "cat": "World",
+    "emoji": "🌶️",
+    "desc": "Earthy celeriac enlivened by tingling Sichuan pepper and toasted black sesame",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "240 g celeriac, peeled and diced into 1 cm pieces",
+      "25 g smooth black sesame paste",
+      "60 g shallot, diced",
+      "⅛ tsp crushed Sichuan peppercorns",
+      "½ vegetable stock cube",
+      "1 tsp light soy sauce",
+      "1 tsp olive oil"
+    ],
+    "method": [
+      "Wash and finely chop the vegetables; use only ready-to-eat cooked fish or meat with skin, shells and bones removed.",
+      "Pour approximately 125 ml cold water into the soup maker; add all ingredients except those marked (finish).",
+      "Top up to roughly 850–900 ml TOTAL contents, within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Use only a tiny pinch of Sichuan pepper so it tingles but never overwhelms."
+    ],
+    "science": "A proposed recipe with vegetables, herbs and savoury flavourings; nutritional numbers await ingredient-specific calculation.",
+    "note": "Project 200 · East Asian fusion · ££ · Winter · Idea to try. Check soy, sesame, fish, shellfish, peanut and gluten labels where applicable. ID P200-074."
+  },
+  {
+    "name": "Kimchi, Smoked Tofu & Peanut",
+    "cat": "World",
+    "emoji": "🥜",
+    "desc": "Fermented kimchi, smoked tofu and peanuts made into a punchy, smooth savoury soup",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "150 g ready-to-eat mild kimchi, finely chopped",
+      "140 g ready-to-eat smoked tofu, diced",
+      "30 g smooth unsweetened peanut butter",
+      "90 g tinned cannellini beans",
+      "½ tsp ground ginger",
+      "¼ low-salt vegetable stock cube",
+      "1 tsp sesame oil"
+    ],
+    "method": [
+      "Wash and finely chop the vegetables; use only ready-to-eat cooked fish or meat with skin, shells and bones removed.",
+      "Pour approximately 125 ml cold water into the soup maker; add all ingredients except those marked (finish).",
+      "Top up to roughly 850–900 ml TOTAL contents, within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Check kimchi chilli intensity and that tofu is ready to eat; avoid extremely hot varieties."
+    ],
+    "science": "A proposed recipe with vegetables, herbs and savoury flavourings; nutritional numbers await ingredient-specific calculation.",
+    "note": "Project 200 · East Asian fusion · ££ · Year-round · Idea to try. Check soy, sesame, fish, shellfish, peanut and gluten labels where applicable. ID P200-075."
+  },
+  {
+    "name": "Crab, Black Sesame & Ginger Cream",
+    "cat": "Seafood",
+    "emoji": "🦀",
+    "desc": "Delicate sweet crab contrasted with savoury black sesame and fresh ginger",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "140 g ready-to-eat cooked white crab meat, checked for shell",
+      "25 g smooth black sesame paste",
+      "110 g cooked cannellini beans",
+      "8 g fresh ginger, sliced",
+      "65 g leek, sliced",
+      "¼ low-salt fish stock cube",
+      "35 ml single cream (finish)"
+    ],
+    "method": [
+      "Wash and finely chop the vegetables; use only ready-to-eat cooked fish or meat with skin, shells and bones removed.",
+      "Pour approximately 125 ml cold water into the soup maker; add all ingredients except those marked (finish).",
+      "Top up to roughly 850–900 ml TOTAL contents, within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Stir in cream and check for crab shell; serve piping hot."
+    ],
+    "science": "A proposed recipe with vegetables, herbs and savoury flavourings; nutritional numbers await ingredient-specific calculation.",
+    "note": "Project 200 · East Asian fusion · £££ · Winter · Idea to try. Check soy, sesame, fish, shellfish, peanut and gluten labels where applicable. ID P200-076."
+  },
+  {
+    "name": "Duck, Hoisin & Bitter Greens Velouté",
+    "cat": "Meat",
+    "emoji": "🦆",
+    "desc": "Rich fully cooked duck with bitter greens and a restrained hoisin accent",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "140 g fully cooked ready-to-eat boneless duck, skin removed",
+      "160 g tender kale, chopped",
+      "100 g tinned butter beans",
+      "2 tsp hoisin sauce",
+      "1 tsp light soy sauce",
+      "1 garlic clove, sliced",
+      "½ chicken stock cube",
+      "25 ml single cream (finish)"
+    ],
+    "method": [
+      "Wash and finely chop the vegetables; use only ready-to-eat cooked fish or meat with skin, shells and bones removed.",
+      "Pour approximately 125 ml cold water into the soup maker; add all ingredients except those marked (finish).",
+      "Top up to roughly 850–900 ml TOTAL contents, within the 800 ml MIN and 1,000 ml MAX marks.",
+      "Run the Smooth programme for approximately 19 minutes.",
+      "Use fully cooked ready-to-eat duck; stir in cream and keep hoisin subtle."
+    ],
+    "science": "A proposed recipe with vegetables, herbs and savoury flavourings; nutritional numbers await ingredient-specific calculation.",
+    "note": "Project 200 · East Asian fusion · £££ · Winter · Idea to try. Check soy, sesame, fish, shellfish, peanut and gluten labels where applicable. ID P200-077."
+  }
+]
