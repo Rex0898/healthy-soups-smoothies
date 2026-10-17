@@ -1,0 +1,321 @@
+[
+  {
+    "name": "Celeriac, White Miso & Sesame",
+    "cat": "Wildcard",
+    "emoji": "🥣",
+    "desc": "Velvety celeriac with the umami of white miso and a toasty sesame finish.",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "230 g celeriac, peeled and diced into 1 cm pieces",
+      "70 g onion, finely diced",
+      "2 tsp white miso paste",
+      "1 tsp toasted sesame oil",
+      "½ low-salt vegetable stock cube",
+      "1 tbsp crème fraîche (finish)"
+    ],
+    "method": [
+      "Wash, peel and chop any fresh produce as specified. Use only fully cooked, ready-to-eat meat or fish where listed.",
+      "Pour approximately 125 ml cold water into your Morphy Richards 501021. Add all ingredients except those marked (finish).",
+      "Top up with cold water to approximately 850–900 ml TOTAL contents, keeping everything between the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the full Smooth programme (approximately 19 minutes).",
+      "Stir in the crème fraîche after the programme and serve hot."
+    ],
+    "science": "Celeriac provides vegetables and fibre; miso and sesame build savoury depth without requiring frying.",
+    "note": "New recipe idea HS-016; not yet kitchen-tested. Miso and stock may already provide enough salt; contains soy, sesame and milk."
+  },
+  {
+    "name": "Parsnip, Bramley Apple & Sage",
+    "cat": "Vegetarian",
+    "emoji": "🍏",
+    "desc": "An earthy British winter soup, with Bramley sharpness and aromatic sage.",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "240 g parsnips, peeled and diced into 1 cm pieces",
+      "70 g Bramley apple, peeled, cored and diced",
+      "50 g onion, diced",
+      "½ tsp dried sage",
+      "1 tsp olive oil",
+      "½ vegetable stock cube",
+      "¼ tsp Dijon mustard"
+    ],
+    "method": [
+      "Wash, peel and chop any fresh produce as specified. Use only fully cooked, ready-to-eat meat or fish where listed.",
+      "Pour approximately 125 ml cold water into your Morphy Richards 501021. Add all ingredients except those marked (finish).",
+      "Top up with cold water to approximately 850–900 ml TOTAL contents, keeping everything between the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the full Smooth programme (approximately 19 minutes).",
+      "Taste before adding any extra seasoning; keep the apple subtle."
+    ],
+    "science": "Parsnip adds fibre and carbohydrate; Bramley apple gives restrained acidity rather than sweetness.",
+    "note": "New recipe idea HS-018; not yet kitchen-tested. Use a tart cooking apple; check stock and mustard labels for allergens."
+  },
+  {
+    "name": "Savoy Cabbage, Smoked Cheddar & White Bean",
+    "cat": "Vegetarian",
+    "emoji": "🧀",
+    "desc": "Creamy cannellini beans, winter cabbage and smoky Cheddar, with a whisper of caraway.",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "160 g Savoy cabbage, very finely shredded",
+      "240 g tinned cannellini beans, drained (from a 400 g tin)",
+      "60 g leek, finely sliced",
+      "35 g smoked Cheddar, finely chopped (finish)",
+      "⅛ tsp caraway seeds",
+      "¼ tsp white pepper",
+      "¼ low-salt vegetable stock cube"
+    ],
+    "method": [
+      "Wash, peel and chop any fresh produce as specified. Use only fully cooked, ready-to-eat meat or fish where listed.",
+      "Pour approximately 125 ml cold water into your Morphy Richards 501021. Add all ingredients except those marked (finish).",
+      "Top up with cold water to approximately 850–900 ml TOTAL contents, keeping everything between the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the full Smooth programme (approximately 19 minutes).",
+      "Stir the finely chopped smoked Cheddar into the finished hot soup until melted, then serve."
+    ],
+    "science": "Beans add fibre and plant protein; cabbage contributes vegetables and Cheddar adds calcium and richness.",
+    "note": "New recipe idea HS-020; not yet kitchen-tested. Contains milk. Chop cheese finely so it melts without needing a saucepan."
+  },
+  {
+    "name": "Smoky Black Bean, Ancho & Cocoa",
+    "cat": "World",
+    "emoji": "🌶️",
+    "desc": "Dark, smoky black beans with ancho chilli, cumin and a subtle savoury cocoa note.",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "240 g tinned black beans, drained (from a 400 g tin)",
+      "100 g passata",
+      "50 g onion, diced",
+      "1 tsp smoked paprika",
+      "½ tsp ground cumin",
+      "½ tsp ancho chilli powder",
+      "½ tsp unsweetened cocoa powder",
+      "½ vegetable stock cube"
+    ],
+    "method": [
+      "Wash, peel and chop any fresh produce as specified. Use only fully cooked, ready-to-eat meat or fish where listed.",
+      "Pour approximately 125 ml cold water into your Morphy Richards 501021. Add all ingredients except those marked (finish).",
+      "Top up with cold water to approximately 850–900 ml TOTAL contents, keeping everything between the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the full Smooth programme (approximately 19 minutes).",
+      "Taste; add a little more chilli only if wanted."
+    ],
+    "science": "Black beans supply fibre and plant protein. Cocoa is a flavour note, not a nutritional supplement.",
+    "note": "New recipe idea HS-021; not yet kitchen-tested. Use unsweetened cocoa, not drinking chocolate. Pour water into the jug first to minimise sticking."
+  },
+  {
+    "name": "Fennel, Anchovy & Preserved Lemon",
+    "cat": "Seafood",
+    "emoji": "🐟",
+    "desc": "Fragrant fennel with anchovy umami and a restrained lift from preserved lemon.",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "220 g fennel bulb, thinly sliced",
+      "100 g tinned cannellini beans, drained",
+      "2 anchovy fillets",
+      "½ tsp finely chopped preserved lemon rind",
+      "1 garlic clove, sliced",
+      "1 tsp olive oil",
+      "¼ low-salt vegetable stock cube"
+    ],
+    "method": [
+      "Wash, peel and chop any fresh produce as specified. Use only fully cooked, ready-to-eat meat or fish where listed.",
+      "Pour approximately 125 ml cold water into your Morphy Richards 501021. Add all ingredients except those marked (finish).",
+      "Top up with cold water to approximately 850–900 ml TOTAL contents, keeping everything between the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the full Smooth programme (approximately 19 minutes).",
+      "Taste before salting; preserved lemon and anchovies are already salty."
+    ],
+    "science": "Fennel contributes vegetables; beans provide fibre and anchovies add a concentrated savoury flavour.",
+    "note": "New recipe idea HS-022; not yet kitchen-tested. Contains fish. Preserved lemon and anchovies can be salty; use low-salt stock."
+  },
+  {
+    "name": "Artichoke, Green Olive & Basil",
+    "cat": "Vegetarian",
+    "emoji": "🫒",
+    "desc": "A silky, herbaceous Mediterranean soup of artichokes, olives and basil.",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "180 g jarred artichoke hearts in brine, drained",
+      "100 g tinned cannellini beans, drained",
+      "35 g pitted green olives",
+      "8 g fresh basil leaves",
+      "1 garlic clove, sliced",
+      "1 tsp olive oil",
+      "¼ low-salt vegetable stock cube"
+    ],
+    "method": [
+      "Wash, peel and chop any fresh produce as specified. Use only fully cooked, ready-to-eat meat or fish where listed.",
+      "Pour approximately 125 ml cold water into your Morphy Richards 501021. Add all ingredients except those marked (finish).",
+      "Top up with cold water to approximately 850–900 ml TOTAL contents, keeping everything between the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the full Smooth programme (approximately 19 minutes).",
+      "Taste and serve; avoid salting until after tasting."
+    ],
+    "science": "Artichoke and beans contribute vegetables and fibre; olives and olive oil supply unsaturated fats.",
+    "note": "New recipe idea HS-023; not yet kitchen-tested. Choose artichokes in brine, not strongly vinegar-pickled. Check whether the artichokes contain tough leaves before blending."
+  },
+  {
+    "name": "Beetroot, Curry Leaf & Coconut",
+    "cat": "World",
+    "emoji": "🟣",
+    "desc": "Vivid beetroot with a Sri Lankan-inspired combination of coconut, curry leaf and warm spices.",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "240 g plain ready-cooked beetroot, diced (not pickled)",
+      "200 ml coconut milk",
+      "60 g onion, diced",
+      "½ tsp mild curry powder",
+      "¼ tsp ground ginger",
+      "¼ tsp dried crushed curry leaves",
+      "1 tsp lime juice (finish)"
+    ],
+    "method": [
+      "Wash, peel and chop any fresh produce as specified. Use only fully cooked, ready-to-eat meat or fish where listed.",
+      "Pour approximately 125 ml cold water into your Morphy Richards 501021. Add all ingredients except those marked (finish).",
+      "Top up with cold water to approximately 850–900 ml TOTAL contents, keeping everything between the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the full Smooth programme (approximately 19 minutes).",
+      "Stir in the lime juice after cooking and taste."
+    ],
+    "science": "Beetroot contributes fibre and folate; coconut adds richness but also saturated fat.",
+    "note": "New recipe idea HS-024; not yet kitchen-tested. Use plain cooked beetroot, not vinegar-pickled beetroot; a 200 ml coconut milk carton limits leftovers."
+  },
+  {
+    "name": "Cauliflower, Peanut & Lime",
+    "cat": "World",
+    "emoji": "🥜",
+    "desc": "Silky cauliflower with savoury peanut, coconut, ginger and bright lime.",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "180 g cauliflower florets, cut small",
+      "200 ml coconut milk",
+      "20 g smooth unsweetened peanut butter",
+      "½ tsp ground ginger",
+      "1 tsp light soy sauce",
+      "1 small garlic clove, sliced",
+      "1 tsp lime juice (finish)"
+    ],
+    "method": [
+      "Wash, peel and chop any fresh produce as specified. Use only fully cooked, ready-to-eat meat or fish where listed.",
+      "Pour approximately 125 ml cold water into your Morphy Richards 501021. Add all ingredients except those marked (finish).",
+      "Top up with cold water to approximately 850–900 ml TOTAL contents, keeping everything between the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the full Smooth programme (approximately 19 minutes).",
+      "Stir in the lime juice after the programme, then taste."
+    ],
+    "science": "Cauliflower provides vegetables; peanuts contribute unsaturated fats and some protein.",
+    "note": "New recipe idea HS-025; not yet kitchen-tested. Contains peanuts and soy; light soy sauce may contain wheat. Use smooth peanut butter and place liquid in the jug first."
+  },
+  {
+    "name": "Chicken, Leek & Tarragon Velouté",
+    "cat": "Meat",
+    "emoji": "🍗",
+    "desc": "Classic creamy chicken and leek with aromatic tarragon and a silky bean base.",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "120 g plain ready-to-eat cooked chicken breast, chopped",
+      "160 g leek, finely sliced",
+      "100 g tinned cannellini beans, drained",
+      "1 garlic clove, sliced",
+      "½ tsp dried tarragon",
+      "½ chicken stock cube",
+      "1 tbsp crème fraîche (finish)"
+    ],
+    "method": [
+      "Wash, peel and chop any fresh produce as specified. Use only fully cooked, ready-to-eat meat or fish where listed.",
+      "Pour approximately 125 ml cold water into your Morphy Richards 501021. Add all ingredients except those marked (finish).",
+      "Top up with cold water to approximately 850–900 ml TOTAL contents, keeping everything between the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the full Smooth programme (approximately 19 minutes).",
+      "Stir in the crème fraîche and serve piping hot; ensure all cooked chicken has been heated thoroughly."
+    ],
+    "science": "Chicken adds lean protein, while cannellini beans contribute fibre and creaminess.",
+    "note": "New recipe idea HS-026; not yet kitchen-tested. Only use fully cooked, ready-to-eat chicken; never raw chicken. This differs from the existing Chicken, Mushroom & Tarragon Cream by using leek and beans. Contains milk."
+  },
+  {
+    "name": "Smoked Mackerel, Leek & Dill",
+    "cat": "Seafood",
+    "emoji": "🐟",
+    "desc": "A deeply savoury smooth smoked-fish soup with tender leek, potato and dill.",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "100 g ready-to-eat hot-smoked mackerel, skin and visible bones removed",
+      "140 g leek, finely sliced",
+      "80 g potato, peeled and diced into 1 cm pieces",
+      "½ tsp dried dill",
+      "¼ low-salt vegetable stock cube",
+      "1 tbsp crème fraîche (finish)",
+      "1 tsp lemon juice (finish)"
+    ],
+    "method": [
+      "Wash, peel and chop any fresh produce as specified. Use only fully cooked, ready-to-eat meat or fish where listed.",
+      "Pour approximately 125 ml cold water into your Morphy Richards 501021. Add all ingredients except those marked (finish).",
+      "Top up with cold water to approximately 850–900 ml TOTAL contents, keeping everything between the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the full Smooth programme (approximately 19 minutes).",
+      "Stir in crème fraîche and lemon juice, then serve piping hot."
+    ],
+    "science": "Oily mackerel supplies protein, long-chain omega-3 fats and vitamin B12.",
+    "note": "New recipe idea HS-027; not yet kitchen-tested. Use ready-to-eat hot-smoked mackerel, not raw fish; inspect for bones. Contains fish and milk."
+  },
+  {
+    "name": "Red Cabbage, Sour Cherry & Juniper",
+    "cat": "Wildcard",
+    "emoji": "🍒",
+    "desc": "A dramatic dark-purple winter soup with savoury cabbage, sour cherry and resinous juniper.",
+    "stats": [
+      "Nutrition TBC",
+      "Protein TBC",
+      "Smooth"
+    ],
+    "ing": [
+      "200 g red cabbage, very finely shredded",
+      "70 g red onion, finely diced",
+      "20 g sour cherry preserve",
+      "1 juniper berry, finely chopped",
+      "¼ tsp ground allspice",
+      "½ vegetable stock cube",
+      "1 tsp olive oil"
+    ],
+    "method": [
+      "Wash, peel and chop any fresh produce as specified. Use only fully cooked, ready-to-eat meat or fish where listed.",
+      "Pour approximately 125 ml cold water into your Morphy Richards 501021. Add all ingredients except those marked (finish).",
+      "Top up with cold water to approximately 850–900 ml TOTAL contents, keeping everything between the 800 ml MIN and 1,000 ml MAX fill marks.",
+      "Run the full Smooth programme (approximately 19 minutes).",
+      "Taste for balance; add no additional cherry unless needed."
+    ],
+    "science": "Red cabbage provides vegetables and fibre; the preserve adds some sugar and a controlled tart-fruit accent.",
+    "note": "New recipe idea HS-029; not yet kitchen-tested. Use only one juniper berry initially. Shred the cabbage very finely for the 19-minute Smooth cycle."
+  }
+]
