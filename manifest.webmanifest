@@ -1,7 +1,7 @@
 {
   "name": "Soup & Smoothie Lab",
   "short_name": "Soup Lab",
-  "description": "100 soups and 100 smoothies with pantry, shopping list and smart recipe matching.",
+  "description": "200 soups and 100 smoothies with a pantry, shopping list and smart recipe matching.",
   "id": "./",
   "start_url": "./",
   "scope": "./",
